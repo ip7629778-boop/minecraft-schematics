@@ -1,0 +1,81 @@
+[
+  {
+    "id": "cozy-survival-starter-house",
+    "title": "Cozy Survival Starter House",
+    "subtitle": "Tier 1 Starter Cottage with 4 Living Alcoves & 2-Wide L-Shaped Corner Stairs",
+    "author": "MineVault Studio",
+    "category": "Survival Bases",
+    "version": "1.20 - 1.21+",
+    "image": "assets/images/builds/build1/exterior_front.png",
+    "screenshots": [
+      {
+        "url": "assets/images/builds/build1/exterior_front.png",
+        "caption": "Exterior Gable Front with Porch, Timber Framing & Deepslate Tile Trim"
+      },
+      {
+        "url": "assets/images/builds/build1/interior_ground.png",
+        "caption": "Ground Floor Living Room with Chandelier, Hearth Fireplace & 2-Wide L-Stairs"
+      },
+      {
+        "url": "assets/images/builds/build1/interior_loft.png",
+        "caption": "Upper Loft Bedroom & Study Desk under High Exposed Timber Rafters"
+      }
+    ],
+    "downloadsCount": 142,
+    "likesCount": 89,
+    "dateAdded": "2026-11-17",
+    "dimensions": {
+      "width": 15,
+      "height": 14,
+      "length": 13
+    },
+    "blockCount": 865,
+    "tags": [
+      "Survival",
+      "Starter",
+      "Cottage",
+      "Collision-Safe",
+      "Furnished",
+      "Loft",
+      "L-Staircase"
+    ],
+    "formats": [
+      {
+        "type": ".schem (WorldEdit / Sponge)",
+        "file": "downloads/cozy_survival_starter_house.schem",
+        "size": "1.8 KB"
+      },
+      {
+        "type": ".litematic (Litematica / Fabric)",
+        "file": "downloads/cozy_survival_starter_house.litematic",
+        "size": "2.3 KB"
+      }
+    ],
+    "description": "An authentic, in-game verified Tier 1 survival starter cottage. Built with 100% collision-safe clearances: flush threshold entry across the porch, double-door clearance, and an authentic community-style 2-wide L-shaped corner staircase with a 2x2 flat landing and reverse-stair undersides climbing toward the high center roof ridge for continuous 5-6 blocks of headroom. Fully equipped with 4 dedicated functional zones: Hearth & Cooking Alcove, Central Living Room, Workshop & Smithing Alcove, and a cozy Loft Bedroom with Study Desk.",
+    "features": [
+      "In-game verified zero-collision player headroom along all walking paths and doorways",
+      "Flush foundation: Seamless entry across exterior porch, door threshold, and interior floor",
+      "2-Wide L-shaped corner staircase with 2x2 turning landing, reverse-stair finished underside, and under-stair storage",
+      "4 Functional Interior Zones: Cooking hearth, living room with chandelier, crafting workshop, and loft bedroom",
+      "Full Survival Utility: Working double chest, campfire fireplace, water cauldron sink, smoker, bed, and bookshelf storage",
+      "Authentic community aesthetic: 3-layer stone foundation gradient, stripped dark oak timber framing, and contrasting deepslate tile roof trim"
+    ],
+    "materials": [
+      { "name": "Dark Oak Stairs", "count": 194 },
+      { "name": "Spruce Planks", "count": 134 },
+      { "name": "White Terracotta", "count": 87 },
+      { "name": "Stripped Spruce Log", "count": 57 },
+      { "name": "Stripped Dark Oak Wood", "count": 56 },
+      { "name": "Stone Bricks", "count": 43 },
+      { "name": "Cobblestone", "count": 38 },
+      { "name": "Deepslate Tile Stairs", "count": 36 },
+      { "name": "Diorite", "count": 30 },
+      { "name": "Calcite", "count": 29 },
+      { "name": "Polished Andesite", "count": 22 },
+      { "name": "Spruce Stairs", "count": 21 },
+      { "name": "Glass Pane", "count": 18 },
+      { "name": "Mossy Cobblestone", "count": 14 },
+      { "name": "Cracked Stone Bricks", "count": 13 }
+    ]
+  }
+]

@@ -1,0 +1,126 @@
+================================================================================
+           MINEVAULT 1,000+ BUILDS MASTER ROADMAP & ARCHITECTURAL TAXONOMY
+================================================================================
+
+This document serves as the permanent master reference for all future builds on
+MineVault (https://minevault.net). Every build is 100% original, verified in-game,
+and built using professional gradient texturing and complete floor-by-floor interiors.
+
+--------------------------------------------------------------------------------
+1. THE 4 SCALE PROGRESSION TIERS
+--------------------------------------------------------------------------------
+TIER 1: STARTER / COMPACT (Footprint: 10x10 to 20x20 blocks | 500 - 3,000 blocks)
+  - Purpose: Day 1-15 survival homes, small utility workshops, compact outposts.
+  - Target audience: New survival worlds, resource-limited players, realm starters.
+
+TIER 2: MEDIUM / ESTATE / HAMLET (Footprint: 20x20 to 40x40 blocks | 3,000 - 15,000 blocks)
+  - Purpose: Fully furnished 2-3 story residences, working farms, guild halls.
+  - Target audience: Mid-game survivalists, server towns, cozy builders.
+
+TIER 3: LARGE / MANOR / COMPLEX (Footprint: 40x40 to 70x70 blocks | 15,000 - 50,000 blocks)
+  - Purpose: Multi-wing castles, luxury estates, industrial production centers.
+  - Target audience: End-game bases, server hubs, centerpiece attractions.
+
+TIER 4: MEGABUILDS & WONDERS (Footprint: 70x70+ blocks | 50,000 to 500,000+ blocks)
+  - Purpose: Colossal cathedrals, under-mountain kingdoms, fantasy island empires.
+  - Target audience: Showcase projects, massive server lobbies, adventure maps.
+
+--------------------------------------------------------------------------------
+2. THE 8 CORE CATEGORIES & EXPANSION IDEAS
+--------------------------------------------------------------------------------
+
+CATEGORY 1: SURVIVAL BASES & HOMES (Highest player demand)
+  [Tier 1] Cozy A-Frame Starter Cottage (Oak/Spruce/Deepslate)
+  [Tier 1] Taiga Spruce Log Cabin with smoking stone hearth
+  [Tier 1] Mountain Cliffside Dugout Bunker with panoramic glass bay
+  [Tier 1] Mushroom Island Safehouse (Zero mob spawns)
+  [Tier 1] Desert Adobe Sandstone Flat-Roof Bungalow
+  [Tier 1] Jungle Elevated Stilt Treehouse with suspension bridges
+  [Tier 2] Multi-Story Lakeside Chalet with private boat dock
+  [Tier 2] Nether Fortress Survival Bunker (Lava-heated greenhouse)
+  [Tier 2] Badlands Terracotta Mesa Compound
+  [Tier 3] Subterranean Vault Base with glass ceiling & bio-domes
+  [Tier 3] Complete Island Survival Citadel with defensive sea walls
+
+CATEGORY 2: MEDIEVAL & FANTASY KINGDOMS
+  [Tier 1] Working Village Blacksmithy (Dual blast furnaces, anvil, grindstone)
+  [Tier 1] Windmill & Granary with turning canvas blades & wheat silo
+  [Tier 1] Medieval Guard Watchtower with beacon fire & archery posts
+  [Tier 1] Forest Woodcutter's Lodge with log piles & timber racks
+  [Tier 2] Riverside Watermill with interior water wheel gear mechanics
+  [Tier 2] Medieval Tavern & Inn ("The Rusty Anchor") with wine cellar & rooms
+  [Tier 2] Fantasy Wizard/Alchemist Spire with floating glowing orbs
+  [Tier 2] Village Church & Bell Tower with stained glass nave
+  [Tier 3] Royal Mountain Keep with redstone iron portcullis gate
+  [Tier 3] Fortified River Crossing Castle & drawbridge
+  [Tier 4] High Gothic Cathedral of Notre-Dame (Vaulted ribs, rose windows)
+  [Tier 4] Deepslate Dwarven Under-Mountain Great Hall & molten lava forge
+
+CATEGORY 3: MODERN & LUXURY ARCHITECTURE
+  [Tier 1] Minimalist White Cube Starter House (Concrete + Birch)
+  [Tier 1] Modern Shipping Container Loft House
+  [Tier 2] Suburban 2-Story Family Residence with 2-car garage & patio
+  [Tier 2] Scandinavian Timber & Black Concrete Lakefront Cabin
+  [Tier 2] Poolside Courtyard Villa with quartz coping & outdoor kitchen
+  [Tier 3] Cantilevered Hillside Glass Mansion with rooftop infinity pool
+  [Tier 3] Beverly Hills Modern Architectural Compound with tennis court
+  [Tier 4] Neo-Metropolis Cyberpunk Skyscraper with holographic signage
+
+CATEGORY 4: JAPANESE & ORIENTAL (ZEN / TRADITIONAL)
+  [Tier 1] Cherry Blossom Tea Pavilion with tatami mats & lantern garden
+  [Tier 1] Red & Dark Oak Torii Gate with stone lantern pathway
+  [Tier 2] Traditional Samurai Manor with sliding shoji walls & courtyard
+  [Tier 2] Dojo Martial Arts Training Hall with weapon racks & banners
+  [Tier 2] Hot Spring Onsen Bathhouse with bamboo garden & steam cauldrons
+  [Tier 3] 5-Tier Hanamikoji Zen Pagoda with flared eaves & koi pond
+  [Tier 4] Mount Fuji Imperial Shinto Shrine Complex & sacred bridge
+
+CATEGORY 5: REDSTONE & AUTOMATED TECHNICAL SURVIVAL FARMS
+  [Tier 1] Seamless 2x2 and 3x3 Flush Piston Vault Doors
+  [Tier 1] Compact 16-Furnace Super-Smelter Array with hopper feed
+  [Tier 1] Automatic Chicken & Cooked Poultry Farm (zero fuel required)
+  [Tier 2] Compact Bad Omen Raid Farm (Hero of the Village emeralds/totems)
+  [Tier 2] Zero-Loss Iron Golem Farm (3-villager scare setup)
+  [Tier 2] Villager Trading Hall (20 stalls with zombie curing station)
+  [Tier 2] Piglin Gold Bartering & Sorting Station
+  [Tier 2] Automatic Potion Brewing Station with ingredient selector
+  [Tier 3] Multi-Item Automated Sorter Silo with overflow protection
+  [Tier 3] High-Altitude Creeper Gunpowder & Rocket Production Factory
+  [Tier 4] Industrial Mob Grinder Tower (30,000+ items/hr drop rate)
+
+CATEGORY 6: TOWNS, CITIES & INFRASTRUCTURE
+  [Tier 1] Town Square Plaza with custom centerpiece tree & benches
+  [Tier 1] Medieval Stone Arched Bridges (small, medium, wide)
+  [Tier 1] Decorative Streetlamp & Pathway Lighting Bundle (8 designs)
+  [Tier 2] Covered Village Marketplace with 8 customizable vendor stalls
+  [Tier 2] Harbor Docks with wooden piers, mooring cleats, and crane
+  [Tier 2] Town Cemetery & Mausoleum with iron gates & weeping trees
+  [Tier 3] Victorian Grand Central Train Terminal with arched glass canopy
+  [Tier 3] Fortified City Gatehouse & curtain defensive walls
+
+CATEGORY 7: VEHICLES & VESSELS
+  [Tier 1] Personal Flying Airskiff (Steampunk brass propeller)
+  [Tier 1] Horse-Drawn Medieval Trading Wagon Caravan
+  [Tier 1] Wooden River Fishing Trawler Boat with nets
+  [Tier 2] 3-Mast Pirate Galleon ("The Black Pearl") with full below-deck hold
+  [Tier 2] Steampunk Cargo Zeppelin / Rigid Airship with passenger cabin
+  [Tier 3] Modern 80-Foot Luxury Yacht with helipad & state rooms
+
+CATEGORY 8: ORGANIC SCULPTURES & NATURE
+  [Tier 1] Custom Autumn Oak Tree Bundle (Red, Orange, Yellow foliage)
+  [Tier 1] Weeping Willow Tree with hanging spore blossoms & vines
+  [Tier 2] Overgrown Forest Rock Formations & Natural Archways
+  [Tier 3] Giant Ancient World Tree (Hollow trunk living survival home)
+  [Tier 4] Colossal Sleeping Stone Dragon statue carved into mountain cliff
+
+--------------------------------------------------------------------------------
+3. QUALITY CONTROL & VERIFICATION RULES
+--------------------------------------------------------------------------------
+1. Foundation Rule: Always a 3-layer weathered stone/andesite gradient at base.
+2. Framing Rule: Stripped log structural corners with horizontal floor dividers.
+3. Contrast Rule: Roof trim must contrast with roof infill and overhang 1 block.
+4. Interior Rule: Every room must have storytelling furnishings (kitchen, beds,
+   candles, carpets, storage, workbenches). Never leave an empty box.
+5. In-Game Testing: Every build MUST be loaded into Minecraft, inspected in-game,
+   and photographed with real in-game screenshots before adding to MineVault.
+================================================================================

@@ -1,0 +1,24 @@
+# MineVault - Minecraft Schematics & Builds Repository
+
+> MineVault is a free, high-performance community web repository providing verified Minecraft structures, blueprints, and build downloads in Sponge WorldEdit (.schem), Litematica (.litematic), and vanilla World Save (.zip) formats.
+
+## Key Features
+- Verified compatibility across Minecraft Java editions 1.18 to 1.21.4.
+- Exact 3D bounding box dimensions (width X, height Y, length Z).
+- Full block count metrics and survival materials checklists (converted into 64-item stacks).
+- Multi-angle in-game screenshot galleries (Daytime, Shaders Night, Interior, Redstone Circuitry).
+- Direct console import command helpers (`//schem load <filename>` and `//paste -a`).
+
+## Master Catalog & Endpoints
+- Homepage: https://yourusername.github.io/minecraft-schematics/
+- Schematics Dataset: https://yourusername.github.io/minecraft-schematics/data/schematics.json
+- Raw Downloads Directory: https://yourusername.github.io/minecraft-schematics/downloads/
+
+## Included Builds
+- Aethelgard Medieval Fortress (Castles, 14,200 blocks, 1.20+)
+- Neo-Tokyo Cyberpunk Skyscraper (Sci-Fi, 26,800 blocks, 1.21+)
+- Cherry Blossom Zen Pagoda (Oriental, 8,950 blocks, 1.20+)
+- Seamless 4x4 Piston Vault Door (Redstone, 420 blocks, 1.19-1.21)
+- Cozy Survival Cottage & Greenhouse (Survival Bases, 3,400 blocks, 1.18+)
+- Nether Bastion Overhaul & Gold Farm (Megabuilds, 48,000 blocks, 1.20+)
+

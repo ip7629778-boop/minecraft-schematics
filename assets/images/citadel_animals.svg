@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="barnWood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="100%" stop-color="#291102"/>
+    </linearGradient>
+    <filter id="warmGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Barn Interior Background -->
+  <rect width="800" height="500" fill="#0f172a"/>
+
+  <!-- Timber Pillars & Roof Trusses -->
+  <rect x="0" y="0" width="80" height="500" fill="url(#barnWood)"/>
+  <rect x="720" y="0" width="80" height="500" fill="url(#barnWood)"/>
+  <rect x="360" y="0" width="80" height="500" fill="url(#barnWood)"/>
+  <line x1="80" y1="140" x2="720" y2="140" stroke="#78350f" stroke-width="16"/>
+
+  <!-- Hay Bales Stacked in Background -->
+  <g fill="#ca8a04" stroke="#eab308" stroke-width="2">
+    <!-- Left Hay Stack -->
+    <rect x="100" y="320" width="40" height="30" rx="3"/>
+    <rect x="145" y="320" width="40" height="30" rx="3"/>
+    <rect x="120" y="285" width="40" height="30" rx="3"/>
+
+    <!-- Right Hay Stack -->
+    <rect x="620" y="320" width="40" height="30" rx="3"/>
+    <rect x="665" y="320" width="40" height="30" rx="3"/>
+    <rect x="640" y="285" width="40" height="30" rx="3"/>
+  </g>
+
+  <!-- Ground / Straw Floor -->
+  <rect x="0" y="380" width="800" height="120" fill="#2d1c10"/>
+  <rect x="80" y="400" width="280" height="100" fill="#3a2515"/>
+  <rect x="440" y="400" width="280" height="100" fill="#3a2515"/>
+
+  <!-- Left Stall: Cow & Sheep Enclosure -->
+  <!-- Spruce Wooden Fences -->
+  <g stroke="#9a3412" stroke-width="8">
+    <line x1="80" y1="410" x2="360" y2="410"/>
+    <line x1="80" y1="440" x2="360" y2="440"/>
+  </g>
+  <g fill="#7c2d12">
+    <rect x="80" y="390" width="14" height="60" rx="2"/>
+    <rect x="150" y="390" width="14" height="60" rx="2"/>
+    <rect x="220" y="390" width="14" height="60" rx="2"/>
+    <rect x="290" y="390" width="14" height="60" rx="2"/>
+    <rect x="350" y="390" width="14" height="60" rx="2"/>
+  </g>
+
+  <!-- Cow Voxel Silhouette in Left Stall -->
+  <g transform="translate(140, 310)">
+    <!-- Body -->
+    <rect x="20" y="40" width="70" height="45" fill="#451a03"/>
+    <!-- Spots -->
+    <rect x="35" y="45" width="20" height="20" fill="#e2e8f0"/>
+    <rect x="65" y="55" width="15" height="15" fill="#e2e8f0"/>
+    <!-- Head -->
+    <rect x="0" y="20" width="30" height="35" fill="#3b1d11"/>
+    <!-- Snout -->
+    <rect x="0" y="35" width="16" height="18" fill="#fda4af"/>
+    <!-- Horns -->
+    <rect x="10" y="10" width="8" height="12" fill="#cbd5e1"/>
+    <rect x="24" y="10" width="8" height="12" fill="#cbd5e1"/>
+    <!-- Legs -->
+    <rect x="22" y="85" width="12" height="30" fill="#291102"/>
+    <rect x="40" y="85" width="12" height="30" fill="#291102"/>
+    <rect x="65" y="85" width="12" height="30" fill="#291102"/>
+    <rect x="78" y="85" width="12" height="30" fill="#291102"/>
+  </g>
+
+  <!-- Sheep Silhouette in Left Stall (Woolly) -->
+  <g transform="translate(250, 330)">
+    <!-- Wool Body -->
+    <rect x="15" y="25" width="55" height="40" rx="6" fill="#f8fafc"/>
+    <!-- Head -->
+    <rect x="0" y="15" width="22" height="25" fill="#e2e8f0"/>
+    <!-- Legs -->
+    <rect x="20" y="65" width="9" height="25" fill="#94a3b8"/>
+    <rect x="35" y="65" width="9" height="25" fill="#94a3b8"/>
+    <rect x="52" y="65" width="9" height="25" fill="#94a3b8"/>
+  </g>
+
+  <!-- Right Stall: Automatic Chicken Cooker & Egg Processor -->
+  <g stroke="#9a3412" stroke-width="8">
+    <line x1="440" y1="410" x2="720" y2="410"/>
+    <line x1="440" y1="440" x2="720" y2="440"/>
+  </g>
+  <g fill="#7c2d12">
+    <rect x="440" y="390" width="14" height="60" rx="2"/>
+    <rect x="510" y="390" width="14" height="60" rx="2"/>
+    <rect x="580" y="390" width="14" height="60" rx="2"/>
+    <rect x="650" y="390" width="14" height="60" rx="2"/>
+    <rect x="710" y="390" width="14" height="60" rx="2"/>
+  </g>
+
+  <!-- Glass Chicken Incubator Chamber (Right) -->
+  <g transform="translate(480, 260)">
+    <!-- Hopper Base -->
+    <rect x="35" y="125" width="40" height="25" fill="#475569"/>
+    <!-- Glass Chamber -->
+    <rect x="25" y="45" width="60" height="80" rx="3" fill="#38bdf8" opacity="0.25" stroke="#38bdf8" stroke-width="2"/>
+    <!-- Lava Blade Level -->
+    <rect x="27" y="75" width="56" height="12" fill="#ef4444" opacity="0.75"/>
+    <!-- Chickens inside -->
+    <rect x="38" y="100" width="14" height="14" rx="2" fill="#fff"/>
+    <rect x="36" y="104" width="4" height="4" fill="#f59e0b"/> <!-- Beak -->
+    <rect x="58" y="102" width="14" height="14" rx="2" fill="#fff"/>
+    <rect x="56" y="106" width="4" height="4" fill="#f59e0b"/>
+  </g>
+
+  <!-- Pig Silhouette in Right Stall -->
+  <g transform="translate(590, 340)">
+    <!-- Body -->
+    <rect x="20" y="30" width="50" height="35" rx="3" fill="#f472b6"/>
+    <!-- Head -->
+    <rect x="0" y="18" width="24" height="26" rx="2" fill="#f472b6"/>
+    <!-- Snout -->
+    <rect x="0" y="28" width="12" height="12" fill="#db2777"/>
+    <!-- Legs -->
+    <rect x="22" y="65" width="10" height="22" fill="#db2777"/>
+    <rect x="35" y="65" width="10" height="22" fill="#db2777"/>
+    <rect x="52" y="65" width="10" height="22" fill="#db2777"/>
+  </g>
+
+  <!-- Warm Hanging Barn Lanterns -->
+  <g transform="translate(220, 130)">
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#94a3b8" stroke-width="3"/>
+    <circle cx="0" cy="50" r="16" fill="#f59e0b" filter="url(#warmGlow)"/>
+    <rect x="-8" y="42" width="16" height="16" rx="2" fill="#fef08a"/>
+  </g>
+
+  <g transform="translate(580, 130)">
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#94a3b8" stroke-width="3"/>
+    <circle cx="0" cy="50" r="16" fill="#f59e0b" filter="url(#warmGlow)"/>
+    <rect x="-8" y="42" width="16" height="16" rx="2" fill="#fef08a"/>
+  </g>
+
+  <!-- Feed Barrels on Left -->
+  <rect x="100" y="380" width="30" height="40" rx="3" fill="#92400e"/>
+  <line x1="100" y1="390" x2="130" y2="390" stroke="#475569" stroke-width="3"/>
+  <line x1="100" y1="410" x2="130" y2="410" stroke="#475569" stroke-width="3"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#18181b"/>
+  <!-- Circuit Grid Grid lines -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#27272a" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#grid)"/>
+  <!-- Pistons -->
+  <rect x="180" y="160" width="90" height="60" fill="#71717a" stroke="#a1a1aa" stroke-width="3"/>
+  <rect x="180" y="240" width="90" height="60" fill="#71717a" stroke="#a1a1aa" stroke-width="3"/>
+  <rect x="530" y="160" width="90" height="60" fill="#71717a" stroke="#a1a1aa" stroke-width="3"/>
+  <rect x="530" y="240" width="90" height="60" fill="#71717a" stroke="#a1a1aa" stroke-width="3"/>
+  <rect x="270" y="170" width="20" height="40" fill="#15803d"/>
+  <rect x="270" y="250" width="20" height="40" fill="#15803d"/>
+  <rect x="510" y="170" width="20" height="40" fill="#15803d"/>
+  <rect x="510" y="250" width="20" height="40" fill="#15803d"/>
+
+  <!-- Glowing Redstone Dust Traces -->
+  <path d="M 225 160 L 225 90 L 400 90 L 400 370 L 575 370 L 575 300" fill="none" stroke="#ef4444" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 225 160 L 225 90 L 400 90 L 400 370 L 575 370 L 575 300" fill="none" stroke="#fca5a5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Repeaters / Observers -->
+  <rect x="360" y="65" width="80" height="50" rx="6" fill="#52525b" stroke="#71717a" stroke-width="2"/>
+  <circle cx="380" cy="90" r="5" fill="#ef4444"/>
+  <circle cx="420" cy="90" r="5" fill="#ef4444"/>
+
+  <!-- Door Center Blocks (Closed flush) -->
+  <rect x="320" y="160" width="80" height="140" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+  <rect x="400" y="160" width="80" height="140" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+  <text x="400" y="235" fill="#38bdf8" font-family="sans-serif" font-weight="bold" font-size="20" text-anchor="middle">4×4 VAULT</text>
+</svg>

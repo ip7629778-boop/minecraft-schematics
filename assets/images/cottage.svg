@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="warmSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="60%" stop-color="#bae6fd"/>
+      <stop offset="100%" stop-color="#86efac"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#warmSky)"/>
+  <!-- Grass Hill -->
+  <ellipse cx="400" cy="620" rx="550" ry="240" fill="#15803d"/>
+  <!-- Cottage Main Body -->
+  <rect x="230" y="230" width="220" height="150" fill="#78350f"/>
+  <!-- Oak Roof A-frame -->
+  <polygon points="190,230 340,110 490,230" fill="#b45309"/>
+  <!-- Stone Chimney -->
+  <rect x="230" y="120" width="40" height="90" fill="#64748b"/>
+  <!-- Smoke puffs -->
+  <circle cx="250" cy="95" r="14" fill="#e2e8f0" opacity="0.6"/>
+  <circle cx="260" cy="65" r="18" fill="#e2e8f0" opacity="0.4"/>
+  <!-- Glass Greenhouse Attachment -->
+  <rect x="450" y="260" width="150" height="120" fill="#38bdf8" opacity="0.5" stroke="#0284c7" stroke-width="3"/>
+  <line x1="450" y1="300" x2="600" y2="300" stroke="#0284c7" stroke-width="2"/>
+  <line x1="500" y1="260" x2="500" y2="380" stroke="#0284c7" stroke-width="2"/>
+  <line x1="550" y1="260" x2="550" y2="380" stroke="#0284c7" stroke-width="2"/>
+  <polygon points="440,260 525,200 610,260" fill="#38bdf8" opacity="0.5" stroke="#0284c7" stroke-width="3"/>
+</svg>

@@ -1,0 +1,435 @@
+BUILD #1 — MINECRAFT SURVIVAL COTTAGE
+MASTER CONSTRUCTION SPECIFICATION
+Minecraft Java Edition 1.20 / 1.21+ | Creative + Survival
+
+PURPOSE
+This document defines the construction, placement, collision, furniture, and testing standards for Build #1. It is designed for both Creative construction and Survival functionality.
+
+IMPORTANT LIMITATION
+The exact exterior footprint and room coordinates have not yet been selected. Therefore, this document defines a consistent coordinate system, exact block-state examples, and placement rules, but does not pretend that the sample coordinates form a complete house. A final block-by-block plan requires the chosen exterior width and depth.
+
+============================================================
+1. GLOBAL COORDINATE SYSTEM
+============================================================
+
+Use one coordinate convention throughout the build:
+
++X = East
+-X = West
++Z = South
+-Z = North
++Y = Up
+
+Choose the front-left exterior foundation corner as the origin O = (0, 0, 0).
+
+VERTICAL REFERENCE
+- Foundation/floor block occupies Y = 0.
+- Walking surface is at elevation Y = 1.
+- Standing player's feet are at elevation Y = 1.
+- Door lower half occupies Y = 1.
+- Door upper half occupies Y = 2.
+- A solid lintel may begin at Y = 3.
+
+Do not confuse a block's integer Y coordinate with the top surface of that block. A full block at Y=0 has its top surface at elevation Y=1.
+
+All coordinates in the final construction plan must be absolute integer coordinates or clearly defined relative coordinates. Minecraft commands do not calculate expressions such as X+1 or Z+1. Replace these expressions with actual numbers before running commands.
+
+============================================================
+2. PLAYER DIMENSIONS AND CLEARANCE
+============================================================
+
+Normal standing player dimensions:
+- Width: 0.6 blocks.
+- Depth: 0.6 blocks.
+- Height: 1.8 blocks.
+- Eye height: 1.62 blocks.
+
+These dimensions apply to a normally standing player. Swimming, crawling, crouching, and sleeping use different poses.
+
+GENERAL STANDING CLEARANCE
+- Provide at least 2.0 blocks of unobstructed vertical space above the actual walking surface along normal walking routes.
+- The 2.0-block clearance is a design allowance, not a universal Minecraft requirement for every pose or mechanic.
+- Check the actual collision shapes of nearby blocks.
+- Do not infer collision safety from visual appearance alone.
+
+============================================================
+3. DOORWAY AND THRESHOLD
+============================================================
+
+Example oak door states:
+
+/setblock X 1 Z minecraft:oak_door[facing=south,half=lower,hinge=left,open=false,powered=false]
+/setblock X 2 Z minecraft:oak_door[facing=south,half=upper,hinge=left,open=false,powered=false]
+
+Replace X and Z with actual coordinates.
+
+Both door halves must match in facing, hinge, open, and powered state. Only the half property differs.
+
+DOORWAY REQUIREMENTS
+1. Exterior porch, doorway, and interior floor must have the same intended walking elevation.
+2. Do not place a bottom slab or raised block in the threshold if a flush transition is required.
+3. Keep the doorway free of obstructing signs, fences, slabs, decorations, and other collision shapes.
+4. Provide at least 2 blocks of standing clearance above the walking surface.
+5. A solid lintel may begin at elevation Y=3 in this coordinate convention.
+6. Check the collision shapes of stairs, slabs, and decorative arch blocks. A top-half stair or slab is not automatically safe.
+7. Test the door in both open and closed states.
+8. Ensure the open door does not obstruct the intended route.
+
+A two-block-high doorway is sufficient for a normally standing player. A 2.5- or 3-block-high arch is an optional architectural choice, not a requirement.
+
+============================================================
+4. STAIRCASE AND STAIRWELL
+============================================================
+
+Java stair block states include:
+- facing=north|south|east|west
+- half=bottom|top
+- shape=straight|inner_left|inner_right|outer_left|outer_right
+- waterlogged=true|false
+
+Example:
+
+/setblock X Y Z minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+
+Use bottom-half stairs for a conventional staircase unless the design specifically calls for upside-down stairs.
+
+STAIRCASE REQUIREMENTS
+1. Maintain at least 2 blocks of vertical clearance above the actual walking surface throughout the intended route.
+2. Measure from the stair's actual collision/walking surface, not simply from its block coordinate.
+3. Check the entire player hitbox through each step transition.
+4. Check both flights of the L-shaped staircase and the turning landing.
+5. Remove ceiling and upper-floor blocks that intersect the stairwell clearance envelope.
+6. Do not run horizontal beams through the player's clearance envelope.
+7. Ensure the top landing connects directly to the loft floor.
+8. Keep decorative trim outside the usable walking and headroom envelope.
+9. Check roof slopes and rafters above the upper flight and landing.
+
+A 2 x 4 stairwell opening is only a starting proposal. It is not a universal requirement. The final opening must be sized for the actual stair count, orientation, turning landing, player clearance, and upper-floor geometry.
+
+Do not use a universal head-position formula such as Y_stair + 2.3. Stair collision and player foot position depend on the stair's shape and the player's position.
+
+============================================================
+5. FURNITURE AND FUNCTIONAL BLOCKS
+============================================================
+
+A. BED
+
+Example states for a south-facing white bed:
+
+/setblock X 1 Z minecraft:white_bed[facing=south,part=foot,occupied=false]
+/setblock X 1 Z1 minecraft:white_bed[facing=south,part=head,occupied=false]
+
+Z1 above means the next block to the south; replace it with the actual numerical Z coordinate.
+
+Requirements:
+- Both bed positions need valid floor support.
+- Head and foot must be adjacent and form a valid bed.
+- Confirm facing and part states.
+- Keep access to the bed.
+- Test sleeping and respawning in Survival mode.
+
+B. DOUBLE CHEST
+
+Chest block states include facing, type, and waterlogged. A double chest requires two adjacent compatible chest blocks with complementary left/right states.
+
+Example candidate arrangement:
+
+/setblock X 1 Z minecraft:chest[facing=north,type=left,waterlogged=false]
+/setblock X1 1 Z minecraft:chest[facing=north,type=right,waterlogged=false]
+
+X1 means the next block east; replace it with the actual numerical X coordinate.
+
+IMPORTANT:
+- Left/right assignment depends on facing and physical placement. Do not assume a universal west/east mapping.
+- Safest method: place the first chest normally, place the second adjacent while facing the intended direction, then inspect the resulting block states.
+- Both halves need valid support.
+- Keep the space above the chest clear to guarantee lid access.
+- Test that the chest forms one double inventory and opens correctly.
+
+C. HANGING LANTERN
+
+Example:
+
+/setblock X Y Z minecraft:lantern[hanging=true,waterlogged=false]
+
+Attach it to a valid supporting block or suitable chain/support arrangement. Check headroom and route clearance.
+
+D. STANDING LANTERN
+
+Example:
+
+/setblock X Y Z minecraft:lantern[hanging=false,waterlogged=false]
+
+Place it on a valid supporting surface. Verify the placement in-game.
+
+E. TRAPDOOR SHUTTERS
+
+Example state:
+
+/setblock X Y Z minecraft:oak_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+
+Choose facing and half according to the actual wall face, hinge, and intended opening direction. Test both open and closed states. Do not apply one facing direction to every wall.
+
+F. FLOWER POTS AND CANDLES
+
+Examples:
+
+/setblock X Y Z minecraft:flower_pot
+/setblock X Y Z minecraft:potted_poppy
+/setblock X Y Z minecraft:candle[candles=1,lit=false,waterlogged=false]
+
+A potted plant uses its own potted block ID. Pots and candles require valid support. Candle states may include candle count, lit, and waterlogged; use supported states for the chosen block.
+
+G. HEARTH, CAMPFIRE, AND SMOKER
+
+Correct campfire example:
+
+/setblock X Y Z minecraft:campfire[lit=true,signal_fire=false,waterlogged=false]
+
+A campfire does not have a facing block state. Do not use facing=south.
+
+Smoker example:
+
+/setblock X Y Z minecraft:smoker[facing=south,lit=false]
+
+Requirements:
+- Campfire and smoker need valid placement/support.
+- Keep functional space accessible.
+- Keep fire away from flammable construction materials.
+- Use stone or brick around the hearth.
+- Build the chimney from suitable nonflammable materials.
+- The chimney is decorative architecture; a chimney column is not required for campfire function.
+- Test campfire and smoker operation in Survival mode.
+
+============================================================
+6. INTERIOR ZONING
+============================================================
+
+Divide the interior into four dedicated zones.
+
+ZONE 1 — HEARTH AND COOKING
+- Recessed stone or brick fireplace.
+- Campfire.
+- Smoker.
+- Cauldron.
+- Barrel pantry.
+- Safe access to all functional blocks.
+- Keep fire away from flammable materials and the main aisle.
+
+ZONE 2 — CENTRAL LIVING ROOM
+- Carpet runner.
+- Seating and decorations.
+- High timber rafter ceiling.
+- Unobstructed central walking route, preferably 2 blocks wide where the footprint permits.
+- No beams or decorations inside the required headroom envelope.
+
+ZONE 3 — WORKBENCH AND CRAFTING
+- Crafting table.
+- Anvil.
+- Double chest.
+- Chiseled bookshelf.
+- Clear interaction access to every workstation and storage block.
+- Verify chest lid clearance.
+
+ZONE 4 — STAIRCASE AND LOFT
+- L-shaped oak staircase.
+- Turning landing.
+- Full stairwell cutout.
+- Clear upper landing.
+- No collision-bearing overhead decoration in the stair route.
+- Adequate standing height beneath roof slopes.
+
+FRONT ENTRANCE
+- Flush threshold.
+- Correctly installed two-block door.
+- At least 2 blocks of standing clearance.
+- Collision-free approach from porch to interior.
+
+The 5 x 5 bay concept must be checked against the actual footprint. Do not assume it automatically provides enough space for a 2-block-wide aisle, furniture, staircase, and landing.
+
+============================================================
+7. COORDINATE EXAMPLES
+============================================================
+
+The following are demonstration coordinates only. They do not define the final house layout.
+
+Example positions:
+- Floor foundation: 10 0 20
+- Door lower: 10 1 20
+- Door upper: 10 2 20
+- Lintel: 10 3 20
+- Bed foot: 12 1 20
+- Bed head: 12 1 21
+- Lantern: 16 3 20
+- Campfire: 18 1 20
+- Smoker: 18 1 21
+- Candle: 19 1 20
+- Flower pot: 19 1 21
+
+Example commands:
+
+# Threshold foundation
+/setblock 10 0 20 minecraft:stone_bricks
+
+# Door
+/setblock 10 1 20 minecraft:oak_door[facing=south,half=lower,hinge=left,open=false,powered=false]
+/setblock 10 2 20 minecraft:oak_door[facing=south,half=upper,hinge=left,open=false,powered=false]
+
+# Bed
+/setblock 12 1 20 minecraft:white_bed[facing=south,part=foot,occupied=false]
+/setblock 12 1 21 minecraft:white_bed[facing=south,part=head,occupied=false]
+
+# Hanging lantern
+/setblock 16 3 20 minecraft:lantern[hanging=true,waterlogged=false]
+
+# Campfire
+/setblock 18 1 20 minecraft:campfire[lit=true,signal_fire=false,waterlogged=false]
+
+# Smoker
+/setblock 18 1 21 minecraft:smoker[facing=south,lit=false]
+
+# Candle
+/setblock 19 1 20 minecraft:candle[candles=1,lit=false,waterlogged=false]
+
+# Flower pot
+/setblock 19 1 21 minecraft:flower_pot
+
+These examples assume valid supporting floor blocks and suitable surrounding clearance. They are individual placement examples, not a complete house-generation script.
+
+============================================================
+8. COLLISION VALIDATION
+============================================================
+
+Inspect actual collision shapes. Do not use visual models alone.
+
+Check these block categories:
+- Full blocks.
+- Bottom slabs.
+- Top slabs.
+- Stairs, including inner and outer shapes.
+- Fences.
+- Walls.
+- Trapdoors in both states.
+- Doors in both states.
+- Lanterns.
+- Carpets.
+- Roof beams and decorative blocks.
+
+Required test locations:
+1. Front doorway.
+2. Porch-to-interior transition.
+3. Central living aisle.
+4. Kitchen access.
+5. Crafting area.
+6. Every staircase step.
+7. Staircase turning landing.
+8. Loft entrance.
+9. Loft walking area.
+10. Roof-slope standing area.
+
+JAVA DEBUGGING TOOLS
+- F3 + B: show entity hitboxes.
+- F3 + G: show chunk boundaries.
+- Use the available Debug Settings collision-box visualization, if present in the client build.
+- Walk the entire route in first person and third person.
+- Test normal walking, sprinting, and crouching where relevant.
+
+PASS CONDITION
+No unintended collision, blocked movement, forced jumping or crouching, or interaction obstruction along the intended walking route.
+
+============================================================
+9. LIGHTING AND SURVIVAL COMPATIBILITY
+============================================================
+
+For the Overworld:
+- Illuminate every accessible floor area.
+- Inspect dark corners behind furniture.
+- Check under and around stairs.
+- Check the loft and roof-access areas.
+- Do not rely on appearance alone to judge spawn safety.
+- Verify the current spawn rules for the exact game version and dimension.
+
+Creative mode is useful for construction and inspection. It does not replace Survival testing.
+
+============================================================
+10. CONSTRUCTION SEQUENCE
+============================================================
+
+Build in this order:
+
+1. Foundation:
+   Establish origin, dimensions, perimeter, and floor elevation.
+
+2. Exterior walls:
+   Construct walls, door opening, and window openings.
+
+3. Doorway:
+   Install door and verify threshold alignment.
+
+4. Interior floor plan:
+   Mark four zones and the central walking route.
+
+5. Staircase:
+   Build both flights, turning landing, and stairwell opening.
+
+6. Loft:
+   Construct upper floor around the stairwell opening.
+
+7. Roof and beams:
+   Construct roof while preserving required headroom.
+
+8. Furniture:
+   Place hearth, chests, bed, crafting stations, and decorations.
+
+9. Lighting:
+   Illuminate interior and exterior.
+
+10. Testing:
+    Complete collision, functionality, and Survival acceptance tests.
+
+============================================================
+11. FINAL ACCEPTANCE CHECKLIST
+============================================================
+
+Mark each test as passed only after testing in-game.
+
+[ ] Foundation has no unintended elevation differences.
+[ ] Door opens and closes correctly.
+[ ] Doorway has sufficient standing clearance.
+[ ] Porch and interior threshold are flush.
+[ ] Main ceiling does not collide with a standing player.
+[ ] Entire staircase is traversable.
+[ ] Stairwell has no overhead obstruction.
+[ ] Turning landing is clear.
+[ ] Loft has adequate standing height.
+[ ] Bed can be used for sleeping.
+[ ] Double chest forms correctly and opens.
+[ ] Lanterns have valid support and orientation.
+[ ] Trapdoors have correct attachment and movement.
+[ ] Campfire and smoker function.
+[ ] Crafting stations are accessible.
+[ ] Decorations are correctly supported.
+[ ] Main walking route is unobstructed.
+[ ] Lighting and spawn safety have been checked.
+[ ] Roof slopes do not obstruct intended walking areas.
+[ ] Entire build has been tested in Survival mode.
+
+============================================================
+12. FINAL DIMENSIONS STILL REQUIRED
+============================================================
+
+The technical specification is defined, but a complete block-by-block coordinate plan still requires:
+
+- Exterior width in blocks.
+- Exterior depth in blocks.
+- Ground-floor wall height.
+- Loft floor elevation.
+- Staircase starting position and direction.
+- Door position on the front wall.
+- Roof style and ridge direction.
+
+Do not invent these dimensions. Select them before generating the final coordinate-by-coordinate build plan.
+
+============================================================
+END OF BUILD #1 MASTER SPECIFICATION
+============================================================

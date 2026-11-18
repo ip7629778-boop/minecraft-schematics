@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="netherSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#450a0a"/>
+      <stop offset="70%" stop-color="#7f1d1d"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+    <linearGradient id="lava" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#netherSky)"/>
+  <!-- Lava Falls -->
+  <rect x="120" y="0" width="30" height="500" fill="url(#lava)"/>
+  <rect x="660" y="0" width="40" height="500" fill="url(#lava)"/>
+  <!-- Basalt Pillars -->
+  <polygon points="200,500 240,150 280,500" fill="#18181b"/>
+  <polygon points="520,500 560,120 600,500" fill="#18181b"/>
+  <!-- Gothic Nether Fortress -->
+  <rect x="280" y="180" width="240" height="320" fill="#09090b" stroke="#7f1d1d" stroke-width="3"/>
+  <polygon points="260,180 400,60 540,180" fill="#09090b" stroke="#7f1d1d" stroke-width="3"/>
+  <polygon points="340,180 400,90 460,180" fill="#b91c1c" opacity="0.4"/>
+  <!-- Lava Sea at Bottom -->
+  <rect x="0" y="440" width="800" height="60" fill="url(#lava)"/>
+  <text x="400" y="480" fill="#fef08a" font-family="sans-serif" font-weight="bold" font-size="18" text-anchor="middle" letter-spacing="2">NETHER BASTION MEGA-STRUCTURE</text>
+</svg>

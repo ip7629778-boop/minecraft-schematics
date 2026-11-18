@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="torchGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="#05070d"/>
+  <!-- Stars -->
+  <circle cx="120" cy="80" r="1.5" fill="#fff" opacity="0.8"/>
+  <circle cx="280" cy="40" r="1.5" fill="#fff" opacity="0.6"/>
+  <circle cx="560" cy="90" r="2" fill="#fff" opacity="0.9"/>
+  <circle cx="710" cy="60" r="1.5" fill="#fff" opacity="0.7"/>
+  <circle cx="430" cy="110" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="680" cy="150" r="1.5" fill="#fff" opacity="0.8"/>
+  <!-- Moon -->
+  <rect x="660" y="50" width="45" height="45" fill="#f8fafc" rx="4"/>
+  <!-- Mountain Silhouette -->
+  <polygon points="0,500 120,340 280,440 450,280 620,420 800,300 800,500" fill="#090d16"/>
+  <!-- Castle Base at Night -->
+  <rect x="220" y="240" width="360" height="260" fill="#151b28"/>
+  <rect x="330" y="140" width="140" height="200" fill="#1a2233"/>
+  <rect x="180" y="180" width="90" height="280" fill="#131926"/>
+  <rect x="530" y="180" width="90" height="280" fill="#131926"/>
+  <!-- Spire -->
+  <polygon points="310,140 400,60 490,140" fill="#0b0e14"/>
+  <!-- Glowing Torches & Warm Windows with Shaders -->
+  <circle cx="215" cy="245" r="45" fill="url(#torchGlow)"/>
+  <rect x="210" y="240" width="10" height="20" rx="3" fill="#fef08a"/>
+  <circle cx="585" cy="245" r="45" fill="url(#torchGlow)"/>
+  <rect x="580" y="240" width="10" height="20" rx="3" fill="#fef08a"/>
+  <circle cx="400" cy="200" r="60" fill="url(#torchGlow)"/>
+  <rect x="385" y="180" width="30" height="45" rx="8" fill="#fef08a"/>
+  <rect x="360" y="400" width="80" height="100" rx="20" fill="#080b11"/>
+  <!-- Label badge -->
+  <rect x="30" y="30" width="180" height="30" rx="6" fill="rgba(0,0,0,0.75)" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="120" y="50" fill="#fbbf24" font-family="sans-serif" font-weight="700" font-size="12" text-anchor="middle" letter-spacing="1">NIGHT SHADERS VIEW</text>
+</svg>

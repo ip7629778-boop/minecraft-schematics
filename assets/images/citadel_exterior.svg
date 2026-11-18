@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="60%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="stoneWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="50%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="roofDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="bannerEmerald" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="moatWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <filter id="lanternGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#skyGrad)"/>
+
+  <!-- Distant Stars -->
+  <circle cx="85" cy="45" r="1.5" fill="#fff" opacity="0.8"/>
+  <circle cx="160" cy="80" r="1" fill="#fff" opacity="0.6"/>
+  <circle cx="280" cy="35" r="2" fill="#38bdf8" opacity="0.9"/>
+  <circle cx="510" cy="55" r="1.5" fill="#fff" opacity="0.8"/>
+  <circle cx="680" cy="40" r="2" fill="#fff" opacity="0.7"/>
+  <circle cx="740" cy="95" r="1" fill="#38bdf8" opacity="0.6"/>
+
+  <!-- Mountain Silhouettes -->
+  <polygon points="0,500 110,310 240,390 400,240 590,380 720,290 800,360 800,500" fill="#090d16" opacity="0.6"/>
+
+  <!-- Water Moat -->
+  <rect x="0" y="440" width="800" height="60" fill="url(#moatWater)"/>
+  <line x1="0" y1="440" x2="800" y2="440" stroke="#38bdf8" stroke-width="2" opacity="0.6"/>
+
+  <!-- Castle Outer Courtyard Walls -->
+  <rect x="140" y="260" width="520" height="190" fill="url(#stoneWall)"/>
+
+  <!-- Stone Brick Texture Accents -->
+  <rect x="160" y="280" width="45" height="14" fill="#64748b" opacity="0.3"/>
+  <rect x="220" y="310" width="55" height="14" fill="#64748b" opacity="0.25"/>
+  <rect x="520" y="290" width="50" height="14" fill="#64748b" opacity="0.3"/>
+  <rect x="440" y="330" width="45" height="14" fill="#64748b" opacity="0.25"/>
+
+  <!-- Main Central Keep Tower -->
+  <rect x="310" y="130" width="180" height="230" fill="#334155"/>
+  <polygon points="290,130 400,35 510,130" fill="url(#roofDark)"/>
+  <rect x="390" y="10" width="20" height="30" fill="#f59e0b"/>
+  <!-- Gold Citadel Spire -->
+  <polygon points="390,10 400,0 410,10" fill="#fbbf24"/>
+  <polygon points="410,5 450,15 410,25" fill="url(#bannerEmerald)"/>
+
+  <!-- Left Main Tower -->
+  <rect x="130" y="170" width="100" height="280" fill="#3b485d"/>
+  <polygon points="115,170 180,95 245,170" fill="url(#roofDark)"/>
+  <line x1="180" y1="95" x2="180" y2="70" stroke="#f59e0b" stroke-width="3"/>
+  <polygon points="180,70 215,80 180,90" fill="url(#bannerEmerald)"/>
+
+  <!-- Right Main Tower -->
+  <rect x="570" y="170" width="100" height="280" fill="#2d3748"/>
+  <polygon points="555,170 620,95 685,170" fill="url(#roofDark)"/>
+  <line x1="620" y1="95" x2="620" y2="70" stroke="#f59e0b" stroke-width="3"/>
+  <polygon points="620,70 655,80 620,90" fill="url(#bannerEmerald)"/>
+
+  <!-- Left Secondary Turret -->
+  <rect x="70" y="240" width="70" height="210" fill="#242c3d"/>
+  <polygon points="60,240 105,185 150,240" fill="#1e1b4b"/>
+
+  <!-- Right Secondary Turret -->
+  <rect x="660" y="240" width="70" height="210" fill="#1c2331"/>
+  <polygon points="650,240 695,185 740,240" fill="#1e1b4b"/>
+
+  <!-- Crenellations / Wall Battlements -->
+  <g fill="#475569">
+    <rect x="125" y="160" width="110" height="15"/>
+    <rect x="130" y="145" width="18" height="15"/>
+    <rect x="160" y="145" width="18" height="15"/>
+    <rect x="190" y="145" width="18" height="15"/>
+    <rect x="220" y="145" width="18" height="15"/>
+
+    <rect x="565" y="160" width="110" height="15"/>
+    <rect x="570" y="145" width="18" height="15"/>
+    <rect x="600" y="145" width="18" height="15"/>
+    <rect x="630" y="145" width="18" height="15"/>
+    <rect x="660" y="145" width="18" height="15"/>
+  </g>
+
+  <!-- Citadel Windows with Warm Lantern Light -->
+  <g fill="#fbbf24" filter="url(#lanternGlow)">
+    <rect x="360" y="165" width="22" height="38" rx="10"/>
+    <rect x="418" y="165" width="22" height="38" rx="10"/>
+    <rect x="389" y="230" width="22" height="42" rx="10"/>
+
+    <rect x="165" y="220" width="16" height="32" rx="8"/>
+    <rect x="165" y="290" width="16" height="32" rx="8"/>
+
+    <rect x="619" y="220" width="16" height="32" rx="8"/>
+    <rect x="619" y="290" width="16" height="32" rx="8"/>
+  </g>
+
+  <!-- Large Grand Arch Gatehouse -->
+  <rect x="350" y="340" width="100" height="110" rx="45" fill="#090d16"/>
+  <!-- Iron Portcullis Grate -->
+  <line x1="370" y1="340" x2="370" y2="450" stroke="#94a3b8" stroke-width="4"/>
+  <line x1="390" y1="340" x2="390" y2="450" stroke="#94a3b8" stroke-width="4"/>
+  <line x1="410" y1="340" x2="410" y2="450" stroke="#94a3b8" stroke-width="4"/>
+  <line x1="430" y1="340" x2="430" y2="450" stroke="#94a3b8" stroke-width="4"/>
+  <line x1="350" y1="380" x2="450" y2="380" stroke="#94a3b8" stroke-width="3"/>
+  <line x1="350" y1="415" x2="450" y2="415" stroke="#94a3b8" stroke-width="3"/>
+
+  <!-- Drawbridge Platform -->
+  <polygon points="340,450 460,450 490,490 310,490" fill="#78350f"/>
+  <line x1="340" y1="450" x2="310" y2="490" stroke="#451a03" stroke-width="4"/>
+  <line x1="460" y1="450" x2="490" y2="490" stroke="#451a03" stroke-width="4"/>
+
+  <!-- Wall Torches / Lanterns with Radial Bloom -->
+  <circle cx="330" cy="370" r="7" fill="#f59e0b" filter="url(#lanternGlow)"/>
+  <rect x="328" y="372" width="4" height="12" fill="#78350f"/>
+
+  <circle cx="470" cy="370" r="7" fill="#f59e0b" filter="url(#lanternGlow)"/>
+  <rect x="468" y="372" width="4" height="12" fill="#78350f"/>
+
+  <!-- Water Reflection Highlights -->
+  <ellipse cx="400" cy="465" rx="70" ry="6" fill="#38bdf8" opacity="0.3"/>
+  <ellipse cx="180" cy="470" rx="45" ry="4" fill="#38bdf8" opacity="0.2"/>
+  <ellipse cx="620" cy="470" rx="45" ry="4" fill="#38bdf8" opacity="0.2"/>
+</svg>

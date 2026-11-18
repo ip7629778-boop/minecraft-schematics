@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>MineVault - Minecraft Schematics, WorldEdit (.schem) &amp; Litematica Downloads</title>
+  <meta name="title" content="MineVault - Minecraft Schematics, WorldEdit (.schem) &amp; Litematica Downloads">
+  <meta name="description" content="Download verified Minecraft schematics (.schem &amp; .litematic) and world saves with 4K multi-screenshot galleries, exact dimensions, and survival materials checklists.">
+  <meta name="keywords" content="Minecraft schematics, WorldEdit schem, Litematica download, Minecraft builds, Minecraft castles, redstone doors, Minecraft world download, schem files">
+  <meta name="author" content="MineVault">
+  <meta name="robots" content="index, follow">
+
+  <!-- Security Hardening Headers & Policies -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://www.youtube.com https://www.youtube-nocookie.com; media-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self';">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <!-- Canonical Tag -->
+  <link rel="canonical" href="https://minevault.net/">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/icons/favicon.svg">
+  <meta name="theme-color" content="#070a10">
+
+  <!-- Open Graph / Facebook / Discord Previews -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://minevault.net/">
+  <meta property="og:title" content="MineVault - Free Minecraft Schematics &amp; Build Downloads">
+  <meta property="og:description" content="Download verified WorldEdit (.schem) and Litematica (.litematic) Minecraft builds with multi-angle screenshot galleries and materials checklists.">
+  <meta property="og:image" content="assets/images/og-banner.svg">
+  <meta property="og:site_name" content="MineVault">
+
+  <!-- Twitter / X Previews -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://minevault.net/">
+  <meta name="twitter:title" content="MineVault - Free Minecraft Schematics &amp; Build Downloads">
+  <meta name="twitter:description" content="Download verified WorldEdit (.schem) and Litematica (.litematic) Minecraft builds with multi-angle screenshot galleries and materials checklists.">
+  <meta name="twitter:image" content="assets/images/og-banner.svg">
+
+  <!-- Structured Data (JSON-LD Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://minevault.net/#website",
+        "url": "https://minevault.net/",
+        "name": "MineVault",
+        "description": "Verified Minecraft schematics, WorldEdit and Litematica blueprints repository.",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://minevault.net/#organization",
+        "name": "MineVault Community",
+        "url": "https://minevault.net/",
+        "logo": "assets/icons/favicon.svg"
+      },
+      {
+        "@type": "ItemList",
+        "name": "Featured Minecraft Schematics",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Aethelgard Royal Citadel & Fortress",
+            "description": "Gothic medieval castle with automated redstone portcullis gate, 4 defensive bastions, and royal throne room"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Rustic Country Farmstead & Working Windmill",
+            "description": "Survival farmstead with 2-story furnished timber cottage, working 4-blade windmill with internal gears, and crops"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Deepslate Dwarven Forge & Runic Stronghold",
+            "description": "Under-mountain dwarven stronghold with carved vault pillars, molten lava forge crucible, and diamond treasury"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Hanamikoji Zen Pagoda & Koi Pavilion",
+            "description": "5-tiered authentic Japanese temple with curved eaves, cherry blossom garden, meditation tatami hall, and koi pond"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons (Self-Hosted, Offline & Supply-Chain Safe) -->
+  <script src="assets/js/lucide.min.js"></script>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Ambient Canvas (Subtle Floating Minecraft Dust) -->
+  <canvas id="ambient-canvas"></canvas>
+
+  <!-- Interactive Glowing Torchlight Cursor Aura -->
+  <div id="cursor-glow" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" role="banner">
+    <div class="nav-container">
+      <a href="index.html" class="brand" aria-label="MineVault Homepage">
+        <div class="brand-voxel-cube" id="vault-cube-trigger" title="MineVault Core - Click to unlock!">
+          <svg class="vault-cube-svg" viewBox="0 0 44 44" width="38" height="38" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="vaultTopGrad" x1="6" y1="4" x2="38" y2="22" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#34d399"/>
+                <stop offset="50%" stop-color="#10b981"/>
+                <stop offset="100%" stop-color="#059669"/>
+              </linearGradient>
+              <linearGradient id="vaultLeftGrad" x1="6" y1="13" x2="22" y2="40" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#1e293b"/>
+                <stop offset="100%" stop-color="#0f172a"/>
+              </linearGradient>
+              <linearGradient id="vaultRightGrad" x1="22" y1="22" x2="38" y2="40" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#111827"/>
+                <stop offset="100%" stop-color="#090d14"/>
+              </linearGradient>
+              <filter id="vaultCoreGlow" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur stdDeviation="1.5" result="blur"/>
+                <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+              </filter>
+            </defs>
+            <ellipse cx="22" cy="38" rx="14" ry="4" fill="rgba(0,0,0,0.45)"/>
+            <polygon points="6,13 22,22 22,40 6,31" fill="url(#vaultLeftGrad)" stroke="rgba(255,255,255,0.12)" stroke-width="0.75"/>
+            <polygon points="22,22 38,13 38,31 22,40" fill="url(#vaultRightGrad)" stroke="rgba(255,255,255,0.08)" stroke-width="0.75"/>
+            <polygon points="22,4 38,13 22,22 6,13" fill="url(#vaultTopGrad)" stroke="rgba(255,255,255,0.25)" stroke-width="0.75"/>
+            <polygon points="22,8 32,13.5 22,19 12,13.5" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <polygon points="22,10.5 27,13.5 22,16.5 17,13.5" fill="#f8fafc" opacity="0.9"/>
+            <line x1="6" y1="22" x2="22" y2="31" stroke="rgba(52,211,153,0.4)" stroke-width="1.2" stroke-dasharray="2 1"/>
+            <line x1="14" y1="17.5" x2="14" y2="35.5" stroke="rgba(255,255,255,0.08)" stroke-width="0.75"/>
+            <line x1="22" y1="31" x2="38" y2="22" stroke="rgba(56,189,248,0.4)" stroke-width="1.2" stroke-dasharray="2 1"/>
+            <line x1="30" y1="17.5" x2="30" y2="35.5" stroke="rgba(255,255,255,0.06)" stroke-width="0.75"/>
+            <circle class="vault-gem-ring" cx="22" cy="22" r="4.5" fill="#047857" stroke="#34d399" stroke-width="1.2"/>
+            <circle class="vault-gem-core" cx="22" cy="22" r="2.2" fill="#fbbf24" filter="url(#vaultCoreGlow)"/>
+            <polygon points="22,19 24.5,22 22,25 19.5,22" fill="#ffffff"/>
+          </svg>
+          <span class="vault-aura-dot"></span>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title" id="brand-title">
+            <span class="brand-word mine"><span class="char" style="--i:0">M</span><span class="char" style="--i:1">I</span><span class="char" style="--i:2">N</span><span class="char" style="--i:3">E</span></span><span class="brand-word vault text-accent"><span class="char" style="--i:4">V</span><span class="char" style="--i:5">A</span><span class="char" style="--i:6">U</span><span class="char" style="--i:7">L</span><span class="char" style="--i:8">T</span></span>
+          </span>
+          <span class="brand-tag">SCHEMATICS &amp; BUILDS</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#schematics" class="nav-link active"><i data-lucide="layers"></i> All Builds</a>
+        <a href="#import-guide" class="nav-link"><i data-lucide="book-open"></i> How to Import</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" title="View Source Repository on GitHub" aria-label="GitHub Repository">
+          <i data-lucide="github"></i>
+        </a>
+        <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle Mobile Menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <a href="#schematics" class="mobile-link"><i data-lucide="layers"></i> Browse Builds</a>
+    <a href="#import-guide" class="mobile-link"><i data-lucide="book-open"></i> How to Import (.schem / .litematic)</a>
+  </div>
+
+  <main id="main-content">
+    <!-- Breadcrumbs Navigation for SEO -->
+    <nav class="container" aria-label="Breadcrumb" style="padding-top: 1.25rem;">
+      <ol style="display: flex; gap: 0.5rem; list-style: none; font-size: 0.82rem; color: var(--text-dim);">
+        <li><a href="index.html" style="color: var(--text-muted); text-decoration: none;">Home</a></li>
+        <li>/</li>
+        <li><a href="#schematics" style="color: var(--text-muted); text-decoration: none;">Schematics</a></li>
+        <li>/</li>
+        <li style="color: var(--accent-emerald);" aria-current="page">Verified Builds Catalog</li>
+      </ol>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" aria-labelledby="hero-heading">
+      <div class="container hero-content">
+        <div class="hero-badge animate-float">
+          <span class="pulse-dot"></span>
+          <span>Verified 1.20 - 1.21.4 Schematics</span>
+          <span class="badge-separator">•</span>
+          <span class="badge-highlight">Free Direct Downloads</span>
+        </div>
+        
+        <h1 class="hero-title" id="hero-heading" aria-label="EPIC MINECRAFT SCHEMATICS &amp; BUILDS">
+          <span class="title-word" style="--w-i:0">
+            <span class="title-char" style="--i:0">E</span><span class="title-char" style="--i:1">P</span><span class="title-char" style="--i:2">I</span><span class="title-char" style="--i:3">C</span>
+          </span>
+          <span class="title-word" style="--w-i:1">
+            <span class="title-char" style="--i:4">M</span><span class="title-char" style="--i:5">I</span><span class="title-char" style="--i:6">N</span><span class="title-char" style="--i:7">E</span><span class="title-char" style="--i:8">C</span><span class="title-char" style="--i:9">R</span><span class="title-char" style="--i:10">A</span><span class="title-char" style="--i:11">F</span><span class="title-char" style="--i:12">T</span>
+          </span>
+          <span class="title-word title-accent gradient-text glow-text" style="--w-i:2">
+            <span class="title-char" style="--i:13">S</span><span class="title-char" style="--i:14">C</span><span class="title-char" style="--i:15">H</span><span class="title-char" style="--i:16">E</span><span class="title-char" style="--i:17">M</span><span class="title-char" style="--i:18">A</span><span class="title-char" style="--i:19">T</span><span class="title-char" style="--i:20">I</span><span class="title-char" style="--i:21">C</span><span class="title-char" style="--i:22">S</span>
+          </span>
+          <span class="title-word title-amp" style="--w-i:3">
+            <span class="title-char" style="--i:23">&amp;</span>
+          </span>
+          <span class="title-word" style="--w-i:4">
+            <span class="title-char" style="--i:24">B</span><span class="title-char" style="--i:25">U</span><span class="title-char" style="--i:26">I</span><span class="title-char" style="--i:27">L</span><span class="title-char" style="--i:28">D</span><span class="title-char" style="--i:29">S</span>
+          </span>
+        </h1>
+        
+        <p class="hero-description">
+          Browse multi-screenshot galleries, inspect exact block dimensions, and download verified <strong>WorldEdit (.schem)</strong>, <strong>Litematica (.litematic)</strong>, and <strong>World Save (.zip)</strong> files with instant survival materials checklists.
+        </p>
+
+        <!-- Search Bar with Glow -->
+        <div class="hero-search-wrapper">
+          <div class="search-box glow-hover">
+            <i data-lucide="search" class="search-icon"></i>
+            <input type="text" id="search-input" placeholder="Search castles, redstone doors, starter bases, creators, tags..." autocomplete="off" aria-label="Search schematics and builds">
+            <button id="clear-search" class="clear-btn" style="display: none;" title="Clear search" aria-label="Clear Search Input">
+              <i data-lucide="x"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Dynamic Animated Stats Ticker -->
+        <div class="hero-stats glow-border" aria-label="Vault Statistics">
+          <div class="stat-card">
+            <span class="stat-num" id="total-builds-count">0</span>
+            <span class="stat-label">Verified Builds</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-card">
+            <span class="stat-num" id="total-downloads-count">0</span>
+            <span class="stat-label">Total Downloads</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-card">
+            <span class="stat-num" id="total-blocks-count">0</span>
+            <span class="stat-label">Blocks Placed</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-card">
+            <span class="stat-num" id="total-likes-count">0</span>
+            <span class="stat-label">Community Likes</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Schematics Catalog & Filter Section -->
+    <section class="catalog-section" id="schematics" aria-labelledby="catalog-heading">
+      <div class="container">
+        <div class="catalog-header-bar">
+          <div>
+            <div class="section-tag"><i data-lucide="compass"></i> EXPLORE VAULT</div>
+            <h2 class="section-title" id="catalog-heading">ALL SCHEMATICS &amp; BUILDS</h2>
+          </div>
+
+          <!-- Sort and View Controls -->
+          <div class="filter-controls">
+            <div class="select-wrapper">
+              <i data-lucide="gamepad-2" class="select-icon"></i>
+              <select id="version-filter" aria-label="Filter by Minecraft version">
+                <option value="all">All Minecraft Versions</option>
+                <option value="1.21">Minecraft 1.21+ (Tricky Trials)</option>
+                <option value="1.20">Minecraft 1.20+ (Trails &amp; Tales)</option>
+                <option value="1.19">Minecraft 1.19+ (Wild Update)</option>
+                <option value="1.18">Minecraft 1.18+ (Caves &amp; Cliffs)</option>
+              </select>
+            </div>
+
+            <div class="select-wrapper">
+              <i data-lucide="filter" class="select-icon"></i>
+              <select id="format-filter" aria-label="Filter by format">
+                <option value="all">All Formats (.schem, .litematic &amp; .zip)</option>
+                <option value="schem">WorldEdit (.schem)</option>
+                <option value="litematic">Litematica (.litematic)</option>
+                <option value="zip">World Save (.zip)</option>
+              </select>
+            </div>
+
+            <div class="select-wrapper">
+              <i data-lucide="sliders-horizontal" class="select-icon"></i>
+              <select id="sort-select" aria-label="Sort builds by criteria">
+                <option value="popular">Most Popular Downloads</option>
+                <option value="likes">Highest Community Likes</option>
+                <option value="newest">Newest Added First</option>
+                <option value="blocks-desc">Largest Megabuilds (Block Count)</option>
+                <option value="blocks-asc">Compact / Starter Size</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category Pill Buttons -->
+        <div class="category-pills" id="category-pills" role="tablist" aria-label="Category Filters">
+          <button class="pill-btn active" data-category="all" role="tab" aria-selected="true">
+            <i data-lucide="layout-grid"></i> All Categories
+          </button>
+          <button class="pill-btn" data-category="Castles" role="tab" aria-selected="false">
+            <i data-lucide="shield"></i> Castles
+          </button>
+          <button class="pill-btn" data-category="Medieval" role="tab" aria-selected="false">
+            <i data-lucide="axe"></i> Medieval &amp; Norse
+          </button>
+          <button class="pill-btn" data-category="Sci-Fi" role="tab" aria-selected="false">
+            <i data-lucide="zap"></i> Sci-Fi &amp; Modern
+          </button>
+          <button class="pill-btn" data-category="Oriental" role="tab" aria-selected="false">
+            <i data-lucide="flower-2"></i> Oriental &amp; Zen
+          </button>
+          <button class="pill-btn" data-category="Redstone" role="tab" aria-selected="false">
+            <i data-lucide="cpu"></i> Redstone &amp; Farms
+          </button>
+          <button class="pill-btn" data-category="Survival Bases" role="tab" aria-selected="false">
+            <i data-lucide="home"></i> Survival Bases
+          </button>
+          <button class="pill-btn" data-category="Megabuilds" role="tab" aria-selected="false">
+            <i data-lucide="box"></i> Megabuilds
+          </button>
+        </div>
+
+        <!-- Schematics Grid -->
+        <div class="schematics-grid" id="schematics-grid" aria-live="polite">
+          <!-- Dynamic cards inserted here -->
+        </div>
+
+        <!-- Empty Results Message -->
+        <div class="empty-state" id="empty-state" style="display: none;">
+          <div class="empty-icon"><i data-lucide="box"></i></div>
+          <h3>No Schematics Found</h3>
+          <p>Try clearing your search terms or selecting a different category filter.</p>
+          <button class="btn btn-secondary" id="reset-filters-btn">Reset All Filters</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to Import Guide Section -->
+    <section class="guide-section" id="import-guide" aria-labelledby="guide-heading">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag"><i data-lucide="help-circle"></i> QUICK START TUTORIAL</div>
+          <h2 class="section-title" id="guide-heading">HOW TO LOAD SCHEMATICS INTO YOUR WORLD</h2>
+          <p class="section-subtitle">
+            Never used a schematic before? Follow these straightforward steps to paste any downloaded build directly into Minecraft Java Edition.
+          </p>
+        </div>
+
+        <div class="guide-grid">
+          <!-- Method 1: WorldEdit -->
+          <div class="guide-card interactive-hover">
+            <div class="guide-badge">Option 1</div>
+            <div class="guide-icon"><i data-lucide="wand-2"></i></div>
+            <h3 class="guide-card-title">WorldEdit (.schem)</h3>
+            <p class="guide-card-sub">Best for Spigot, Paper, Fabric servers, or single-player with WorldEdit mod installed.</p>
+            
+            <ol class="guide-steps">
+              <li>
+                <strong>Put file in folder:</strong>
+                <code>.minecraft/config/worldedit/schematics/</code>
+                (or server <code>plugins/WorldEdit/schematics/</code>)
+              </li>
+              <li>
+                <strong>Load into clipboard:</strong>
+                <code>//schem load &lt;filename&gt;</code>
+              </li>
+              <li>
+                <strong>Stand where you want it:</strong>
+                Navigate to your desired build spot in game.
+              </li>
+              <li>
+                <strong>Paste into world:</strong>
+                <code>//paste -a</code> (the <code>-a</code> skips air blocks so you don't overwrite surrounding terrain!)
+              </li>
+            </ol>
+          </div>
+
+          <!-- Method 2: Litematica -->
+          <div class="guide-card highlight-card interactive-hover">
+            <div class="guide-badge gold">Option 2 (Survival Friendly)</div>
+            <div class="guide-icon"><i data-lucide="box"></i></div>
+            <h3 class="guide-card-title">Litematica (.litematic)</h3>
+            <p class="guide-card-sub">Best for vanilla survival worlds, projection holograms, and material counting with Malilib.</p>
+            
+            <ol class="guide-steps">
+              <li>
+                <strong>Drop file in:</strong>
+                <code>.minecraft/schematics/</code>
+              </li>
+              <li>
+                <strong>Open Litematica Menu:</strong>
+                Press <kbd>M</kbd> in game and click <strong>Load Schematics</strong>.
+              </li>
+              <li>
+                <strong>Place Hologram:</strong>
+                Select the file, click <strong>Load Schematic</strong>, and position the ghost projection where you want.
+              </li>
+              <li>
+                <strong>Paste or Build by Hand:</strong>
+                In Creative, switch tool mode to <strong>Paste Schematic</strong> (<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Execute</kbd>). In Survival, use the hologram projection to place each block accurately!
+              </li>
+            </ol>
+          </div>
+
+          <!-- Method 3: Redstone & Mod Safety -->
+          <div class="guide-card interactive-hover">
+            <div class="guide-badge">Pro Tips</div>
+            <div class="guide-icon"><i data-lucide="shield-check"></i></div>
+            <h3 class="guide-card-title">Placement &amp; Safety Tips</h3>
+            <p class="guide-card-sub">Avoid common glitches when pasting large structures or complex redstone mechanisms.</p>
+            
+            <ul class="guide-steps list-bulleted">
+              <li>
+                <strong>Always backup your world:</strong> Create a world save backup before pasting large megabuilds.
+              </li>
+              <li>
+                <strong>Redstone ticking:</strong> Run <code>/gamerule randomTickSpeed 0</code> before pasting large redstone machines so pistons don't trigger mid-paste.
+              </li>
+              <li>
+                <strong>Undo button:</strong> If you placed it in the wrong direction, immediately type <code>//undo</code>.
+              </li>
+              <li>
+                <strong>Rotating:</strong> Rotate schematics before pasting with <code>//rotate 90</code>, <code>//rotate 180</code>, or <code>//rotate 270</code>.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Clean Unified Schematic Detail Modal (Multi-Screenshots + One-Click Copier) -->
+  <div class="modal-overlay" id="detail-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-container">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close modal">
+        <i data-lucide="x"></i>
+      </button>
+
+      <div class="modal-body" id="modal-content">
+        <!-- Rendered dynamically as a single unified page with multi-screenshots -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast" role="alert" aria-live="assertive"></div>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <div class="brand">
+          <div class="brand-voxel-cube small" title="MineVault Core">
+            <svg class="vault-cube-svg" viewBox="0 0 44 44" width="28" height="28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <ellipse cx="22" cy="38" rx="14" ry="4" fill="rgba(0,0,0,0.45)"/>
+              <polygon points="6,13 22,22 22,40 6,31" fill="url(#vaultLeftGrad)" stroke="rgba(255,255,255,0.12)" stroke-width="0.75"/>
+              <polygon points="22,22 38,13 38,31 22,40" fill="url(#vaultRightGrad)" stroke="rgba(255,255,255,0.08)" stroke-width="0.75"/>
+              <polygon points="22,4 38,13 22,22 6,13" fill="url(#vaultTopGrad)" stroke="rgba(255,255,255,0.25)" stroke-width="0.75"/>
+              <polygon points="22,8 32,13.5 22,19 12,13.5" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+              <circle cx="22" cy="22" r="4" fill="#047857" stroke="#34d399" stroke-width="1"/>
+              <circle cx="22" cy="22" r="2" fill="#fbbf24"/>
+            </svg>
+          </div>
+          <span class="brand-title">
+            <span class="brand-word mine"><span class="char" style="--i:0">M</span><span class="char" style="--i:1">I</span><span class="char" style="--i:2">N</span><span class="char" style="--i:3">E</span></span><span class="brand-word vault text-accent"><span class="char" style="--i:4">V</span><span class="char" style="--i:5">A</span><span class="char" style="--i:6">U</span><span class="char" style="--i:7">L</span><span class="char" style="--i:8">T</span></span>
+          </span>
+        </div>
+        <p class="footer-note">
+          A high-performance repository for Minecraft builders, creators, and redstone engineers.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <a href="#schematics">All Schematics</a>
+          <a href="#import-guide">Import Tutorial</a>
+          <a href="#schematics">Verified Builds</a>
+        </div>
+        <div class="footer-col">
+          <h4>File Formats</h4>
+          <a href="#import-guide">WorldEdit (.schem)</a>
+          <a href="#import-guide">Litematica (.litematic)</a>
+          <a href="#import-guide">World Save (.zip)</a>
+        </div>
+        <div class="footer-col">
+          <h4>Host Online</h4>
+          <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages Ready</a>
+          <a href="sitemap.xml" target="_blank">Sitemap.xml</a>
+          <a href="llms.txt" target="_blank">LLMs.txt</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-content">
+        <p>© 2026 MineVault. Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.</p>
+        <p class="built-with">Crafted with <span class="heart">♥</span> for Minecraft builders</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>

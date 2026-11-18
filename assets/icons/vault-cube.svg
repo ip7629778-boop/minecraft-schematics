@@ -1,0 +1,50 @@
+<svg viewBox="0 0 44 44" width="44" height="44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="vaultTopGrad" x1="6" y1="4" x2="38" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="50%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="vaultLeftGrad" x1="6" y1="13" x2="22" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="vaultRightGrad" x1="22" y1="22" x2="38" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#090d14"/>
+    </linearGradient>
+    <filter id="vaultCoreGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  
+  <!-- Ambient Soft Shadow -->
+  <ellipse cx="22" cy="38" rx="14" ry="4" fill="rgba(0,0,0,0.4)"/>
+
+  <!-- Left Face (Deepslate / Obsidian Basalt) -->
+  <polygon points="6,13 22,22 22,40 6,31" fill="url(#vaultLeftGrad)" stroke="rgba(255,255,255,0.12)" stroke-width="0.75"/>
+  
+  <!-- Right Face (Dark Obsidian Void) -->
+  <polygon points="22,22 38,13 38,31 22,40" fill="url(#vaultRightGrad)" stroke="rgba(255,255,255,0.08)" stroke-width="0.75"/>
+  
+  <!-- Top Face (Lush Emerald Crown) -->
+  <polygon points="22,4 38,13 22,22 6,13" fill="url(#vaultTopGrad)" stroke="rgba(255,255,255,0.25)" stroke-width="0.75"/>
+  
+  <!-- Top Face Inlay Bevel / Minecraft Pattern -->
+  <polygon points="22,8 32,13.5 22,19 12,13.5" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+  <polygon points="22,10.5 27,13.5 22,16.5 17,13.5" fill="#f8fafc" opacity="0.9"/>
+
+  <!-- Left Face Energy Circuit -->
+  <line x1="6" y1="22" x2="22" y2="31" stroke="rgba(52,211,153,0.4)" stroke-width="1.2" stroke-dasharray="2 1"/>
+  <line x1="14" y1="17.5" x2="14" y2="35.5" stroke="rgba(255,255,255,0.08)" stroke-width="0.75"/>
+
+  <!-- Right Face Crying Obsidian Rune -->
+  <line x1="22" y1="31" x2="38" y2="22" stroke="rgba(56,189,248,0.4)" stroke-width="1.2" stroke-dasharray="2 1"/>
+  <line x1="30" y1="17.5" x2="30" y2="35.5" stroke="rgba(255,255,255,0.06)" stroke-width="0.75"/>
+
+  <!-- Central Pulsing Vault Lock Keyhole -->
+  <circle cx="22" cy="22" r="4.5" fill="#047857" stroke="#34d399" stroke-width="1.2"/>
+  <circle cx="22" cy="22" r="2.2" fill="#fbbf24" filter="url(#vaultCoreGlow)"/>
+  <polygon points="22,19 24.5,22 22,25 19.5,22" fill="#ffffff"/>
+</svg>

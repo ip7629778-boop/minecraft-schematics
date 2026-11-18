@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#0a0a14"/>
+  <!-- Floor Grid -->
+  <polygon points="0,500 240,320 560,320 800,500" fill="#121829"/>
+  <!-- Server Towers with Neon LEDs -->
+  <rect x="120" y="140" width="70" height="260" fill="#1a1c29" stroke="#06b6d4" stroke-width="2"/>
+  <line x1="130" y1="180" x2="180" y2="180" stroke="#22c55e" stroke-width="3"/>
+  <line x1="130" y1="220" x2="180" y2="220" stroke="#06b6d4" stroke-width="3"/>
+  <line x1="130" y1="260" x2="180" y2="260" stroke="#ec4899" stroke-width="3"/>
+
+  <rect x="610" y="140" width="70" height="260" fill="#1a1c29" stroke="#ec4899" stroke-width="2"/>
+  <line x1="620" y1="180" x2="670" y2="180" stroke="#06b6d4" stroke-width="3"/>
+  <line x1="620" y1="220" x2="670" y2="220" stroke="#ec4899" stroke-width="3"/>
+  <!-- Executive Hologram Console -->
+  <ellipse cx="400" cy="360" rx="120" ry="25" fill="#06b6d4" opacity="0.3"/>
+  <ellipse cx="400" cy="300" rx="80" ry="18" fill="none" stroke="#ec4899" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="400" y="240" fill="#38bdf8" font-family="sans-serif" font-weight="800" font-size="20" text-anchor="middle" letter-spacing="3">NEO-CORP SERVER ROOM</text>
+</svg>

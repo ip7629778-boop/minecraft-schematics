@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#180c0c"/>
+  <!-- Funnel Chute -->
+  <polygon points="150,80 650,80 460,340 340,340" fill="#09090b" stroke="#7f1d1d" stroke-width="3"/>
+  <!-- Lava Ring -->
+  <ellipse cx="400" cy="180" rx="150" ry="25" fill="#ea580c"/>
+  <ellipse cx="400" cy="180" rx="130" ry="20" fill="#facc15"/>
+  <!-- Gold Hopper & Collection System -->
+  <rect x="320" y="340" width="160" height="80" fill="#3f3f46" stroke="#71717a" stroke-width="2"/>
+  <rect x="350" y="420" width="100" height="50" fill="#eab308" stroke="#ca8a04" stroke-width="2"/>
+  <text x="400" y="450" fill="#000" font-family="sans-serif" font-weight="900" font-size="14" text-anchor="middle">ITEM SORTER</text>
+  <text x="400" y="485" fill="#fef08a" font-family="sans-serif" font-weight="800" font-size="16" text-anchor="middle" letter-spacing="1">120K XP/HR DROP CHAMBER</text>
+</svg>
