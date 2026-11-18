@@ -92,18 +92,18 @@ const DEFAULT_SCHEMATICS = [
     "author": "MineVault Studio",
     "category": "Medieval",
     "version": "1.20 - 1.21+",
-    "image": "assets/images/builds/build2/exterior_front.png",
+    "image": "pictures/Minecraft_ 1.21.4 - Singleplayer 11_18_2026 8_01_12 PM.png",
     "screenshots": [
       {
-        "url": "assets/images/builds/build2/exterior_front.png",
+        "url": "pictures/Minecraft_ 1.21.4 - Singleplayer 11_18_2026 8_01_12 PM.png",
         "caption": "Exterior 3/4 Perspective with Open-Air Lava Forge, Chimney Smoke & Cobblestone Apron"
       },
       {
-        "url": "assets/images/builds/build2/exterior_facade.png",
+        "url": "pictures/Minecraft_ 1.21.4 - Singleplayer 11_18_2026 8_01_38 PM.png",
         "caption": "Front Façade showing Timber Framing, Spruce Door, Windows & Deepslate Hearth"
       },
       {
-        "url": "assets/images/builds/build2/interior_ground.png",
+        "url": "pictures/Minecraft_ 1.21.4 - Singleplayer 11_18_2026 8_02_16 PM.png",
         "caption": "Interior Armoury & Hall with Red Carpet, Smithing Station, Chests & Hanging Lanterns"
       }
     ],
