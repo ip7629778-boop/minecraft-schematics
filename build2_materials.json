@@ -1,0 +1,72 @@
+{
+  "dimensions": {
+    "width": 17,
+    "height": 14,
+    "length": 14
+  },
+  "blockCount": 998,
+  "schemSize": "1.6 KB",
+  "litematicSize": "2.2 KB",
+  "materials": [
+    {
+      "name": "Spruce Planks",
+      "count": 160
+    },
+    {
+      "name": "Deepslate Tile Stairs",
+      "count": 116
+    },
+    {
+      "name": "Dark Oak Stairs",
+      "count": 115
+    },
+    {
+      "name": "Stone Bricks",
+      "count": 113
+    },
+    {
+      "name": "White Terracotta",
+      "count": 75
+    },
+    {
+      "name": "Dark Oak Planks",
+      "count": 54
+    },
+    {
+      "name": "Cobblestone",
+      "count": 50
+    },
+    {
+      "name": "Deepslate Bricks",
+      "count": 42
+    },
+    {
+      "name": "Stripped Dark Oak Wood",
+      "count": 39
+    },
+    {
+      "name": "Polished Andesite",
+      "count": 34
+    },
+    {
+      "name": "Mossy Cobblestone",
+      "count": 25
+    },
+    {
+      "name": "Deepslate Tile Slab",
+      "count": 24
+    },
+    {
+      "name": "Stripped Dark Oak Log",
+      "count": 20
+    },
+    {
+      "name": "Calcite",
+      "count": 19
+    },
+    {
+      "name": "Gravel",
+      "count": 15
+    }
+  ]
+}

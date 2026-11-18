@@ -77,5 +77,86 @@
       { "name": "Mossy Cobblestone", "count": 14 },
       { "name": "Cracked Stone Bricks", "count": 13 }
     ]
+  },
+  {
+    "id": "medieval-village-blacksmith",
+    "title": "Medieval Village Blacksmith & Armoury",
+    "subtitle": "Tier 1 Working Blacksmith with Open-Air Lava Forge, Twin Blast Furnaces & Upper Loft Residence",
+    "author": "MineVault Studio",
+    "category": "Medieval",
+    "version": "1.20 - 1.21+",
+    "image": "assets/images/builds/build2/exterior_front.svg",
+    "screenshots": [
+      {
+        "url": "assets/images/builds/build2/exterior_front.svg",
+        "caption": "Exterior Gable Front with Open-Air Lava Forge, Smoking Chimney & Timber Framing"
+      },
+      {
+        "url": "assets/images/builds/build2/interior_ground.svg",
+        "caption": "Covered Forge Hearth with Molten Lava Crucible, Blast Furnaces, Anvil & Water Trough"
+      },
+      {
+        "url": "assets/images/builds/build2/interior_loft.svg",
+        "caption": "Upper Residential Loft with Bunk Bed, Nightstand Lantern, Bookshelf & Timber Rafters"
+      }
+    ],
+    "downloadsCount": 184,
+    "likesCount": 126,
+    "dateAdded": "2026-11-18",
+    "dimensions": {
+      "width": 17,
+      "height": 14,
+      "length": 14
+    },
+    "blockCount": 998,
+    "tags": [
+      "Medieval",
+      "Blacksmith",
+      "Armoury",
+      "Forge",
+      "Collision-Safe",
+      "Furnished",
+      "Lava",
+      "Survival"
+    ],
+    "formats": [
+      {
+        "type": ".schem (WorldEdit / Sponge)",
+        "file": "downloads/medieval_blacksmith_armoury.schem",
+        "size": "1.6 KB"
+      },
+      {
+        "type": ".litematic (Litematica / Fabric)",
+        "file": "downloads/medieval_blacksmith_armoury.litematic",
+        "size": "2.2 KB"
+      }
+    ],
+    "description": "An authentic, in-game verified Tier 1 medieval village blacksmith and weapons armoury. Features an open-air stone and deepslate forge pavilion with an iron-gated molten lava crucible, dual active blast furnaces, an anvil, a grindstone, and a steel-quenching water trough. An enclosed adjoining stone-brick armoury showroom features weapon racks, armor stands, and double storage chests with zero-obstruction lid clearances. A collision-safe wooden staircase with 2.0+ blocks continuous vertical headroom ascends to the cozy upper loft living quarters, complete with a blacksmith's bunk bed, study desk, chiseled bookshelf, and front-facing gable dormer window.",
+    "features": [
+      "In-game verified zero-collision player clearance along all doorways, forge walkways, and stairwells",
+      "Fully operational open forge: Lava crucible with safety iron grate, twin blast furnaces, anvil, smithing table, and cauldron faucet",
+      "Active smoking chimney: Stone brick flue with campfire smoke particle generation reaching high above roofline",
+      "Indoor Armoury showroom: Weapon racks, armor plinths, and double storage chests with verified open air overhead",
+      "Collision-Safe L-Staircase: 2.0+ blocks of open headroom above every step and a 2-block-wide landing",
+      "Second-Story Residential Loft: Supported bed, nightstand barrel, personal chest, and study desk with dormer window",
+      "Authentic medieval palette: Deepslate and stone brick foundation gradient, stripped dark oak posts, white terracotta plaster, and deepslate tile bargeboard trim"
+    ],
+    "materials": [
+      { "name": "Spruce Planks", "count": 160 },
+      { "name": "Deepslate Tile Stairs", "count": 116 },
+      { "name": "Dark Oak Stairs", "count": 115 },
+      { "name": "Stone Bricks", "count": 113 },
+      { "name": "White Terracotta", "count": 75 },
+      { "name": "Dark Oak Planks", "count": 54 },
+      { "name": "Cobblestone", "count": 50 },
+      { "name": "Deepslate Bricks", "count": 42 },
+      { "name": "Stripped Dark Oak Wood", "count": 39 },
+      { "name": "Polished Andesite", "count": 34 },
+      { "name": "Mossy Cobblestone", "count": 25 },
+      { "name": "Deepslate Tile Slab", "count": 24 },
+      { "name": "Stripped Dark Oak Log", "count": 20 },
+      { "name": "Calcite", "count": 19 },
+      { "name": "Gravel", "count": 15 }
+    ]
   }
 ]
