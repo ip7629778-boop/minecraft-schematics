@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap Index
-Sitemap: https://minevault.net/sitemap.xml
+Sitemap: https://ip7629778-boop.github.io/minecraft-schematics/sitemap.xml
