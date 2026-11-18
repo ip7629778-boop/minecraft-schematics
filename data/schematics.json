@@ -104,17 +104,19 @@
     "likesCount": 126,
     "dateAdded": "2026-11-18",
     "dimensions": {
-      "width": 18,
-      "height": 15,
-      "length": 15
+      "width": 20,
+      "height": 17,
+      "length": 16
     },
-    "blockCount": 1224,
+    "blockCount": 1416,
     "tags": [
       "Medieval",
       "Blacksmith",
       "Armoury",
       "Forge",
-      "Collision-Safe",
+      "Master-Tier",
+      "Jetty",
+      "Gothic-Roof",
       "Furnished",
       "Lava",
       "Survival"
@@ -123,40 +125,41 @@
       {
         "type": ".schem (WorldEdit / Sponge)",
         "file": "downloads/medieval_blacksmith_armoury.schem",
-        "size": "1.8 KB"
+        "size": "2.4 KB"
       },
       {
         "type": ".litematic (Litematica / Fabric)",
         "file": "downloads/medieval_blacksmith_armoury.litematic",
-        "size": "2.0 KB"
+        "size": "3.3 KB"
       }
     ],
-    "description": "An authentic, in-game verified Tier 1 medieval village blacksmith and weapons armoury rebuilt strictly following master reference techniques. Features an open-air stone and deepslate forge pavilion with a safety iron-gated molten lava crucible, dual active blast furnaces, an anvil, a grindstone, and a steel-quenching water trough. An open timber archway connects directly to an enclosed stone-brick armoury showroom with weapon racks, armor stands, and double storage chests with zero-obstruction lid clearances. An authentic wooden staircase with continuous 3-block vertical headroom ascends toward the central roof ridge, landing onto an open, spacious second-story loft living quarters complete with a blacksmith's bunk bed, study desk, chiseled bookshelf, directional wall-connected glass pane windows, and full gable enclosure.",
+    "description": "A master-tier medieval village blacksmith and weapons armoury rebuilt following authentic reference blueprints. Features true 3D architectural depth with recessed plaster wall panels framed by exposed stripped dark oak timber posts and a 1-block cantilevered jetty upper floor. An open-air stone and deepslate forge pavilion boasts a safety iron-gated molten lava crucible, active dual blast furnaces, an anvil mounted on an oak plinth, a steel-quenching water trough, and a towering stone chimney with signal fire smoke. An authentic 3-wide open timber and stone archway connects directly into the enclosed showroom armoury with weapon racks, armor stands, and double storage chests with zero-obstruction lid clearances. A center-ridge ascending wooden staircase with continuous 3.0-block vertical headroom and finished reverse undersides leads into a cozy upper residential loft under a sweeping fantasy curved Gothic roof with outset bargeboards, decorative spire finials, and cascading azalea foliage.",
     "features": [
-      "Authentic wooden doors: Right-clickable spruce front door with inverted stair arch lintel (zero awkward iron doors or detached buttons)",
-      "Direct open timber archway: 2-wide seamless walking passage connecting the active outdoor forge to the indoor armoury",
-      "Physically connected glass panes: Directional East-West and North-South connection flags ensuring panes touch wall jambs and sills seamlessly",
-      "Center-ridge ascending staircase: Climbs toward the highest roof pitch with full 3-block headroom and opens into a wide, spacious loft floor (zero dead ends)",
-      "Reverse finished stair undersides: Inverted spruce stairs under every step for a clean, professional architectural finish",
-      "Full gable and eaves enclosure: Second floor walls and roof triangles fully enclosed with zero open air gaps",
-      "Active forge mechanics: Iron-gated lava crucible, twin blast furnaces, water quenching cauldron, working anvil, and continuous smoking chimney flue"
+      "Master 3D Layering: 1-block recessed wall panels framed between proud stripped timber columns with authentic beam peg detailing",
+      "Cantilevered Medieval Jetty: Second floor extends 1 block out past the stone foundation with inverted stair corbels and timber brackets",
+      "Dynamic Gothic Fantasy Roof: Variable-pitch curving deepslate tile roof with flared eaves, outset gable bargeboards, and ornamental timber spires",
+      "Open-Air Working Forge: Safety iron-gated lava crucible, twin blast furnaces, working anvil, grindstone, water trough, and towering chimney smoke plume",
+      "Grand 3-Wide Open Archway: Seamless, obstruction-free walking passage connecting the active outdoor forge to the indoor armoury showroom",
+      "Center-Ridge Ascending Staircase: Climbs toward the highest roof pitch with guaranteed 3.0-block headroom above every step and clean reverse stair undersides",
+      "Organic Foliage & Weathering: Cascading flowering azalea and oak leaves, window flower boxes with potted blossoms, and a natural stone foundation skirt"
     ],
     "materials": [
-      { "name": "Dark Oak Stairs", "count": 227 },
-      { "name": "Spruce Planks", "count": 186 },
-      { "name": "White Terracotta", "count": 137 },
-      { "name": "Stone Bricks", "count": 122 },
-      { "name": "Deepslate Tile Stairs", "count": 112 },
-      { "name": "Cobblestone", "count": 52 },
-      { "name": "Dark Oak Planks", "count": 45 },
-      { "name": "Deepslate Bricks", "count": 40 },
-      { "name": "Polished Andesite", "count": 39 },
-      { "name": "Stripped Dark Oak Wood", "count": 35 },
-      { "name": "Calcite", "count": 30 },
-      { "name": "Mossy Cobblestone", "count": 28 },
-      { "name": "Deepslate Tile Slab", "count": 26 },
-      { "name": "Glass Pane", "count": 25 },
-      { "name": "Gravel", "count": 16 }
+      { "name": "Spruce Planks", "count": 227 },
+      { "name": "Deepslate Tile Stairs", "count": 206 },
+      { "name": "Stripped Dark Oak Wood", "count": 120 },
+      { "name": "Deepslate Tiles", "count": 110 },
+      { "name": "White Terracotta", "count": 88 },
+      { "name": "Dark Oak Stairs", "count": 76 },
+      { "name": "Stone Bricks", "count": 71 },
+      { "name": "Dark Oak Slab", "count": 69 },
+      { "name": "Diorite", "count": 49 },
+      { "name": "Calcite", "count": 48 },
+      { "name": "Cobblestone", "count": 31 },
+      { "name": "Stripped Dark Oak Log", "count": 30 },
+      { "name": "Mossy Cobblestone", "count": 26 },
+      { "name": "Deepslate Bricks", "count": 22 },
+      { "name": "Andesite", "count": 20 },
+      { "name": "Cracked Stone Bricks", "count": 20 }
     ]
   }
 ]

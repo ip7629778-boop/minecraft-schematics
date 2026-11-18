@@ -8,23 +8,26 @@
 ## 1. Dimensional Footprint & Structural Elevation
 
 ### Core Dimensions
-- **Width ($X$):** $18$ blocks ($X=0$ to $X=17$)
-- **Length ($Z$):** $15$ blocks ($Z=0$ to $Z=14$)
-- **Total Height ($Y$):** $15$ blocks ($Y=0$ subfloor foundation to $Y=14$ chimney cap and gable peak)
+- **Width ($X$):** $20$ blocks ($X=0$ to $X=19$)
+- **Length ($Z$):** $16$ blocks ($Z=0$ to $Z=15$)
+- **Total Height ($Y$):** $17$ blocks ($Y=0$ subfloor foundation to $Y=16$ chimney cap and spire finials)
+- **Total Non-Air Blocks:** $1,416$ blocks
 - **Primary Walking Elevations:**
   - Ground Floor Interior & Forge: $Y=1$ (Subfloor / foundation top is $Y=0$)
   - Upper Loft Living Quarters: $Y=6$ (Loft floorboards sit at $Y=5$)
 
 ```
-Y=14 [ Chimney Smoke Cap & Ornamental Deepslate Crest Slab ]
-Y=13 [ Roof Ridge Peak (X=12..13) & Smoking Campfire Top ]
-Y=10 [ Upper Collar Tie-Beams Across Loft Ceiling ]
-Y=9  [ Upper Timber Tie-Beams & Loft Eaves Line ]
-Y=6  [ Loft Finished Walking Surface (Bed, Study Desk, Dormer Window) ]
-Y=5  [ Loft Subfloor Framing & Ground Ceiling Timber Joists ]
-Y=2  [ Door Arch Lintels & Window Openings ]
+Y=16 [ Chimney Wall Crest, Roof Finial Spires & Deepslate Cap ]
+Y=15 [ High Ridge Peak Crest (X=13..14) & Active Smoke Chimney Top ]
+Y=14 [ Curving Gable Bargeboard Overhang & Campfire Signal Fire ]
+Y=10..13 [ Steep Gothic Roof Rafters & Gable Wall Plaster Infill ]
+Y=9  [ Upper Collar Tie-Beams Across Loft Ceiling ]
+Y=6  [ Loft Walking Surface (Bed, Study Desk, Bookshelf, Dormer Window) ]
+Y=5  [ Cantilevered Jetty Floor Framing (1-Block Overhang with Corbel Brackets) ]
+Y=4  [ Inverted Stair Knee-Braces & Recessed Wall Panel Tops ]
+Y=2..3 [ Door Arch Lintels & Framed Directional Window Openings ]
 Y=1  [ Ground Walking Surface (Flush Threshold Across Porch & Door) ]
-Y=0  [ Stone Brick / Cobblestone / Andesite Foundation Plinth ]
+Y=0  [ Flared Stone Skirt, Cobblestone Wall Plinth & Weathered Path ]
 ```
 
 ---
