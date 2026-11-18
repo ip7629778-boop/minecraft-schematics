@@ -85,19 +85,19 @@
     "author": "MineVault Studio",
     "category": "Medieval",
     "version": "1.20 - 1.21+",
-    "image": "assets/images/builds/build2/exterior_front.svg",
+    "image": "assets/images/builds/build2/exterior_front.png",
     "screenshots": [
       {
-        "url": "assets/images/builds/build2/exterior_front.svg",
-        "caption": "Exterior Gable Front with Open-Air Lava Forge, Smoking Chimney & Timber Framing"
+        "url": "assets/images/builds/build2/exterior_front.png",
+        "caption": "Exterior 3/4 Perspective with Open-Air Lava Forge, Chimney Smoke & Cobblestone Apron"
       },
       {
-        "url": "assets/images/builds/build2/interior_ground.svg",
-        "caption": "Covered Forge Hearth with Molten Lava Crucible, Blast Furnaces, Anvil & Water Trough"
+        "url": "assets/images/builds/build2/exterior_facade.png",
+        "caption": "Front Façade showing Timber Framing, Spruce Door, Windows & Deepslate Hearth"
       },
       {
-        "url": "assets/images/builds/build2/interior_loft.svg",
-        "caption": "Upper Residential Loft with Bunk Bed, Nightstand Lantern, Bookshelf & Timber Rafters"
+        "url": "assets/images/builds/build2/interior_ground.png",
+        "caption": "Interior Armoury & Hall with Red Carpet, Smithing Station, Chests & Hanging Lanterns"
       }
     ],
     "downloadsCount": 184,
