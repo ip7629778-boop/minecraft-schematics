@@ -18,3 +18,5 @@ yarn-error.log*
 *.log
 .temp/
 .cache/
+__pycache__/
+*.pyc

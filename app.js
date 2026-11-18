@@ -111,11 +111,11 @@ const DEFAULT_SCHEMATICS = [
     "likesCount": 126,
     "dateAdded": "2026-11-18",
     "dimensions": {
-      "width": 17,
-      "height": 14,
-      "length": 14
+      "width": 18,
+      "height": 15,
+      "length": 15
     },
-    "blockCount": 998,
+    "blockCount": 1224,
     "tags": [
       "Medieval",
       "Blacksmith",
@@ -130,40 +130,40 @@ const DEFAULT_SCHEMATICS = [
       {
         "type": ".schem (WorldEdit / Sponge)",
         "file": "downloads/medieval_blacksmith_armoury.schem",
-        "size": "1.6 KB"
+        "size": "1.8 KB"
       },
       {
         "type": ".litematic (Litematica / Fabric)",
         "file": "downloads/medieval_blacksmith_armoury.litematic",
-        "size": "2.2 KB"
+        "size": "2.0 KB"
       }
     ],
-    "description": "An authentic, in-game verified Tier 1 medieval village blacksmith and weapons armoury. Features an open-air stone and deepslate forge pavilion with an iron-gated molten lava crucible, dual active blast furnaces, an anvil, a grindstone, and a steel-quenching water trough. An enclosed adjoining stone-brick armoury showroom features weapon racks, armor stands, and double storage chests with zero-obstruction lid clearances. A collision-safe wooden staircase with 2.0+ blocks continuous vertical headroom ascends to the cozy upper loft living quarters, complete with a blacksmith's bunk bed, study desk, chiseled bookshelf, and front-facing gable dormer window.",
+    "description": "An authentic, in-game verified Tier 1 medieval village blacksmith and weapons armoury rebuilt strictly following master reference techniques. Features an open-air stone and deepslate forge pavilion with a safety iron-gated molten lava crucible, dual active blast furnaces, an anvil, a grindstone, and a steel-quenching water trough. An open timber archway connects directly to an enclosed stone-brick armoury showroom with weapon racks, armor stands, and double storage chests with zero-obstruction lid clearances. An authentic wooden staircase with continuous 3-block vertical headroom ascends toward the central roof ridge, landing onto an open, spacious second-story loft living quarters complete with a blacksmith's bunk bed, study desk, chiseled bookshelf, directional wall-connected glass pane windows, and full gable enclosure.",
     "features": [
-      "In-game verified zero-collision player clearance along all doorways, forge walkways, and stairwells",
-      "Fully operational open forge: Lava crucible with safety iron grate, twin blast furnaces, anvil, smithing table, and cauldron faucet",
-      "Active smoking chimney: Stone brick flue with campfire smoke particle generation reaching high above roofline",
-      "Indoor Armoury showroom: Weapon racks, armor plinths, and double storage chests with verified open air overhead",
-      "Collision-Safe L-Staircase: 2.0+ blocks of open headroom above every step and a 2-block-wide landing",
-      "Second-Story Residential Loft: Supported bed, nightstand barrel, personal chest, and study desk with dormer window",
-      "Authentic medieval palette: Deepslate and stone brick foundation gradient, stripped dark oak posts, white terracotta plaster, and deepslate tile bargeboard trim"
+      "Authentic wooden doors: Right-clickable spruce front door with inverted stair arch lintel (zero awkward iron doors or detached buttons)",
+      "Direct open timber archway: 2-wide seamless walking passage connecting the active outdoor forge to the indoor armoury",
+      "Physically connected glass panes: Directional East-West and North-South connection flags ensuring panes touch wall jambs and sills seamlessly",
+      "Center-ridge ascending staircase: Climbs toward the highest roof pitch with full 3-block headroom and opens into a wide, spacious loft floor (zero dead ends)",
+      "Reverse finished stair undersides: Inverted spruce stairs under every step for a clean, professional architectural finish",
+      "Full gable and eaves enclosure: Second floor walls and roof triangles fully enclosed with zero open air gaps",
+      "Active forge mechanics: Iron-gated lava crucible, twin blast furnaces, water quenching cauldron, working anvil, and continuous smoking chimney flue"
     ],
     "materials": [
-      { "name": "Spruce Planks", "count": 160 },
-      { "name": "Deepslate Tile Stairs", "count": 116 },
-      { "name": "Dark Oak Stairs", "count": 115 },
-      { "name": "Stone Bricks", "count": 113 },
-      { "name": "White Terracotta", "count": 75 },
-      { "name": "Dark Oak Planks", "count": 54 },
-      { "name": "Cobblestone", "count": 50 },
-      { "name": "Deepslate Bricks", "count": 42 },
-      { "name": "Stripped Dark Oak Wood", "count": 39 },
-      { "name": "Polished Andesite", "count": 34 },
-      { "name": "Mossy Cobblestone", "count": 25 },
-      { "name": "Deepslate Tile Slab", "count": 24 },
-      { "name": "Stripped Dark Oak Log", "count": 20 },
-      { "name": "Calcite", "count": 19 },
-      { "name": "Gravel", "count": 15 }
+      { "name": "Dark Oak Stairs", "count": 227 },
+      { "name": "Spruce Planks", "count": 186 },
+      { "name": "White Terracotta", "count": 137 },
+      { "name": "Stone Bricks", "count": 122 },
+      { "name": "Deepslate Tile Stairs", "count": 112 },
+      { "name": "Cobblestone", "count": 52 },
+      { "name": "Dark Oak Planks", "count": 45 },
+      { "name": "Deepslate Bricks", "count": 40 },
+      { "name": "Polished Andesite", "count": 39 },
+      { "name": "Stripped Dark Oak Wood", "count": 35 },
+      { "name": "Calcite", "count": 30 },
+      { "name": "Mossy Cobblestone", "count": 28 },
+      { "name": "Deepslate Tile Slab", "count": 26 },
+      { "name": "Glass Pane", "count": 25 },
+      { "name": "Gravel", "count": 16 }
     ]
   }
 ];

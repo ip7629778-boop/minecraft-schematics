@@ -1,72 +1,72 @@
 {
   "dimensions": {
-    "width": 17,
-    "height": 14,
-    "length": 14
+    "width": 18,
+    "height": 15,
+    "length": 15
   },
-  "blockCount": 998,
-  "schemSize": "1.6 KB",
-  "litematicSize": "2.2 KB",
+  "blockCount": 1224,
+  "schemSize": "1.8 KB",
+  "litematicSize": "2.0 KB",
   "materials": [
     {
-      "name": "Spruce Planks",
-      "count": 160
-    },
-    {
-      "name": "Deepslate Tile Stairs",
-      "count": 116
-    },
-    {
       "name": "Dark Oak Stairs",
-      "count": 115
+      "count": 227
     },
     {
-      "name": "Stone Bricks",
-      "count": 113
+      "name": "Spruce Planks",
+      "count": 186
     },
     {
       "name": "White Terracotta",
-      "count": 75
+      "count": 137
     },
     {
-      "name": "Dark Oak Planks",
-      "count": 54
+      "name": "Stone Bricks",
+      "count": 122
+    },
+    {
+      "name": "Deepslate Tile Stairs",
+      "count": 112
     },
     {
       "name": "Cobblestone",
-      "count": 50
+      "count": 52
+    },
+    {
+      "name": "Dark Oak Planks",
+      "count": 45
     },
     {
       "name": "Deepslate Bricks",
-      "count": 42
-    },
-    {
-      "name": "Stripped Dark Oak Wood",
-      "count": 39
+      "count": 40
     },
     {
       "name": "Polished Andesite",
-      "count": 34
+      "count": 39
     },
     {
-      "name": "Mossy Cobblestone",
-      "count": 25
-    },
-    {
-      "name": "Deepslate Tile Slab",
-      "count": 24
-    },
-    {
-      "name": "Stripped Dark Oak Log",
-      "count": 20
+      "name": "Stripped Dark Oak Wood",
+      "count": 35
     },
     {
       "name": "Calcite",
-      "count": 19
+      "count": 30
+    },
+    {
+      "name": "Mossy Cobblestone",
+      "count": 28
+    },
+    {
+      "name": "Deepslate Tile Slab",
+      "count": 26
+    },
+    {
+      "name": "Glass Pane",
+      "count": 25
     },
     {
       "name": "Gravel",
-      "count": 15
+      "count": 16
     }
   ]
 }
