@@ -1185,6 +1185,62 @@ h1, h2, h3, h4 {
   color: #fff;
 }
 
+/* Card Interactive 3-Screenshot Mini Gallery Strip */
+.card-mini-gallery {
+  position: absolute;
+  bottom: 0.75rem;
+  left: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  z-index: 4;
+  background: rgba(9, 11, 17, 0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 0.22rem 0.32rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: all var(--spring-fast);
+}
+
+.card-mini-thumb {
+  width: 38px;
+  height: 25px;
+  border-radius: 3px;
+  overflow: hidden;
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  background: #000;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  display: block;
+  opacity: 0.75;
+}
+
+.card-mini-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  pointer-events: none;
+}
+
+.card-mini-thumb:hover {
+  opacity: 1;
+  border-color: var(--accent-emerald-light);
+  transform: scale(1.1);
+  z-index: 5;
+}
+
+.card-mini-thumb.active {
+  opacity: 1;
+  border-color: var(--accent-emerald);
+  box-shadow: 0 0 8px rgba(16, 185, 129, 0.75);
+  transform: scale(1.05);
+}
+
 .card-content {
   padding: 1.5rem;
   display: flex;

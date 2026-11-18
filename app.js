@@ -546,6 +546,20 @@ function renderSchematics() {
           <div class="card-view-pill">
             <i data-lucide="maximize-2"></i> View Gallery
           </div>
+
+          ${item.screenshots && item.screenshots.length > 1 ? `
+            <div class="card-mini-gallery" onclick="event.stopPropagation()">
+              ${item.screenshots.map((s, idx) => `
+                <button class="card-mini-thumb ${idx === 0 ? 'active' : ''}" 
+                        onclick="switchCardScreenshot(this, '${safeId}', '${sanitizeSafeUrl(s.url)}')"
+                        onmouseenter="switchCardScreenshot(this, '${safeId}', '${sanitizeSafeUrl(s.url)}')"
+                        title="${escapeHtml(s.caption || 'Angle ' + (idx + 1))}"
+                        aria-label="Preview Angle ${idx + 1}">
+                  <img src="${sanitizeSafeUrl(s.url)}" alt="Angle ${idx + 1}">
+                </button>
+              `).join('')}
+            </div>
+          ` : ''}
         </div>
 
         <div class="card-content">
@@ -850,6 +864,18 @@ window.selectScreenshot = function(index) {
   playSound('click');
   activeScreenshotIdx = index;
   updateGalleryDisplay();
+};
+
+window.switchCardScreenshot = function(btn, cardId, newUrl) {
+  const card = document.querySelector(`.schem-card[data-id="${cardId}"]`);
+  if (!card) return;
+  const mainImg = card.querySelector('.card-media > img');
+  if (mainImg && mainImg.getAttribute('src') !== newUrl) {
+    mainImg.src = newUrl;
+  }
+  const thumbs = card.querySelectorAll('.card-mini-thumb');
+  thumbs.forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
 };
 
 function updateGalleryDisplay() {
