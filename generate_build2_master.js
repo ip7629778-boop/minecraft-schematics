@@ -339,28 +339,90 @@ b.set(6, 5, 8, 'minecraft:chain[axis=y,waterlogged=false]');
 b.set(6, 4, 8, 'minecraft:lantern[hanging=true,waterlogged=false]');
 
 // =========================================================================
-// 5. INDOOR ARMOURY FURNISHING & FLOOR (Y=1)
+// 5. MASTER DENSE INDOOR ARMOURY & WEAPONS SHOWROOM (Y=1..4)
 // =========================================================================
-// Central red wool runner
+// 5.1. Rich Ornate Merchant Rug (X=12..14, Z=4..12)
+// Multi-toned medieval merchant rug: red core with brown and yellow trim
 for (let z = 4; z <= 12; z++) {
   b.set(13, 1, z, 'minecraft:red_carpet');
+  b.set(12, 1, z, ((z === 4 || z === 8 || z === 12) ? 'minecraft:yellow_carpet' : 'minecraft:brown_carpet'));
+  b.set(14, 1, z, ((z === 4 || z === 8 || z === 12) ? 'minecraft:yellow_carpet' : 'minecraft:brown_carpet'));
 }
-// Double storage chest with open air overhead
+
+// 5.2. Zone A: Merchant's Service Counter & Accounting Station (X=10..11, Z=4..6)
+// L-shaped service counter
+b.set(10, 1, 4, 'minecraft:spruce_stairs[facing=south,half=top,shape=straight,waterlogged=false]');
+b.set(11, 1, 4, 'minecraft:spruce_stairs[facing=south,half=top,shape=straight,waterlogged=false]');
+b.set(11, 1, 5, 'minecraft:spruce_stairs[facing=west,half=top,shape=straight,waterlogged=false]');
+b.set(11, 1, 6, 'minecraft:spruce_slab[type=top,waterlogged=false]');
+// Counter decorations (Y=2):
+b.set(10, 2, 4, 'minecraft:flower_pot'); // Coin pot / cash box
+b.set(11, 2, 4, 'minecraft:heavy_weighted_pressure_plate[powered=false]'); // Iron weighing scale
+b.set(11, 2, 5, 'minecraft:candle[candles=2,lit=true,waterlogged=false]'); // Desk candle
+b.set(11, 2, 6, 'minecraft:lectern[facing=east,has_book=true]'); // Sales ledger book
+// Clerk stool behind counter
+b.set(10, 1, 5, 'minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]');
+b.set(9, 1, 5, 'minecraft:chiseled_bookshelf[facing=east]'); // Inventory ledger shelf
+
+// 5.3. Zone B: Armor & Weapon Display Alcoves (X=10, Z=7..9)
+// Dual stone display plinths with spruce trapdoor frames
+b.set(10, 1, 7, 'minecraft:smooth_stone_slab[type=bottom,waterlogged=false]');
+b.set(10, 2, 7, 'minecraft:chiseled_bookshelf[facing=east]'); // Weapon display rack
+b.set(10, 1, 8, 'minecraft:spruce_trapdoor[facing=east,half=bottom,open=true,waterlogged=false]'); // Alcove divider
+b.set(10, 2, 8, 'minecraft:spruce_trapdoor[facing=east,half=top,open=true,waterlogged=false]');
+b.set(10, 1, 9, 'minecraft:smooth_stone_slab[type=bottom,waterlogged=false]');
+b.set(10, 2, 9, 'minecraft:grindstone[facing=east,face=floor]'); // Display sharpening stone
+// Display illumination hanging above shelf
+b.set(10, 3, 7, 'minecraft:lantern[hanging=true,waterlogged=false]');
+b.set(9, 2, 8, 'minecraft:air');
+
+// 5.4. Zone C: Storage Crates & Weapons Chests (X=10, Z=10..12)
 b.set(10, 1, 10, 'minecraft:chest[facing=east,type=right,waterlogged=false]');
 b.set(10, 1, 11, 'minecraft:chest[facing=east,type=left,waterlogged=false]');
-b.set(10, 2, 10, 'minecraft:air'); // Confirmed lid swing clearance
+b.set(10, 2, 10, 'minecraft:air'); // Confirmed 100% lid clearance
 b.set(10, 2, 11, 'minecraft:air');
+// Ingot supply crates behind chests
+b.set(10, 1, 12, 'minecraft:barrel[facing=east,open=false]');
+b.set(10, 2, 12, 'minecraft:barrel[facing=up,open=false]');
+b.set(10, 3, 12, 'minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=true]');
 
-// Armor Stand Plinths & Weapon Displays
-b.set(10, 1, 5, 'minecraft:smooth_stone_slab[type=bottom,waterlogged=false]');
-b.set(10, 1, 4, 'minecraft:chiseled_bookshelf[facing=east]');
-b.set(14, 1, 4, 'minecraft:fletching_table');
-b.set(15, 1, 4, 'minecraft:target');
+// 5.5. Zone D: Fletching & Crossbow Workshop (X=14..15, Z=11..12)
+b.set(15, 1, 11, 'minecraft:fletching_table');
+b.set(15, 1, 12, 'minecraft:target');
+b.set(14, 1, 12, 'minecraft:decorated_pot[cracked=false,facing=north,waterlogged=false]'); // Arrow quiver urn!
+b.set(15, 2, 11, 'minecraft:lantern[hanging=false,waterlogged=false]'); // Work lamp
 
-// Chandelier hanging in Armoury
-b.set(13, 5, 8, 'minecraft:chain[axis=y,waterlogged=false]');
+// 5.6. Zone E: Customer Waiting Lounge & Warming Brazier (X=16..17, Z=4..6)
+// Customer bench along east wall
+b.set(17, 1, 4, 'minecraft:spruce_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]');
+b.set(17, 1, 5, 'minecraft:spruce_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]');
+b.set(17, 1, 6, 'minecraft:spruce_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]');
+b.set(16, 1, 4, 'minecraft:spruce_sign[facing=west,waterlogged=false]'); // Armrest
+b.set(16, 1, 6, 'minecraft:spruce_sign[facing=west,waterlogged=false]'); // Armrest
+// Small indoor heating stove / brazier
+b.set(17, 1, 3, 'minecraft:chiseled_stone_bricks');
+b.set(17, 2, 3, 'minecraft:campfire[facing=north,lit=true,signal_fire=false,waterlogged=false]');
+b.set(16, 2, 3, 'minecraft:iron_bars[east=true,north=false,south=false,waterlogged=false,west=false]');
+
+// 5.7. Under-stair Storage (X=16, Z=12)
+b.set(16, 1, 12, 'minecraft:chest[facing=west,type=single,waterlogged=false]'); // Under-stair loot chest!
+b.set(16, 2, 12, 'minecraft:air');
+
+// 5.8. Exposed Ceiling Joists & Suspended Chandeliers (Y=4..5)
+for (let x = 10; x <= 17; x++) {
+  b.set(x, 4, 5, 'minecraft:spruce_slab[type=top,waterlogged=false]');
+  b.set(x, 4, 8, 'minecraft:spruce_slab[type=top,waterlogged=false]');
+  b.set(x, 4, 11, 'minecraft:spruce_slab[type=top,waterlogged=false]');
+}
+// Chandelier 1 (over entrance/counter):
+b.set(13, 4, 5, 'minecraft:chain[axis=y,waterlogged=false]');
+b.set(13, 3, 5, 'minecraft:lantern[hanging=true,waterlogged=false]');
+// Chandelier 2 (center hall):
 b.set(13, 4, 8, 'minecraft:chain[axis=y,waterlogged=false]');
 b.set(13, 3, 8, 'minecraft:lantern[hanging=true,waterlogged=false]');
+// Chandelier 3 (rear workshop):
+b.set(13, 4, 11, 'minecraft:chain[axis=y,waterlogged=false]');
+b.set(13, 3, 11, 'minecraft:lantern[hanging=true,waterlogged=false]');
 
 // =========================================================================
 // 6. MASTER CENTER-RIDGE ASCENDING STAIRCASE (Y=1..5)
@@ -541,40 +603,134 @@ for (let z = 3; z <= 13; z++) {
   }
 }
 
-// Loft Furnishings:
-// Blacksmith's Bunk Bed at X=10..11, Z=4
+// 8.2. Interior Room Partition (Z=8, X=9..13)
+// Half-timber wall dividing the private bedroom from the living/kitchen quarters!
+for (let x = 9; x <= 13; x++) {
+  if (x === 11) {
+    // Open doorway connecting the two rooms
+    b.set(x, 6, 8, 'minecraft:air');
+    b.set(x, 7, 8, 'minecraft:air');
+    b.set(x, 8, 8, 'minecraft:spruce_stairs[facing=south,half=top,shape=straight,waterlogged=false]');
+  } else {
+    b.set(x, 6, 8, 'minecraft:stripped_spruce_wood[axis=x]');
+    b.set(x, 7, 8, getPlaster(x * 17));
+    b.set(x, 8, 8, 'minecraft:stripped_spruce_wood[axis=x]');
+  }
+}
+
+// 8.3. Zone 1: Master Four-Poster Canopy Bedchamber (North Wing, Z=3..7)
+// Four-Poster Canopy Bed at X=9..10, Z=3..4
 b.set(10, 6, 4, 'minecraft:red_bed[facing=south,occupied=false,part=head]');
 b.set(10, 6, 3, 'minecraft:red_bed[facing=south,occupied=false,part=foot]');
-// Nightstand & Lantern
-b.set(11, 6, 3, 'minecraft:barrel[facing=up,open=false]');
-b.set(11, 7, 3, 'minecraft:lantern[hanging=false,waterlogged=false]');
-// Personal loot chest
-b.set(12, 6, 4, 'minecraft:chest[facing=south,type=single,waterlogged=false]');
-b.set(12, 7, 4, 'minecraft:air'); // Lid clearance
-// Study desk
-b.set(10, 6, 12, 'minecraft:spruce_stairs[facing=north,half=top,shape=straight,waterlogged=false]');
-b.set(11, 6, 12, 'minecraft:spruce_stairs[facing=north,half=top,shape=straight,waterlogged=false]');
-b.set(10, 7, 12, 'minecraft:potted_cornflower');
-b.set(11, 7, 12, 'minecraft:candle[candles=2,lit=true,waterlogged=false]');
-b.set(9, 6, 12, 'minecraft:chiseled_bookshelf[facing=north]');
+// Four corner timber posts
+b.set(9, 6, 3, 'minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]');
+b.set(9, 7, 3, 'minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]');
+b.set(11, 6, 3, 'minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]');
+b.set(11, 7, 3, 'minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]');
+b.set(9, 6, 5, 'minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]');
+b.set(9, 7, 5, 'minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]');
+b.set(11, 6, 5, 'minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]');
+b.set(11, 7, 5, 'minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]');
+// Canopy roof over the bed
+b.set(9, 8, 3, 'minecraft:spruce_trapdoor[facing=south,half=bottom,open=false,waterlogged=false]');
+b.set(10, 8, 3, 'minecraft:spruce_slab[type=bottom,waterlogged=false]');
+b.set(11, 8, 3, 'minecraft:spruce_trapdoor[facing=south,half=bottom,open=false,waterlogged=false]');
+b.set(9, 8, 4, 'minecraft:spruce_slab[type=bottom,waterlogged=false]');
+b.set(10, 8, 4, 'minecraft:red_wool');
+b.set(11, 8, 4, 'minecraft:spruce_slab[type=bottom,waterlogged=false]');
 
-// Safety railing along the west side of the stair opening at Y=6
+// Bedside Nightstand & Fluffy Rug:
+b.set(12, 6, 3, 'minecraft:barrel[facing=up,open=false]');
+b.set(12, 7, 3, 'minecraft:candle[candles=3,lit=true,waterlogged=false]'); // 3 lit candles
+b.set(12, 6, 4, 'minecraft:white_carpet');
+b.set(12, 6, 5, 'minecraft:light_gray_carpet');
+b.set(10, 6, 5, 'minecraft:white_carpet');
+
+// Master Wardrobe & Armour Storage (X=13..15, Z=3..4)
+b.set(14, 6, 3, 'minecraft:barrel[facing=north,open=false]');
+b.set(14, 7, 3, 'minecraft:barrel[facing=north,open=false]');
+b.set(15, 6, 3, 'minecraft:barrel[facing=north,open=false]');
+b.set(15, 7, 3, 'minecraft:barrel[facing=north,open=false]');
+b.set(14, 6, 4, 'minecraft:spruce_door[facing=south,half=lower,hinge=left,open=false,powered=false]');
+b.set(14, 7, 4, 'minecraft:spruce_door[facing=south,half=upper,hinge=left,open=false,powered=false]');
+b.set(15, 6, 4, 'minecraft:spruce_door[facing=south,half=lower,hinge=right,open=false,powered=false]');
+b.set(15, 7, 4, 'minecraft:spruce_door[facing=south,half=upper,hinge=right,open=false,powered=false]');
+// Personal Iron Strongbox Chest
+b.set(13, 6, 3, 'minecraft:chest[facing=south,type=single,waterlogged=false]');
+b.set(13, 7, 3, 'minecraft:air'); // Clear lid swing
+
+// 8.4. Zone 2: Kitchenette, Pantry & Dining Area (South Wing, Z=9..13)
+// Cooking Stove Hearth (X=9..10, Z=10..11)
+b.set(9, 6, 10, 'minecraft:smoker[facing=east,lit=true]'); // Active cooking smoker
+b.set(9, 7, 10, 'minecraft:cauldron'); // Indoor wash sink
+b.set(9, 8, 10, 'minecraft:tripwire_hook[attached=false,facing=east,powered=false]'); // Sink tap
+b.set(9, 6, 11, 'minecraft:barrel[facing=east,open=false]'); // Pantry barrel
+b.set(9, 7, 11, 'minecraft:flower_pot'); // Coffee mug / tea cup
+b.set(10, 6, 10, 'minecraft:crafting_table'); // Meal prep bench
+b.set(10, 7, 10, 'minecraft:lantern[hanging=false,waterlogged=false]'); // Kitchen lamp
+
+// Dining & Breakfast Table (X=12..13, Z=10..11)
+b.set(12, 6, 11, 'minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]');
+b.set(12, 7, 11, 'minecraft:spruce_pressure_plate[powered=false]'); // Dining table top
+b.set(12, 6, 10, 'minecraft:spruce_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]'); // North chair
+b.set(11, 6, 10, 'minecraft:spruce_sign[facing=west,waterlogged=false]');
+b.set(13, 6, 10, 'minecraft:spruce_sign[facing=east,waterlogged=false]');
+b.set(12, 6, 12, 'minecraft:spruce_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]'); // South chair
+b.set(11, 6, 12, 'minecraft:spruce_sign[facing=west,waterlogged=false]');
+b.set(13, 6, 12, 'minecraft:spruce_sign[facing=east,waterlogged=false]');
+b.set(13, 6, 11, 'minecraft:brown_carpet'); // Table area rug
+b.set(11, 6, 11, 'minecraft:brown_carpet');
+
+// 8.5. Zone 3: Blacksmith's Study & Blueprint Desk (X=16..17, Z=11..12)
+b.set(17, 6, 11, 'minecraft:dark_oak_stairs[facing=west,half=top,shape=straight,waterlogged=false]');
+b.set(17, 6, 12, 'minecraft:dark_oak_stairs[facing=west,half=top,shape=straight,waterlogged=false]');
+b.set(16, 6, 12, 'minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]'); // Study chair
+b.set(17, 7, 11, 'minecraft:lectern[facing=west,has_book=true]'); // Blueprint book!
+b.set(17, 7, 12, 'minecraft:potted_flowering_azalea_bush'); // Potted desk azalea
+b.set(18, 6, 11, 'minecraft:chiseled_bookshelf[facing=west]');
+b.set(18, 7, 11, 'minecraft:chiseled_bookshelf[facing=west]');
+b.set(18, 6, 12, 'minecraft:chiseled_bookshelf[facing=west]');
+b.set(18, 7, 12, 'minecraft:chiseled_bookshelf[facing=west]');
+
+// 8.6. Safety Railing around Stairwell Opening (X=15, Z=9..12)
 b.set(15, 6, 9, 'minecraft:spruce_fence[east=false,north=false,south=true,waterlogged=false,west=false]');
 b.set(15, 6, 10, 'minecraft:spruce_fence[east=false,north=true,south=true,waterlogged=false,west=false]');
 b.set(15, 6, 11, 'minecraft:spruce_fence[east=false,north=true,south=true,waterlogged=false,west=false]');
 b.set(15, 6, 12, 'minecraft:spruce_fence[east=false,north=true,south=false,waterlogged=false,west=false]');
-// Ensure landing at X=16..17, Z=8 is 100% open air at Y=5..8
-b.set(16, 6, 8, 'minecraft:air');
+b.set(16, 6, 8, 'minecraft:air'); // Guaranteed open landing
 b.set(16, 7, 8, 'minecraft:air');
 b.set(17, 6, 8, 'minecraft:air');
 b.set(17, 7, 8, 'minecraft:air');
 
-// Upper Collar Tie-Beams across loft ceiling at Y=9
+// 8.7. Overhead Tie-Beams & Attic Storage Platform (Y=9..11)
 for (let x = 8; x <= 19; x++) {
   b.set(x, 9, 2, 'minecraft:stripped_dark_oak_wood[axis=x]');
   b.set(x, 9, 8, 'minecraft:stripped_dark_oak_wood[axis=x]');
   b.set(x, 9, 14, 'minecraft:stripped_dark_oak_wood[axis=x]');
 }
+// Attic storage platform at Y=10 resting on tie-beams:
+b.set(11, 10, 8, 'minecraft:spruce_slab[type=bottom,waterlogged=false]');
+b.set(12, 10, 8, 'minecraft:spruce_slab[type=bottom,waterlogged=false]');
+b.set(13, 10, 8, 'minecraft:spruce_slab[type=bottom,waterlogged=false]');
+b.set(14, 10, 8, 'minecraft:spruce_slab[type=bottom,waterlogged=false]');
+b.set(15, 10, 8, 'minecraft:spruce_slab[type=bottom,waterlogged=false]');
+// Attic dusty storage crates & barrels up in the rafters (Y=11):
+b.set(12, 11, 8, 'minecraft:barrel[facing=east,open=false]');
+b.set(13, 11, 8, 'minecraft:barrel[facing=up,open=false]');
+b.set(14, 11, 8, 'minecraft:chest[facing=south,type=single,waterlogged=false]');
+// Cobwebs in the dark roof gable corners:
+b.set(12, 12, 2, 'minecraft:cobweb');
+b.set(15, 12, 2, 'minecraft:cobweb');
+b.set(12, 12, 14, 'minecraft:cobweb');
+b.set(15, 12, 14, 'minecraft:cobweb');
+
+// Grand Loft Chandelier suspended from ridge peak (Y=14 down to Y=9)
+b.set(13, 14, 8, 'minecraft:chain[axis=y,waterlogged=false]');
+b.set(13, 13, 8, 'minecraft:chain[axis=y,waterlogged=false]');
+b.set(13, 12, 8, 'minecraft:chain[axis=y,waterlogged=false]');
+b.set(13, 11, 8, 'minecraft:chain[axis=y,waterlogged=false]');
+b.set(13, 10, 8, 'minecraft:chain[axis=y,waterlogged=false]');
+b.set(13, 9, 8, 'minecraft:lantern[hanging=true,waterlogged=false]');
 
 // =========================================================================
 // 9. THE MASTER FANTASY CURVING ROOF & GABLES (Y=9..16)

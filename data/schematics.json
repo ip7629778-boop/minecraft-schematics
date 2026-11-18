@@ -108,13 +108,14 @@
       "height": 17,
       "length": 16
     },
-    "blockCount": 1416,
+    "blockCount": 1546,
     "tags": [
       "Medieval",
       "Blacksmith",
       "Armoury",
       "Forge",
       "Master-Tier",
+      "Dense-Interior",
       "Jetty",
       "Gothic-Roof",
       "Furnished",
@@ -133,15 +134,15 @@
         "size": "3.3 KB"
       }
     ],
-    "description": "A master-tier medieval village blacksmith and weapons armoury rebuilt following authentic reference blueprints. Features true 3D architectural depth with recessed plaster wall panels framed by exposed stripped dark oak timber posts and a 1-block cantilevered jetty upper floor. An open-air stone and deepslate forge pavilion boasts a safety iron-gated molten lava crucible, active dual blast furnaces, an anvil mounted on an oak plinth, a steel-quenching water trough, and a towering stone chimney with signal fire smoke. An authentic 3-wide open timber and stone archway connects directly into the enclosed showroom armoury with weapon racks, armor stands, and double storage chests with zero-obstruction lid clearances. A center-ridge ascending wooden staircase with continuous 3.0-block vertical headroom and finished reverse undersides leads into a cozy upper residential loft under a sweeping fantasy curved Gothic roof with outset bargeboards, decorative spire finials, and cascading azalea foliage.",
+    "description": "A master-tier medieval village blacksmith and weapons armoury rebuilt following authentic reference blueprints with a comprehensive, dense interior. Features true 3D architectural depth with recessed wall panels and a 1-block cantilevered jetty upper floor. The ground floor armoury showroom is packed with an L-shaped merchant service counter with an iron weighing scale, sales ledger on a lectern, twin armor display plinths, weapon racks, arrow quiver urn, customer lounge bench with stone brazier, and double chests. An open 3-wide timber archway connects to the open-air forge with an iron-gated molten lava crucible, twin blast furnaces, working anvil, and towering smoke chimney. Upstairs, an authentic half-timber partition separates a luxurious 4-poster canopy bedchamber with double wardrobe from a cozy kitchenette stove, dining table, blueprint drafting desk with books, and an attic storage loft with cobwebs in the high roof pitch.",
     "features": [
+      "Proper Dense Interior: Packed merchant service counter with iron scale, ledger lectern, twin armor display plinths, fletching station, and customer lounge brazier",
+      "Partitioned Master Loft: Authentic half-timber interior wall dividing a 4-poster canopy master bed and wardrobe from an indoor cooking smoker, dining table, and blueprint study desk",
+      "Attic Storage Rafters: Dusty attic storage platform in the high Gothic roof pitch with stacked crates, barrels, and cobwebs",
       "Master 3D Layering: 1-block recessed wall panels framed between proud stripped timber columns with authentic beam peg detailing",
       "Cantilevered Medieval Jetty: Second floor extends 1 block out past the stone foundation with inverted stair corbels and timber brackets",
       "Dynamic Gothic Fantasy Roof: Variable-pitch curving deepslate tile roof with flared eaves, outset gable bargeboards, and ornamental timber spires",
-      "Open-Air Working Forge: Safety iron-gated lava crucible, twin blast furnaces, working anvil, grindstone, water trough, and towering chimney smoke plume",
-      "Grand 3-Wide Open Archway: Seamless, obstruction-free walking passage connecting the active outdoor forge to the indoor armoury showroom",
-      "Center-Ridge Ascending Staircase: Climbs toward the highest roof pitch with guaranteed 3.0-block headroom above every step and clean reverse stair undersides",
-      "Organic Foliage & Weathering: Cascading flowering azalea and oak leaves, window flower boxes with potted blossoms, and a natural stone foundation skirt"
+      "Open-Air Working Forge: Safety iron-gated lava crucible, twin blast furnaces, working anvil, grindstone, water trough, and towering chimney smoke plume"
     ],
     "materials": [
       { "name": "Spruce Planks", "count": 227 },
