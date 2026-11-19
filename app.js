@@ -429,10 +429,10 @@ const DEFAULT_SCHEMATICS = [
     "author": "Immortal_Turk / MineVault Studio",
     "category": "Sci-Fi",
     "version": "1.20 - 1.21+",
-    "image": "assets/images/builds/build4/exterior_master_front.png",
+    "image": "assets/images/builds/build4/exterior_master_v2.png",
     "screenshots": [
       {
-        "url": "assets/images/builds/build4/exterior_master_front.png",
+        "url": "assets/images/builds/build4/exterior_master_v2.png",
         "caption": "Exterior 3/4 Perspective with Cantilevered Concrete Architecture, Floor-to-Ceiling Glass & Illuminated Pool"
       },
       {
