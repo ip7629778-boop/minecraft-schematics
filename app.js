@@ -713,6 +713,152 @@ const DEFAULT_SCHEMATICS = [
         "count": 118
       }
     ]
+  },
+  {
+    "id": "steampunk-trading-cathedral",
+    "title": "Steampunk Grand Vault & Automated Trading Cathedral",
+    "subtitle": "Remixed Master Commerce Hub with Waxed Cut Copper Ribs, Deepslate Vaulting, Stained Glass Skylights & 60+ Trader Cells",
+    "author": "Sbopurch & MineVault Studio (Remix)",
+    "category": "Redstone",
+    "version": "1.20 - 1.21+",
+    "image": "assets/images/builds/build6/exterior_front.png",
+    "screenshots": [
+      {
+        "url": "assets/images/builds/build6/exterior_front.png",
+        "caption": "Cathedral Nave Elevation with Waxed Cut Copper Trusses, Deepslate Vaulting & Orange Stained Glass"
+      },
+      {
+        "url": "assets/images/builds/build6/interior_main.png",
+        "caption": "Central Grand Aisle of Commerce with Stripped Dark Oak Colonnades & Vaulted Gaslight Luminaires"
+      },
+      {
+        "url": "assets/images/builds/build6/trading_bays.png",
+        "caption": "Secure Villager Workstation Bays with Copper Transaction Grates & Redstone Automation Channels"
+      }
+    ],
+    "downloadsCount": 524,
+    "likesCount": 412,
+    "dateAdded": "2026-11-19",
+    "dimensions": {
+      "width": 33,
+      "height": 20,
+      "length": 55
+    },
+    "blockCount": 9225,
+    "tags": [
+      "Redstone",
+      "Trading Hall",
+      "Steampunk",
+      "Farms",
+      "Remix",
+      "Villager",
+      "Copper",
+      "Deepslate",
+      "Master-Tier"
+    ],
+    "formats": [
+      {
+        "type": ".schem (WorldEdit / Sponge)",
+        "file": "downloads/steampunk_trading_cathedral.schem",
+        "size": "142.8 KB"
+      },
+      {
+        "type": ".litematic (Litematica / Fabric)",
+        "file": "downloads/steampunk_trading_cathedral.litematic",
+        "size": "12.2 KB"
+      }
+    ],
+    "description": "A custom MineVault architectural remix of the legendary mega villager trading hall by Sbopurch. Overhauled from a rustic barn into an opulent Steampunk industrial cathedral of commerce. Built across an expansive 33x20x55 footprint with 9,225 blocks and 684 active tile entities, this master trading complex features waxed cut copper structural collars, vaulted deepslate tile arches, orange stained glass skylights, and custom gaslight fixtures. Fully operational with over 60 isolated villager trading booths, built-in zombie discount workstations, double-chest storage, and automated redstone control tracks.",
+    "features": [
+      "MineVault Custom Architectural Remix: Programmatically re-engineered from Sbopurch's blueprint with 9,225 blocks across 127 states",
+      "Steampunk Industrial Aesthetic: Vaulted deepslate arches, exposed cut copper bands, dark oak colonnades, and orange stained glass",
+      "Complete Redstone Commerce Utility: Over 60 individual villager containment and trading cubicles ready for all profession workstations",
+      "Massive 684 Tile Entity Complex: Packed with lecterns, barrels, smokers, blast furnaces, and categorized double-chest inventories",
+      "100% Vanilla 1.20 - 1.21+ Compatibility: Cleaned of all modded blocks and re-engineered with pure vanilla copper slabs and deepslate",
+      "Survival & Server Hub Ready: Spacious 55-block central nave providing smooth player circulation without crowd bottlenecks"
+    ],
+    "materials": [
+      {
+        "name": "Stripped Dark Oak Log",
+        "count": 1451
+      },
+      {
+        "name": "Deepslate Tiles",
+        "count": 1385
+      },
+      {
+        "name": "Dark Oak Trapdoor",
+        "count": 1352
+      },
+      {
+        "name": "Deepslate Tile Slab",
+        "count": 1215
+      },
+      {
+        "name": "Deepslate Tile Stairs",
+        "count": 647
+      },
+      {
+        "name": "Grass Block",
+        "count": 576
+      },
+      {
+        "name": "Beehive",
+        "count": 526
+      },
+      {
+        "name": "Oak Planks",
+        "count": 374
+      },
+      {
+        "name": "Waxed Cut Copper",
+        "count": 307
+      },
+      {
+        "name": "Orange Stained Glass Pane",
+        "count": 274
+      },
+      {
+        "name": "Cave Air",
+        "count": 257
+      },
+      {
+        "name": "Tinted Glass",
+        "count": 186
+      },
+      {
+        "name": "Stripped Dark Oak Wood",
+        "count": 117
+      },
+      {
+        "name": "Dark Oak Fence",
+        "count": 90
+      },
+      {
+        "name": "Stripped Oak Log",
+        "count": 65
+      },
+      {
+        "name": "Flowering Azalea Leaves",
+        "count": 63
+      },
+      {
+        "name": "Stone Brick Wall",
+        "count": 42
+      },
+      {
+        "name": "Barrel",
+        "count": 37
+      },
+      {
+        "name": "Oak Leaves",
+        "count": 35
+      },
+      {
+        "name": "Spruce Wall Sign",
+        "count": 34
+      }
+    ]
   }
 ];
 
