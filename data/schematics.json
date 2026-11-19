@@ -568,18 +568,18 @@
     "author": "istroberi / MineVault Studio",
     "category": "Megabuilds",
     "version": "1.20 - 1.21+",
-    "image": "assets/images/builds/build5/exterior_front.png",
+    "image": "assets/images/builds/build5/exterior_master_front.png",
     "screenshots": [
       {
-        "url": "assets/images/builds/build5/exterior_front.png",
+        "url": "assets/images/builds/build5/exterior_master_front.png",
         "caption": "Exterior Isometric Elevation with Steep Multi-Gabled Roofs, Stone Foundations & Rooftop Belfry"
       },
       {
-        "url": "assets/images/builds/build5/interior_main.png",
+        "url": "assets/images/builds/build5/interior_master_main.png",
         "caption": "Three-Story Grand Hearth Hall with Exposed Spruce Timber Framing, Fireplace & Lived-in Furniture"
       },
       {
-        "url": "assets/images/builds/build5/greenhouse_wing.png",
+        "url": "assets/images/builds/build5/greenhouse_master_wing.png",
         "caption": "Botanical Greenhouse Conservatory, Herbal Alchemy Station & Attic Living Lofts"
       }
     ],
