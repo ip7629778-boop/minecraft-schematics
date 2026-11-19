@@ -61,21 +61,66 @@
       "Authentic community aesthetic: 3-layer stone foundation gradient, stripped dark oak timber framing, and contrasting deepslate tile roof trim"
     ],
     "materials": [
-      { "name": "Dark Oak Stairs", "count": 194 },
-      { "name": "Spruce Planks", "count": 134 },
-      { "name": "White Terracotta", "count": 87 },
-      { "name": "Stripped Spruce Log", "count": 57 },
-      { "name": "Stripped Dark Oak Wood", "count": 56 },
-      { "name": "Stone Bricks", "count": 43 },
-      { "name": "Cobblestone", "count": 38 },
-      { "name": "Deepslate Tile Stairs", "count": 36 },
-      { "name": "Diorite", "count": 30 },
-      { "name": "Calcite", "count": 29 },
-      { "name": "Polished Andesite", "count": 22 },
-      { "name": "Spruce Stairs", "count": 21 },
-      { "name": "Glass Pane", "count": 18 },
-      { "name": "Mossy Cobblestone", "count": 14 },
-      { "name": "Cracked Stone Bricks", "count": 13 }
+      {
+        "name": "Dark Oak Stairs",
+        "count": 194
+      },
+      {
+        "name": "Spruce Planks",
+        "count": 134
+      },
+      {
+        "name": "White Terracotta",
+        "count": 87
+      },
+      {
+        "name": "Stripped Spruce Log",
+        "count": 57
+      },
+      {
+        "name": "Stripped Dark Oak Wood",
+        "count": 56
+      },
+      {
+        "name": "Stone Bricks",
+        "count": 43
+      },
+      {
+        "name": "Cobblestone",
+        "count": 38
+      },
+      {
+        "name": "Deepslate Tile Stairs",
+        "count": 36
+      },
+      {
+        "name": "Diorite",
+        "count": 30
+      },
+      {
+        "name": "Calcite",
+        "count": 29
+      },
+      {
+        "name": "Polished Andesite",
+        "count": 22
+      },
+      {
+        "name": "Spruce Stairs",
+        "count": 21
+      },
+      {
+        "name": "Glass Pane",
+        "count": 18
+      },
+      {
+        "name": "Mossy Cobblestone",
+        "count": 14
+      },
+      {
+        "name": "Cracked Stone Bricks",
+        "count": 13
+      }
     ]
   },
   {
@@ -142,26 +187,232 @@
       "Comprehensive Storage & Utility: Over 80 functional chests and barrels organized throughout the workshop and living quarters"
     ],
     "materials": [
-      { "name": "Dark Oak Planks", "count": 474 },
-      { "name": "Stripped Dark Oak Wood", "count": 445 },
-      { "name": "Spruce Trapdoor", "count": 184 },
-      { "name": "Dark Oak Stairs", "count": 178 },
-      { "name": "Cobbled Deepslate", "count": 149 },
-      { "name": "Dark Oak Fence", "count": 136 },
-      { "name": "Deepslate Brick Stairs", "count": 135 },
-      { "name": "Cobbled Deepslate Stairs", "count": 134 },
-      { "name": "Deepslate Bricks", "count": 134 },
-      { "name": "Stripped Spruce Wood", "count": 127 },
-      { "name": "Stripped Spruce Log", "count": 119 },
-      { "name": "Spruce Stairs", "count": 118 },
-      { "name": "Red Carpet", "count": 109 },
-      { "name": "Dark Oak Slab", "count": 104 },
-      { "name": "Glass Pane", "count": 100 },
-      { "name": "Oak Leaves", "count": 92 },
-      { "name": "Stone Bricks", "count": 77 },
-      { "name": "Stone Brick Stairs", "count": 73 },
-      { "name": "Cracked Stone Bricks", "count": 66 },
-      { "name": "Cobblestone", "count": 63 }
+      {
+        "name": "Dark Oak Planks",
+        "count": 474
+      },
+      {
+        "name": "Stripped Dark Oak Wood",
+        "count": 445
+      },
+      {
+        "name": "Spruce Trapdoor",
+        "count": 184
+      },
+      {
+        "name": "Dark Oak Stairs",
+        "count": 178
+      },
+      {
+        "name": "Cobbled Deepslate",
+        "count": 149
+      },
+      {
+        "name": "Dark Oak Fence",
+        "count": 136
+      },
+      {
+        "name": "Deepslate Brick Stairs",
+        "count": 135
+      },
+      {
+        "name": "Cobbled Deepslate Stairs",
+        "count": 134
+      },
+      {
+        "name": "Deepslate Bricks",
+        "count": 134
+      },
+      {
+        "name": "Stripped Spruce Wood",
+        "count": 127
+      },
+      {
+        "name": "Stripped Spruce Log",
+        "count": 119
+      },
+      {
+        "name": "Spruce Stairs",
+        "count": 118
+      },
+      {
+        "name": "Red Carpet",
+        "count": 109
+      },
+      {
+        "name": "Dark Oak Slab",
+        "count": 104
+      },
+      {
+        "name": "Glass Pane",
+        "count": 100
+      },
+      {
+        "name": "Oak Leaves",
+        "count": 92
+      },
+      {
+        "name": "Stone Bricks",
+        "count": 77
+      },
+      {
+        "name": "Stone Brick Stairs",
+        "count": 73
+      },
+      {
+        "name": "Cracked Stone Bricks",
+        "count": 66
+      },
+      {
+        "name": "Cobblestone",
+        "count": 63
+      }
+    ]
+  },
+  {
+    "id": "traditional-japanese-minka-estate",
+    "title": "Traditional Japanese Minka Estate",
+    "subtitle": "Master Zen Residence with Tiered Irimoya Roofline, Shoji Screens, Tatami Lounges & Bamboo Courtyard",
+    "author": "ItsBuddyKun / MineVault Studio",
+    "category": "Oriental",
+    "version": "1.20 - 1.21+",
+    "image": "assets/images/builds/build3/exterior_front.png",
+    "screenshots": [
+      {
+        "url": "assets/images/builds/build3/exterior_front.png",
+        "caption": "Exterior Elevation with Tiered Deepslate Tile Irimoya Roofline, Dark Oak Gables & Shoji Paper Windows"
+      },
+      {
+        "url": "assets/images/builds/build3/interior_main.png",
+        "caption": "Central Living Pavilion with Post-and-Beam Timber Framing, Warm Lanterns & Tatami Sitting Mats"
+      },
+      {
+        "url": "assets/images/builds/build3/courtyard_zen.png",
+        "caption": "Zen Courtyard & Engawa Veranda with Hanging Lanterns, Storage Barrels & Stepping Stones"
+      }
+    ],
+    "downloadsCount": 247,
+    "likesCount": 189,
+    "dateAdded": "2026-11-19",
+    "dimensions": {
+      "width": 37,
+      "height": 21,
+      "length": 34
+    },
+    "blockCount": 4188,
+    "tags": [
+      "Oriental",
+      "Japanese",
+      "Minka",
+      "Zen",
+      "Master-Tier",
+      "Engawa",
+      "Shoji",
+      "Tatami",
+      "Survival Base"
+    ],
+    "formats": [
+      {
+        "type": ".schem (WorldEdit / Sponge)",
+        "file": "downloads/traditional_japanese_minka_estate.schem",
+        "size": "78.9 KB"
+      },
+      {
+        "type": ".litematic (Litematica / Fabric)",
+        "file": "downloads/traditional_japanese_minka_estate.litematic",
+        "size": "7.3 KB"
+      }
+    ],
+    "description": "An authentic, handcrafted Japanese Minka estate and master Zen residence crafted by veteran architect ItsBuddyKun. Demonstrates exquisite traditional Japanese architectural balance with a dramatic multi-tiered Irimoya (hip-and-gable) roof constructed from deepslate tiles and dark oak brackets, authentic shoji lattice walls, and a perimeter engawa timber veranda. The interior features fully zoned post-and-beam living pavilions, tatami-textured flooring with composter insets, concealed ambient lighting, traditional bedding quarters, private scroll libraries with chiseled bookshelves, and expansive multi-room storage. Includes a tranquil bamboo garden forecourt illuminated by 50+ warm hanging lanterns.",
+    "features": [
+      "Authentic Handcrafted Japanese Architecture: Genuine master-tier build designed by ItsBuddyKun with 4,188 blocks across 190 palette states",
+      "Multi-Tiered Irimoya Roofline: Sweeping Japanese hip-and-gable silhouette engineered from deepslate tile slabs, dark oak eaves, and upturned corners",
+      "Complete Shoji & Engawa Engineering: Wraparound timber veranda (engawa) flanked by delicate spruce and dark oak trapdoor lattice screens",
+      "Rich Zoned Living Pavilions: Fully detailed interior with tatami-textured seating, chiseled scroll bookshelves, tea tables, and cozy sleeping nooks",
+      "Ambient Night Illumination: Over 50 warm lanterns and 24 concealed glowstone soft-light sources casting a serene evening glow",
+      "Massive Utility & Organization: Outfitted with 52 barrels, 7 chests, an alchemy herb corner, and complete survival readiness"
+    ],
+    "materials": [
+      {
+        "name": "Dark Oak Slab",
+        "count": 645
+      },
+      {
+        "name": "Deepslate Tile Slab",
+        "count": 630
+      },
+      {
+        "name": "Deepslate Tiles",
+        "count": 285
+      },
+      {
+        "name": "Spruce Trapdoor",
+        "count": 265
+      },
+      {
+        "name": "Stripped Spruce Log",
+        "count": 238
+      },
+      {
+        "name": "Spruce Slab",
+        "count": 224
+      },
+      {
+        "name": "Dark Oak Trapdoor",
+        "count": 175
+      },
+      {
+        "name": "Dark Oak Fence Gate",
+        "count": 159
+      },
+      {
+        "name": "Spruce Stairs",
+        "count": 158
+      },
+      {
+        "name": "Dark Oak Stairs",
+        "count": 155
+      },
+      {
+        "name": "Dark Oak Log",
+        "count": 153
+      },
+      {
+        "name": "Spruce Fence",
+        "count": 126
+      },
+      {
+        "name": "Deepslate Tile Stairs",
+        "count": 116
+      },
+      {
+        "name": "Dark Oak Fence",
+        "count": 114
+      },
+      {
+        "name": "Dark Oak Planks",
+        "count": 113
+      },
+      {
+        "name": "Spruce Planks",
+        "count": 65
+      },
+      {
+        "name": "Spruce Log",
+        "count": 54
+      },
+      {
+        "name": "Barrel",
+        "count": 52
+      },
+      {
+        "name": "Lantern",
+        "count": 51
+      },
+      {
+        "name": "Spruce Wall Sign",
+        "count": 48
+      }
     ]
   }
 ]
