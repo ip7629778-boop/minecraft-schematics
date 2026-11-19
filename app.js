@@ -429,18 +429,18 @@ const DEFAULT_SCHEMATICS = [
     "author": "Immortal_Turk / MineVault Studio",
     "category": "Sci-Fi",
     "version": "1.20 - 1.21+",
-    "image": "assets/images/builds/build4/exterior_front.png",
+    "image": "assets/images/builds/build4/exterior_master_front.png",
     "screenshots": [
       {
-        "url": "assets/images/builds/build4/exterior_front.png",
+        "url": "assets/images/builds/build4/exterior_master_front.png",
         "caption": "Exterior 3/4 Perspective with Cantilevered Concrete Architecture, Floor-to-Ceiling Glass & Illuminated Pool"
       },
       {
-        "url": "assets/images/builds/build4/interior_main.png",
+        "url": "assets/images/builds/build4/interior_master_main.png",
         "caption": "Open-Concept Living Suite with Spruce Hardwood Floors, Minimalist Furniture & Recessed Lighting"
       },
       {
-        "url": "assets/images/builds/build4/poolside_patio.png",
+        "url": "assets/images/builds/build4/poolside_master_patio.png",
         "caption": "Polished Andesite Poolside Patio, Prismarine Waters & Rooftop Azalea Planters"
       }
     ],
@@ -565,6 +565,152 @@ const DEFAULT_SCHEMATICS = [
       {
         "name": "Spruce Stairs",
         "count": 11
+      }
+    ]
+  },
+  {
+    "id": "enchanted-fantasy-forest-manor",
+    "title": "Enchanted Fantasy Forest Manor & Estate",
+    "subtitle": "Legendary 3-Story Woodland Megastructure with Full Interior, Botanical Greenhouse & 90+ Chests",
+    "author": "istroberi / MineVault Studio",
+    "category": "Megabuilds",
+    "version": "1.20 - 1.21+",
+    "image": "assets/images/builds/build5/exterior_front.png",
+    "screenshots": [
+      {
+        "url": "assets/images/builds/build5/exterior_front.png",
+        "caption": "Exterior Isometric Elevation with Steep Multi-Gabled Roofs, Stone Foundations & Rooftop Belfry"
+      },
+      {
+        "url": "assets/images/builds/build5/interior_main.png",
+        "caption": "Three-Story Grand Hearth Hall with Exposed Spruce Timber Framing, Fireplace & Lived-in Furniture"
+      },
+      {
+        "url": "assets/images/builds/build5/greenhouse_wing.png",
+        "caption": "Botanical Greenhouse Conservatory, Herbal Alchemy Station & Attic Living Lofts"
+      }
+    ],
+    "downloadsCount": 489,
+    "likesCount": 382,
+    "dateAdded": "2026-11-19",
+    "dimensions": {
+      "width": 58,
+      "height": 43,
+      "length": 54
+    },
+    "blockCount": 10403,
+    "tags": [
+      "Megabuilds",
+      "Fantasy",
+      "Forest Manor",
+      "Mansion",
+      "Full Interior",
+      "Greenhouse",
+      "Survival Base",
+      "Master-Tier",
+      "Furnished"
+    ],
+    "formats": [
+      {
+        "type": ".schem (WorldEdit / Sponge)",
+        "file": "downloads/enchanted_forest_manor.schem",
+        "size": "236.5 KB"
+      },
+      {
+        "type": ".litematic (Litematica / Fabric)",
+        "file": "downloads/enchanted_forest_manor.litematic",
+        "size": "17.4 KB"
+      }
+    ],
+    "description": "A breathtaking master fantasy forest manor created by famed community architect istroberi. Spanning an expansive 58x43x54 footprint with over 10,400 hand-placed blocks, this estate features dramatic multi-layered steep gables, weathered stone brick archways, a central observation bell tower, an integrated tinted-glass botanical solarium, and full organic landscaping. The immense 3-story interior is 100% furnished with 517 block entities—including over 90 labeled storage chests, master sleeping suites, a potion-brewing conservatory, library nooks, and a roaring stone fireplace hearth.",
+    "features": [
+      "Authentic Master Megabuild: Handcrafted by renowned builder istroberi featuring 10,403 blocks across 217 block states",
+      "Massive 3-Story Sprawling Silhouette: 58x43x54 multi-wing footprint with steep timber gables, dormers, and rooftop belfry spire",
+      "100% Fully Furnished Interior: 517 active tile entities including 90+ chests, living bedrooms, kitchens, and reading alcoves",
+      "Integrated Botanical Solarium: Tinted glass greenhouse wing designed for botanical growth, flower farming, and potion brewing",
+      "Rich Organic Materiality: Stripped spruce timbers, podzol forest floors, deepslate roof tiles, and beehive parquet insets",
+      "Survival-Ready Mega Estate: Massive storage capacity and fully zoned utility suitable as a server community hub or end-game base"
+    ],
+    "materials": [
+      {
+        "name": "Stripped Spruce Wood",
+        "count": 1992
+      },
+      {
+        "name": "Podzol",
+        "count": 1536
+      },
+      {
+        "name": "Stone Bricks",
+        "count": 679
+      },
+      {
+        "name": "Spruce Planks",
+        "count": 630
+      },
+      {
+        "name": "Deepslate Tiles",
+        "count": 500
+      },
+      {
+        "name": "Grass Block",
+        "count": 431
+      },
+      {
+        "name": "Rooted Dirt",
+        "count": 337
+      },
+      {
+        "name": "Coarse Dirt",
+        "count": 336
+      },
+      {
+        "name": "Oak Planks",
+        "count": 315
+      },
+      {
+        "name": "Spruce Slab",
+        "count": 269
+      },
+      {
+        "name": "Dirt",
+        "count": 254
+      },
+      {
+        "name": "Tall Grass",
+        "count": 247
+      },
+      {
+        "name": "Tinted Glass",
+        "count": 165
+      },
+      {
+        "name": "Spruce Stairs",
+        "count": 151
+      },
+      {
+        "name": "Oak Stairs",
+        "count": 148
+      },
+      {
+        "name": "Spruce Log",
+        "count": 142
+      },
+      {
+        "name": "Bricks",
+        "count": 140
+      },
+      {
+        "name": "Beehive",
+        "count": 135
+      },
+      {
+        "name": "Oak Slab",
+        "count": 135
+      },
+      {
+        "name": "Short Grass",
+        "count": 118
       }
     ]
   }
