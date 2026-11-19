@@ -421,6 +421,152 @@ const DEFAULT_SCHEMATICS = [
         "count": 48
       }
     ]
+  },
+  {
+    "id": "minimalist-modern-villa",
+    "title": "Minimalist Modern House & Pool Villa",
+    "subtitle": "Luxury Contemporary Residence with Cantilevered Concrete Wings, Floor-to-Ceiling Glass & Swimming Pool",
+    "author": "Immortal_Turk / MineVault Studio",
+    "category": "Sci-Fi",
+    "version": "1.20 - 1.21+",
+    "image": "assets/images/builds/build4/exterior_front.png",
+    "screenshots": [
+      {
+        "url": "assets/images/builds/build4/exterior_front.png",
+        "caption": "Exterior 3/4 Perspective with Cantilevered Concrete Architecture, Floor-to-Ceiling Glass & Illuminated Pool"
+      },
+      {
+        "url": "assets/images/builds/build4/interior_main.png",
+        "caption": "Open-Concept Living Suite with Spruce Hardwood Floors, Minimalist Furniture & Recessed Lighting"
+      },
+      {
+        "url": "assets/images/builds/build4/poolside_patio.png",
+        "caption": "Polished Andesite Poolside Patio, Prismarine Waters & Rooftop Azalea Planters"
+      }
+    ],
+    "downloadsCount": 312,
+    "likesCount": 245,
+    "dateAdded": "2026-11-19",
+    "dimensions": {
+      "width": 32,
+      "height": 32,
+      "length": 32
+    },
+    "blockCount": 3155,
+    "tags": [
+      "Modern",
+      "Minimalist",
+      "Villa",
+      "Contemporary",
+      "Swimming Pool",
+      "Furnished",
+      "Survival",
+      "Concrete",
+      "Master-Tier"
+    ],
+    "formats": [
+      {
+        "type": ".schem (WorldEdit / Sponge)",
+        "file": "downloads/minimalist_modern_villa.schem",
+        "size": "40.4 KB"
+      },
+      {
+        "type": ".litematic (Litematica / Fabric)",
+        "file": "downloads/minimalist_modern_villa.litematic",
+        "size": "2.9 KB"
+      }
+    ],
+    "description": "A sleek, contemporary minimalist luxury villa created by renowned builder Immortal_Turk. Engineered with striking cantilevered gray and white concrete volumes, warm horizontal spruce timber accents, panoramic floor-to-ceiling glass facades, and an integrated sunken swimming pool with prismarine lining. Fully furnished with an open-plan lounge, designer bedroom suite, polished andesite terraces, storage barrels, and manicured rooftop garden planters.",
+    "features": [
+      "Authentic Modern Master Build: Genuine contemporary architecture designed by Immortal_Turk with 3,155 blocks across 81 palette states",
+      "Striking Cantilevered Geometry: Asymmetrical multi-level concrete silhouette with overhang balconies and geometric clean lines",
+      "Floor-to-Ceiling Panoramic Glass: Expansive gray-stained and clear glass walls providing seamless indoor-outdoor sightlines",
+      "Integrated Luxury Swimming Pool: Sunken pool with polished stone patio surround, water features, and prismarine floor tiles",
+      "Designer Minimalist Interior: Fully furnished with cozy bed suites, storage chests, decorated ceramic pots, and recessed ambient lighting",
+      "Survival-Friendly Layout: Compact 32x32x32 footprint with complete structural utility and comfortable player navigation"
+    ],
+    "materials": [
+      {
+        "name": "Dirt",
+        "count": 625
+      },
+      {
+        "name": "Spruce Planks",
+        "count": 533
+      },
+      {
+        "name": "Stone",
+        "count": 482
+      },
+      {
+        "name": "Gray Concrete",
+        "count": 404
+      },
+      {
+        "name": "Grass Block",
+        "count": 300
+      },
+      {
+        "name": "Glass Pane",
+        "count": 138
+      },
+      {
+        "name": "Water",
+        "count": 126
+      },
+      {
+        "name": "Polished Andesite",
+        "count": 110
+      },
+      {
+        "name": "White Concrete",
+        "count": 84
+      },
+      {
+        "name": "Prismarine",
+        "count": 42
+      },
+      {
+        "name": "Short Grass",
+        "count": 29
+      },
+      {
+        "name": "Flowering Azalea Leaves",
+        "count": 29
+      },
+      {
+        "name": "Spruce Slab",
+        "count": 29
+      },
+      {
+        "name": "Gravel",
+        "count": 26
+      },
+      {
+        "name": "Gray Stained Glass Pane",
+        "count": 25
+      },
+      {
+        "name": "Azalea Leaves",
+        "count": 21
+      },
+      {
+        "name": "Spruce Trapdoor",
+        "count": 19
+      },
+      {
+        "name": "Red Carpet",
+        "count": 16
+      },
+      {
+        "name": "Mangrove Stairs",
+        "count": 14
+      },
+      {
+        "name": "Spruce Stairs",
+        "count": 11
+      }
+    ]
   }
 ];
 
