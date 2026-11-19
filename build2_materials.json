@@ -1,72 +1,282 @@
 {
   "dimensions": {
-    "width": 18,
-    "height": 15,
-    "length": 15
+    "width": 32,
+    "height": 25,
+    "length": 31
   },
-  "blockCount": 1224,
-  "schemSize": "1.8 KB",
-  "litematicSize": "2.0 KB",
+  "blockCount": 3654,
   "materials": [
     {
-      "name": "Dark Oak Stairs",
-      "count": 227
-    },
-    {
-      "name": "Spruce Planks",
-      "count": 186
-    },
-    {
-      "name": "White Terracotta",
-      "count": 137
-    },
-    {
-      "name": "Stone Bricks",
-      "count": 122
-    },
-    {
-      "name": "Deepslate Tile Stairs",
-      "count": 112
-    },
-    {
-      "name": "Cobblestone",
-      "count": 52
-    },
-    {
       "name": "Dark Oak Planks",
-      "count": 45
-    },
-    {
-      "name": "Deepslate Bricks",
-      "count": 40
-    },
-    {
-      "name": "Polished Andesite",
-      "count": 39
+      "count": 474
     },
     {
       "name": "Stripped Dark Oak Wood",
-      "count": 35
+      "count": 445
     },
     {
-      "name": "Calcite",
-      "count": 30
+      "name": "Spruce Trapdoor",
+      "count": 184
     },
     {
-      "name": "Mossy Cobblestone",
-      "count": 28
+      "name": "Dark Oak Stairs",
+      "count": 178
     },
     {
-      "name": "Deepslate Tile Slab",
-      "count": 26
+      "name": "Cobbled Deepslate",
+      "count": 149
+    },
+    {
+      "name": "Dark Oak Fence",
+      "count": 136
+    },
+    {
+      "name": "Deepslate Brick Stairs",
+      "count": 135
+    },
+    {
+      "name": "Cobbled Deepslate Stairs",
+      "count": 134
+    },
+    {
+      "name": "Deepslate Bricks",
+      "count": 134
+    },
+    {
+      "name": "Stripped Spruce Wood",
+      "count": 127
+    },
+    {
+      "name": "Stripped Spruce Log",
+      "count": 119
+    },
+    {
+      "name": "Spruce Stairs",
+      "count": 118
+    },
+    {
+      "name": "Red Carpet",
+      "count": 109
+    },
+    {
+      "name": "Dark Oak Slab",
+      "count": 104
     },
     {
       "name": "Glass Pane",
-      "count": 25
+      "count": 100
     },
     {
-      "name": "Gravel",
-      "count": 16
+      "name": "Oak Leaves",
+      "count": 92
+    },
+    {
+      "name": "Stone Bricks",
+      "count": 77
+    },
+    {
+      "name": "Stone Brick Stairs",
+      "count": 73
+    },
+    {
+      "name": "Cracked Stone Bricks",
+      "count": 66
+    },
+    {
+      "name": "Cobblestone",
+      "count": 63
+    },
+    {
+      "name": "Stone",
+      "count": 59
+    },
+    {
+      "name": "Brown Carpet",
+      "count": 46
+    },
+    {
+      "name": "Barrel",
+      "count": 43
+    },
+    {
+      "name": "Lantern",
+      "count": 41
+    },
+    {
+      "name": "Chest",
+      "count": 38
+    },
+    {
+      "name": "Oak Trapdoor",
+      "count": 35
+    },
+    {
+      "name": "Dirt",
+      "count": 35
+    },
+    {
+      "name": "Spruce Slab",
+      "count": 34
+    },
+    {
+      "name": "Bookshelf",
+      "count": 31
+    },
+    {
+      "name": "Cobblestone Wall",
+      "count": 29
+    },
+    {
+      "name": "Spruce Wall Sign",
+      "count": 26
+    },
+    {
+      "name": "Dark Oak Wall Sign",
+      "count": 21
+    },
+    {
+      "name": "Stone Button",
+      "count": 21
+    },
+    {
+      "name": "Cobweb",
+      "count": 20
+    },
+    {
+      "name": "Spruce Fence",
+      "count": 18
+    },
+    {
+      "name": "Polished Deepslate Stairs",
+      "count": 17
+    },
+    {
+      "name": "Chain",
+      "count": 14
+    },
+    {
+      "name": "Sweet Berry Bush",
+      "count": 13
+    },
+    {
+      "name": "Ladder",
+      "count": 11
+    },
+    {
+      "name": "Potted Azalea Bush",
+      "count": 7
+    },
+    {
+      "name": "Blast Furnace",
+      "count": 6
+    },
+    {
+      "name": "Red Bed",
+      "count": 6
+    },
+    {
+      "name": "Deepslate Brick Wall",
+      "count": 6
+    },
+    {
+      "name": "Furnace",
+      "count": 5
+    },
+    {
+      "name": "Spruce Wall Hanging Sign",
+      "count": 5
+    },
+    {
+      "name": "Candle",
+      "count": 5
+    },
+    {
+      "name": "Anvil",
+      "count": 4
+    },
+    {
+      "name": "Crafting Table",
+      "count": 4
+    },
+    {
+      "name": "Spruce Door",
+      "count": 4
+    },
+    {
+      "name": "Fern",
+      "count": 4
+    },
+    {
+      "name": "Dark Oak Fence Gate",
+      "count": 3
+    },
+    {
+      "name": "Potted Cherry Sapling",
+      "count": 3
+    },
+    {
+      "name": "Spruce Fence Gate",
+      "count": 3
+    },
+    {
+      "name": "Lectern",
+      "count": 2
+    },
+    {
+      "name": "Allium",
+      "count": 2
+    },
+    {
+      "name": "Blue Orchid",
+      "count": 2
+    },
+    {
+      "name": "Blue Bed",
+      "count": 2
+    },
+    {
+      "name": "Deepslate",
+      "count": 2
+    },
+    {
+      "name": "Loom",
+      "count": 1
+    },
+    {
+      "name": "Smoker",
+      "count": 1
+    },
+    {
+      "name": "Brewing Stand",
+      "count": 1
+    },
+    {
+      "name": "Potted Azure Bluet",
+      "count": 1
+    },
+    {
+      "name": "Cornflower",
+      "count": 1
+    },
+    {
+      "name": "Flowering Azalea Leaves",
+      "count": 1
+    },
+    {
+      "name": "Enchanting Table",
+      "count": 1
+    },
+    {
+      "name": "Grindstone",
+      "count": 1
+    },
+    {
+      "name": "Hay Block",
+      "count": 1
+    },
+    {
+      "name": "Campfire",
+      "count": 1
     }
   ]
 }

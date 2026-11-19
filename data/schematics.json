@@ -82,85 +82,86 @@
     "id": "medieval-village-blacksmith",
     "title": "Medieval Village Blacksmith & Armoury",
     "subtitle": "Tier 1 Working Blacksmith with Open-Air Lava Forge, Twin Blast Furnaces & Upper Loft Residence",
-    "author": "MineVault Studio",
+    "author": "xMsBean / MineVault Studio",
     "category": "Medieval",
     "version": "1.20 - 1.21+",
-    "image": "assets/images/builds/build2/exterior_front.png",
+    "image": "assets/images/builds/build2/exterior_master_front.png",
     "screenshots": [
       {
-        "url": "assets/images/builds/build2/exterior_front.png",
-        "caption": "Exterior 3/4 Perspective with Open-Air Lava Forge, Chimney Smoke & Cobblestone Apron"
+        "url": "assets/images/builds/build2/exterior_master_front.png",
+        "caption": "Exterior 3/4 Perspective with Cross-Gable Roof, Flower Boxes, Chimney Smoke & Weathered Stone Ground Floor"
       },
       {
-        "url": "assets/images/builds/build2/exterior_facade.png",
-        "caption": "Front Façade showing Timber Framing, Spruce Door, Windows & Deepslate Hearth"
+        "url": "assets/images/builds/build2/interior_master_ground.png",
+        "caption": "Ground Floor Interior Hall with Deepslate Brick Stairs, Masonry Walls, Smelting Wall & Carpet Runner"
       },
       {
-        "url": "assets/images/builds/build2/interior_ground.png",
-        "caption": "Interior Armoury & Hall with Red Carpet, Smithing Station, Chests & Hanging Lanterns"
+        "url": "assets/images/builds/build2/interior_master_loft.png",
+        "caption": "Upper Loft Living Quarters with Spruce Sign Railings, Red Carpet, Flower Windows & Timber Arches"
       }
     ],
     "downloadsCount": 184,
     "likesCount": 126,
     "dateAdded": "2026-11-18",
     "dimensions": {
-      "width": 20,
-      "height": 17,
-      "length": 16
+      "width": 32,
+      "height": 25,
+      "length": 31
     },
-    "blockCount": 1546,
+    "blockCount": 3654,
     "tags": [
       "Medieval",
       "Blacksmith",
-      "Armoury",
-      "Forge",
+      "Workshop",
       "Master-Tier",
-      "Dense-Interior",
-      "Jetty",
-      "Gothic-Roof",
+      "Organic",
+      "Cross-Gable",
+      "Enchanting",
       "Furnished",
-      "Lava",
       "Survival"
     ],
     "formats": [
       {
         "type": ".schem (WorldEdit / Sponge)",
         "file": "downloads/medieval_blacksmith_armoury.schem",
-        "size": "2.4 KB"
+        "size": "65.5 KB"
       },
       {
         "type": ".litematic (Litematica / Fabric)",
         "file": "downloads/medieval_blacksmith_armoury.litematic",
-        "size": "3.3 KB"
+        "size": "8.0 KB"
       }
     ],
-    "description": "A master-tier medieval village blacksmith and weapons armoury rebuilt following authentic reference blueprints with a comprehensive, dense interior. Features true 3D architectural depth with recessed wall panels and a 1-block cantilevered jetty upper floor. The ground floor armoury showroom is packed with an L-shaped merchant service counter with an iron weighing scale, sales ledger on a lectern, twin armor display plinths, weapon racks, arrow quiver urn, customer lounge bench with stone brazier, and double chests. An open 3-wide timber archway connects to the open-air forge with an iron-gated molten lava crucible, twin blast furnaces, working anvil, and towering smoke chimney. Upstairs, an authentic half-timber partition separates a luxurious 4-poster canopy bedchamber with double wardrobe from a cozy kitchenette stove, dining table, blueprint drafting desk with books, and an attic storage loft with cobwebs in the high roof pitch.",
+    "description": "An authentic master-tier organic medieval workshop and craftsman residence created by veteran builder xMsBean. Features true handcrafted architectural depth with an asymmetrical cross-gabled silhouette, weathered deepslate tile and dark oak rooflines, living oak leaves cascading over the eaves, and a full stone-masonry foundation. Fully equipped with an open-air artisan forge (blast furnace, anvil, grindstone, water quench trough), an enchanting alcove, a brewing station, working chests, barrels, and an expansive lived-in timber interior with cozy loft bedrooms, hanging lanterns, and lush flower boxes.",
     "features": [
-      "Proper Dense Interior: Packed merchant service counter with iron scale, ledger lectern, twin armor display plinths, fletching station, and customer lounge brazier",
-      "Partitioned Master Loft: Authentic half-timber interior wall dividing a 4-poster canopy master bed and wardrobe from an indoor cooking smoker, dining table, and blueprint study desk",
-      "Attic Storage Rafters: Dusty attic storage platform in the high Gothic roof pitch with stacked crates, barrels, and cobwebs",
-      "Master 3D Layering: 1-block recessed wall panels framed between proud stripped timber columns with authentic beam peg detailing",
-      "Cantilevered Medieval Jetty: Second floor extends 1 block out past the stone foundation with inverted stair corbels and timber brackets",
-      "Dynamic Gothic Fantasy Roof: Variable-pitch curving deepslate tile roof with flared eaves, outset gable bargeboards, and ornamental timber spires",
-      "Open-Air Working Forge: Safety iron-gated lava crucible, twin blast furnaces, working anvil, grindstone, water trough, and towering chimney smoke plume"
+      "Authentic Handcrafted Master Build: Genuine organic architecture created by veteran builder xMsBean with 3,654 blocks across 198 block states",
+      "Asymmetrical Cross-Gable Design: Expansive 32x25x31 multi-wing layout featuring realistic roof valleys and varied eave heights",
+      "Cascading Living Foliage: 90+ oak leaves, azaleas, and vines organically draped over timber overhangs, windows, and roof tiles",
+      "Fully Outfitted Artisan Workshop: Functional blast furnaces, anvil, smithing station, grindstone, enchanting table, and brewing lab",
+      "Rich Multi-Level Living Interior: Dense lived-in rooms with layered carpets, bookshelf nooks, sleeping quarters, and warm lantern lighting",
+      "Comprehensive Storage & Utility: Over 80 functional chests and barrels organized throughout the workshop and living quarters"
     ],
     "materials": [
-      { "name": "Spruce Planks", "count": 227 },
-      { "name": "Deepslate Tile Stairs", "count": 206 },
-      { "name": "Stripped Dark Oak Wood", "count": 120 },
-      { "name": "Deepslate Tiles", "count": 110 },
-      { "name": "White Terracotta", "count": 88 },
-      { "name": "Dark Oak Stairs", "count": 76 },
-      { "name": "Stone Bricks", "count": 71 },
-      { "name": "Dark Oak Slab", "count": 69 },
-      { "name": "Diorite", "count": 49 },
-      { "name": "Calcite", "count": 48 },
-      { "name": "Cobblestone", "count": 31 },
-      { "name": "Stripped Dark Oak Log", "count": 30 },
-      { "name": "Mossy Cobblestone", "count": 26 },
-      { "name": "Deepslate Bricks", "count": 22 },
-      { "name": "Andesite", "count": 20 },
-      { "name": "Cracked Stone Bricks", "count": 20 }
+      { "name": "Dark Oak Planks", "count": 474 },
+      { "name": "Stripped Dark Oak Wood", "count": 445 },
+      { "name": "Spruce Trapdoor", "count": 184 },
+      { "name": "Dark Oak Stairs", "count": 178 },
+      { "name": "Cobbled Deepslate", "count": 149 },
+      { "name": "Dark Oak Fence", "count": 136 },
+      { "name": "Deepslate Brick Stairs", "count": 135 },
+      { "name": "Cobbled Deepslate Stairs", "count": 134 },
+      { "name": "Deepslate Bricks", "count": 134 },
+      { "name": "Stripped Spruce Wood", "count": 127 },
+      { "name": "Stripped Spruce Log", "count": 119 },
+      { "name": "Spruce Stairs", "count": 118 },
+      { "name": "Red Carpet", "count": 109 },
+      { "name": "Dark Oak Slab", "count": 104 },
+      { "name": "Glass Pane", "count": 100 },
+      { "name": "Oak Leaves", "count": 92 },
+      { "name": "Stone Bricks", "count": 77 },
+      { "name": "Stone Brick Stairs", "count": 73 },
+      { "name": "Cracked Stone Bricks", "count": 66 },
+      { "name": "Cobblestone", "count": 63 }
     ]
   }
 ]

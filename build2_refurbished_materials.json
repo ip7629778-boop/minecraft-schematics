@@ -4,7 +4,7 @@
     "height": 17,
     "length": 16
   },
-  "blockCount": 1546,
+  "blockCount": 1463,
   "materials": [
     {
       "name": "Spruce Planks",
@@ -16,7 +16,7 @@
     },
     {
       "name": "Stripped Dark Oak Wood",
-      "count": 119
+      "count": 120
     },
     {
       "name": "Deepslate Tiles",
@@ -24,7 +24,7 @@
     },
     {
       "name": "White Terracotta",
-      "count": 90
+      "count": 88
     },
     {
       "name": "Dark Oak Stairs",
@@ -32,7 +32,7 @@
     },
     {
       "name": "Stone Bricks",
-      "count": 70
+      "count": 71
     },
     {
       "name": "Dark Oak Slab",
@@ -44,7 +44,7 @@
     },
     {
       "name": "Calcite",
-      "count": 49
+      "count": 48
     },
     {
       "name": "Cobblestone",
@@ -59,16 +59,16 @@
       "count": 26
     },
     {
-      "name": "Spruce Slab",
-      "count": 26
-    },
-    {
       "name": "Deepslate Bricks",
       "count": 22
     },
     {
-      "name": "Spruce Stairs",
-      "count": 22
+      "name": "Spruce Slab",
+      "count": 21
+    },
+    {
+      "name": "Andesite",
+      "count": 20
     },
     {
       "name": "Cracked Stone Bricks",
