@@ -1,178 +1,627 @@
-[
-  {
-    "name": "Spruce Planks",
-    "count": 537
+{
+  "build_id": "medieval-alchemist-manor",
+  "title": "Medieval Alchemist Manor & Botanical Estate",
+  "total_blocks": 5505,
+  "dimensions": {
+    "width": 23,
+    "height": 32,
+    "length": 27
   },
-  {
-    "name": "Grass Block",
-    "count": 292
-  },
-  {
-    "name": "Stripped Dark Oak Log",
-    "count": 146
-  },
-  {
-    "name": "Deepslate Tile Slab",
-    "count": 116
-  },
-  {
-    "name": "Deepslate Tile Stairs",
-    "count": 115
-  },
-  {
-    "name": "Dirt Path",
-    "count": 90
-  },
-  {
-    "name": "Stone Bricks",
-    "count": 71
-  },
-  {
-    "name": "Dark Oak Fence",
-    "count": 55
-  },
-  {
-    "name": "Coarse Dirt",
-    "count": 49
-  },
-  {
-    "name": "Spruce Trapdoor",
-    "count": 45
-  },
-  {
-    "name": "Spruce Slab",
-    "count": 42
-  },
-  {
-    "name": "White Wool",
-    "count": 40
-  },
-  {
-    "name": "Deepslate Tiles",
-    "count": 40
-  },
-  {
-    "name": "Dark Oak Slab",
-    "count": 36
-  },
-  {
-    "name": "Mossy Stone Bricks",
-    "count": 27
-  },
-  {
-    "name": "Cracked Stone Bricks",
-    "count": 27
-  },
-  {
-    "name": "Cobblestone",
-    "count": 25
-  },
-  {
-    "name": "Mossy Cobblestone",
-    "count": 23
-  },
-  {
-    "name": "Ladder",
-    "count": 21
-  },
-  {
-    "name": "Hay Block",
-    "count": 10
-  },
-  {
-    "name": "Bricks",
-    "count": 8
-  },
-  {
-    "name": "Barrel",
-    "count": 7
-  },
-  {
-    "name": "Farmland",
-    "count": 6
-  },
-  {
-    "name": "Wheat",
-    "count": 6
-  },
-  {
-    "name": "Lantern",
-    "count": 5
-  },
-  {
-    "name": "Chest",
-    "count": 3
-  },
-  {
-    "name": "Spruce Door",
-    "count": 2
-  },
-  {
-    "name": "Glass Pane",
-    "count": 2
-  },
-  {
-    "name": "Composter",
-    "count": 1
-  },
-  {
-    "name": "Water Cauldron",
-    "count": 1
-  },
-  {
-    "name": "Smoker",
-    "count": 1
-  },
-  {
-    "name": "Crafting Table",
-    "count": 1
-  },
-  {
-    "name": "Grindstone",
-    "count": 1
-  },
-  {
-    "name": "Hopper",
-    "count": 1
-  },
-  {
-    "name": "Stone Brick Stairs",
-    "count": 1
-  },
-  {
-    "name": "Blast Furnace",
-    "count": 1
-  },
-  {
-    "name": "Bookshelf",
-    "count": 1
-  },
-  {
-    "name": "Spruce Stairs",
-    "count": 1
-  },
-  {
-    "name": "Campfire",
-    "count": 1
-  },
-  {
-    "name": "Lever",
-    "count": 1
-  },
-  {
-    "name": "Chiseled Deepslate",
-    "count": 1
-  },
-  {
-    "name": "Deepslate Tile Wall",
-    "count": 1
-  },
-  {
-    "name": "Lightning Rod",
-    "count": 1
-  },
-  {
-    "name": "Iron Bars",
-    "count": 1
-  }
-]
+  "materials": [
+    {
+      "name": "Dirt",
+      "item_id": "minecraft:dirt",
+      "count": 1787
+    },
+    {
+      "name": "Stripped Dark Oak Wood",
+      "item_id": "minecraft:stripped_dark_oak_wood",
+      "count": 608
+    },
+    {
+      "name": "Grass Block",
+      "item_id": "minecraft:grass_block",
+      "count": 273
+    },
+    {
+      "name": "Andesite",
+      "item_id": "minecraft:andesite",
+      "count": 208
+    },
+    {
+      "name": "Stone",
+      "item_id": "minecraft:stone",
+      "count": 187
+    },
+    {
+      "name": "Spruce Planks",
+      "item_id": "minecraft:spruce_planks",
+      "count": 163
+    },
+    {
+      "name": "Dark Oak Stairs",
+      "item_id": "minecraft:dark_oak_stairs",
+      "count": 160
+    },
+    {
+      "name": "Deepslate Tiles",
+      "item_id": "minecraft:deepslate_tiles",
+      "count": 147
+    },
+    {
+      "name": "Short Grass",
+      "item_id": "minecraft:short_grass",
+      "count": 119
+    },
+    {
+      "name": "Smooth Sandstone",
+      "item_id": "minecraft:smooth_sandstone",
+      "count": 119
+    },
+    {
+      "name": "Deepslate Tile Stairs",
+      "item_id": "minecraft:deepslate_tile_stairs",
+      "count": 116
+    },
+    {
+      "name": "Dark Oak Trapdoor",
+      "item_id": "minecraft:dark_oak_trapdoor",
+      "count": 99
+    },
+    {
+      "name": "Glass Pane",
+      "item_id": "minecraft:glass_pane",
+      "count": 91
+    },
+    {
+      "name": "Cobbled Deepslate Stairs",
+      "item_id": "minecraft:cobbled_deepslate_stairs",
+      "count": 91
+    },
+    {
+      "name": "Cobbled Deepslate",
+      "item_id": "minecraft:cobbled_deepslate",
+      "count": 88
+    },
+    {
+      "name": "Dark Oak Slab",
+      "item_id": "minecraft:dark_oak_slab",
+      "count": 87
+    },
+    {
+      "name": "Calcite",
+      "item_id": "minecraft:calcite",
+      "count": 83
+    },
+    {
+      "name": "Spruce Stairs",
+      "item_id": "minecraft:spruce_stairs",
+      "count": 79
+    },
+    {
+      "name": "Spruce Leaves",
+      "item_id": "minecraft:spruce_leaves",
+      "count": 56
+    },
+    {
+      "name": "Farmland",
+      "item_id": "minecraft:farmland",
+      "count": 50
+    },
+    {
+      "name": "Spruce Trapdoor",
+      "item_id": "minecraft:spruce_trapdoor",
+      "count": 43
+    },
+    {
+      "name": "Dark Oak Planks",
+      "item_id": "minecraft:dark_oak_planks",
+      "count": 35
+    },
+    {
+      "name": "Tall Grass",
+      "item_id": "minecraft:tall_grass",
+      "count": 34
+    },
+    {
+      "name": "Lantern",
+      "item_id": "minecraft:lantern",
+      "count": 34
+    },
+    {
+      "name": "Cobblestone",
+      "item_id": "minecraft:cobblestone",
+      "count": 32
+    },
+    {
+      "name": "Tuff",
+      "item_id": "minecraft:tuff",
+      "count": 28
+    },
+    {
+      "name": "Birch Leaves",
+      "item_id": "minecraft:birch_leaves",
+      "count": 28
+    },
+    {
+      "name": "Deepslate Brick Slab",
+      "item_id": "minecraft:deepslate_brick_slab",
+      "count": 24
+    },
+    {
+      "name": "Dark Oak Fence",
+      "item_id": "minecraft:dark_oak_fence",
+      "count": 24
+    },
+    {
+      "name": "Acacia Trapdoor",
+      "item_id": "minecraft:acacia_trapdoor",
+      "count": 24
+    },
+    {
+      "name": "Chest",
+      "item_id": "minecraft:chest",
+      "count": 21
+    },
+    {
+      "name": "Wheat",
+      "item_id": "minecraft:wheat",
+      "count": 20
+    },
+    {
+      "name": "Chiseled Bookshelf",
+      "item_id": "minecraft:chiseled_bookshelf",
+      "count": 19
+    },
+    {
+      "name": "Polished Tuff",
+      "item_id": "minecraft:polished_tuff",
+      "count": 18
+    },
+    {
+      "name": "Coarse Dirt",
+      "item_id": "minecraft:coarse_dirt",
+      "count": 18
+    },
+    {
+      "name": "White Terracotta",
+      "item_id": "minecraft:white_terracotta",
+      "count": 18
+    },
+    {
+      "name": "Potatoes",
+      "item_id": "minecraft:potatoes",
+      "count": 18
+    },
+    {
+      "name": "Glass",
+      "item_id": "minecraft:glass",
+      "count": 18
+    },
+    {
+      "name": "Poppy",
+      "item_id": "minecraft:poppy",
+      "count": 17
+    },
+    {
+      "name": "Brown Carpet",
+      "item_id": "minecraft:brown_carpet",
+      "count": 17
+    },
+    {
+      "name": "Red Carpet",
+      "item_id": "minecraft:red_carpet",
+      "count": 16
+    },
+    {
+      "name": "Bookshelf",
+      "item_id": "minecraft:bookshelf",
+      "count": 15
+    },
+    {
+      "name": "Red Terracotta",
+      "item_id": "minecraft:red_terracotta",
+      "count": 14
+    },
+    {
+      "name": "Spruce Slab",
+      "item_id": "minecraft:spruce_slab",
+      "count": 13
+    },
+    {
+      "name": "Deepslate Tile Slab",
+      "item_id": "minecraft:deepslate_tile_slab",
+      "count": 13
+    },
+    {
+      "name": "Spruce Door",
+      "item_id": "minecraft:spruce_door",
+      "count": 12
+    },
+    {
+      "name": "Carrots",
+      "item_id": "minecraft:carrots",
+      "count": 12
+    },
+    {
+      "name": "Beehive",
+      "item_id": "minecraft:beehive",
+      "count": 12
+    },
+    {
+      "name": "Barrel",
+      "item_id": "minecraft:barrel",
+      "count": 11
+    },
+    {
+      "name": "Cobbled Deepslate Slab",
+      "item_id": "minecraft:cobbled_deepslate_slab",
+      "count": 11
+    },
+    {
+      "name": "Gravel",
+      "item_id": "minecraft:gravel",
+      "count": 10
+    },
+    {
+      "name": "Lilac",
+      "item_id": "minecraft:lilac",
+      "count": 10
+    },
+    {
+      "name": "Spruce Button",
+      "item_id": "minecraft:spruce_button",
+      "count": 10
+    },
+    {
+      "name": "Dark Oak Door",
+      "item_id": "minecraft:dark_oak_door",
+      "count": 10
+    },
+    {
+      "name": "Deepslate Tile Wall",
+      "item_id": "minecraft:deepslate_tile_wall",
+      "count": 9
+    },
+    {
+      "name": "Polished Tuff Stairs",
+      "item_id": "minecraft:polished_tuff_stairs",
+      "count": 8
+    },
+    {
+      "name": "Peony",
+      "item_id": "minecraft:peony",
+      "count": 8
+    },
+    {
+      "name": "Tuff Bricks",
+      "item_id": "minecraft:tuff_bricks",
+      "count": 8
+    },
+    {
+      "name": "Quartz Block",
+      "item_id": "minecraft:quartz_block",
+      "count": 7
+    },
+    {
+      "name": "Quartz Stairs",
+      "item_id": "minecraft:quartz_stairs",
+      "count": 7
+    },
+    {
+      "name": "Bamboo Stairs",
+      "item_id": "minecraft:bamboo_stairs",
+      "count": 7
+    },
+    {
+      "name": "Dandelion",
+      "item_id": "minecraft:dandelion",
+      "count": 6
+    },
+    {
+      "name": "Lapis Block",
+      "item_id": "minecraft:lapis_block",
+      "count": 6
+    },
+    {
+      "name": "Rose Bush",
+      "item_id": "minecraft:rose_bush",
+      "count": 6
+    },
+    {
+      "name": "Orange Carpet",
+      "item_id": "minecraft:orange_carpet",
+      "count": 6
+    },
+    {
+      "name": "White Wool",
+      "item_id": "minecraft:white_wool",
+      "count": 6
+    },
+    {
+      "name": "Oak Slab",
+      "item_id": "minecraft:oak_slab",
+      "count": 6
+    },
+    {
+      "name": "Oak Leaves",
+      "item_id": "minecraft:oak_leaves",
+      "count": 6
+    },
+    {
+      "name": "Dark Prismarine Stairs",
+      "item_id": "minecraft:dark_prismarine_stairs",
+      "count": 5
+    },
+    {
+      "name": "Cobweb",
+      "item_id": "minecraft:cobweb",
+      "count": 5
+    },
+    {
+      "name": "Mossy Cobblestone",
+      "item_id": "minecraft:mossy_cobblestone",
+      "count": 4
+    },
+    {
+      "name": "Polished Andesite",
+      "item_id": "minecraft:polished_andesite",
+      "count": 4
+    },
+    {
+      "name": "Flowering Azalea Leaves",
+      "item_id": "minecraft:flowering_azalea_leaves",
+      "count": 4
+    },
+    {
+      "name": "Composter",
+      "item_id": "minecraft:composter",
+      "count": 4
+    },
+    {
+      "name": "Jungle Trapdoor",
+      "item_id": "minecraft:jungle_trapdoor",
+      "count": 4
+    },
+    {
+      "name": "Dark Prismarine Slab",
+      "item_id": "minecraft:dark_prismarine_slab",
+      "count": 4
+    },
+    {
+      "name": "Stone Stairs",
+      "item_id": "minecraft:stone_stairs",
+      "count": 4
+    },
+    {
+      "name": "Green Carpet",
+      "item_id": "minecraft:green_carpet",
+      "count": 4
+    },
+    {
+      "name": "White Bed",
+      "item_id": "minecraft:white_bed",
+      "count": 4
+    },
+    {
+      "name": "Torch",
+      "item_id": "minecraft:torch",
+      "count": 4
+    },
+    {
+      "name": "Red Bed",
+      "item_id": "minecraft:red_bed",
+      "count": 4
+    },
+    {
+      "name": "Cobbled Deepslate Wall",
+      "item_id": "minecraft:cobbled_deepslate_wall",
+      "count": 4
+    },
+    {
+      "name": "Azalea Leaves",
+      "item_id": "minecraft:azalea_leaves",
+      "count": 3
+    },
+    {
+      "name": "Furnace",
+      "item_id": "minecraft:furnace",
+      "count": 3
+    },
+    {
+      "name": "Enchanting Table",
+      "item_id": "minecraft:enchanting_table",
+      "count": 3
+    },
+    {
+      "name": "Tripwire Hook",
+      "item_id": "minecraft:tripwire_hook",
+      "count": 3
+    },
+    {
+      "name": "White Carpet",
+      "item_id": "minecraft:white_carpet",
+      "count": 3
+    },
+    {
+      "name": "Iron Trapdoor",
+      "item_id": "minecraft:iron_trapdoor",
+      "count": 3
+    },
+    {
+      "name": "Cake",
+      "item_id": "minecraft:cake",
+      "count": 3
+    },
+    {
+      "name": "Flower Pot",
+      "item_id": "minecraft:flower_pot",
+      "count": 3
+    },
+    {
+      "name": "White Candle",
+      "item_id": "minecraft:white_candle",
+      "count": 3
+    },
+    {
+      "name": "Spruce Fence",
+      "item_id": "minecraft:spruce_fence",
+      "count": 3
+    },
+    {
+      "name": "Cartography Table",
+      "item_id": "minecraft:cartography_table",
+      "count": 3
+    },
+    {
+      "name": "Polished Blackstone Brick Slab",
+      "item_id": "minecraft:polished_blackstone_brick_slab",
+      "count": 3
+    },
+    {
+      "name": "Campfire",
+      "item_id": "minecraft:campfire",
+      "count": 3
+    },
+    {
+      "name": "Water",
+      "item_id": "minecraft:water",
+      "count": 2
+    },
+    {
+      "name": "Hopper",
+      "item_id": "minecraft:hopper",
+      "count": 2
+    },
+    {
+      "name": "Azure Bluet",
+      "item_id": "minecraft:azure_bluet",
+      "count": 2
+    },
+    {
+      "name": "Iron Block",
+      "item_id": "minecraft:iron_block",
+      "count": 2
+    },
+    {
+      "name": "Stone Button",
+      "item_id": "minecraft:stone_button",
+      "count": 2
+    },
+    {
+      "name": "Turtle Egg",
+      "item_id": "minecraft:turtle_egg",
+      "count": 2
+    },
+    {
+      "name": "Diamond Block",
+      "item_id": "minecraft:diamond_block",
+      "count": 2
+    },
+    {
+      "name": "Decorated Pot",
+      "item_id": "minecraft:decorated_pot",
+      "count": 2
+    },
+    {
+      "name": "Potted Flowering Azalea Bush",
+      "item_id": "minecraft:potted_flowering_azalea_bush",
+      "count": 2
+    },
+    {
+      "name": "Potted Lily Of The Valley",
+      "item_id": "minecraft:potted_lily_of_the_valley",
+      "count": 2
+    },
+    {
+      "name": "Potted Azure Bluet",
+      "item_id": "minecraft:potted_azure_bluet",
+      "count": 2
+    },
+    {
+      "name": "Polished Andesite Stairs",
+      "item_id": "minecraft:polished_andesite_stairs",
+      "count": 2
+    },
+    {
+      "name": "Sea Pickle",
+      "item_id": "minecraft:sea_pickle",
+      "count": 2
+    },
+    {
+      "name": "Iron Bars",
+      "item_id": "minecraft:iron_bars",
+      "count": 2
+    },
+    {
+      "name": "Birch Log",
+      "item_id": "minecraft:birch_log",
+      "count": 1
+    },
+    {
+      "name": "Blue Orchid",
+      "item_id": "minecraft:blue_orchid",
+      "count": 1
+    },
+    {
+      "name": "Allium",
+      "item_id": "minecraft:allium",
+      "count": 1
+    },
+    {
+      "name": "Jukebox",
+      "item_id": "minecraft:jukebox",
+      "count": 1
+    },
+    {
+      "name": "Bell",
+      "item_id": "minecraft:bell",
+      "count": 1
+    },
+    {
+      "name": "Potted Fern",
+      "item_id": "minecraft:potted_fern",
+      "count": 1
+    },
+    {
+      "name": "Light Gray Carpet",
+      "item_id": "minecraft:light_gray_carpet",
+      "count": 1
+    },
+    {
+      "name": "Andesite Stairs",
+      "item_id": "minecraft:andesite_stairs",
+      "count": 1
+    },
+    {
+      "name": "Scaffolding",
+      "item_id": "minecraft:scaffolding",
+      "count": 1
+    },
+    {
+      "name": "Crafting Table",
+      "item_id": "minecraft:crafting_table",
+      "count": 1
+    },
+    {
+      "name": "Note Block",
+      "item_id": "minecraft:note_block",
+      "count": 1
+    },
+    {
+      "name": "Loom",
+      "item_id": "minecraft:loom",
+      "count": 1
+    },
+    {
+      "name": "Lectern",
+      "item_id": "minecraft:lectern",
+      "count": 1
+    },
+    {
+      "name": "Chain",
+      "item_id": "minecraft:chain",
+      "count": 1
+    }
+  ]
+}

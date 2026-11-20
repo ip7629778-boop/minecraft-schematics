@@ -63,11 +63,14 @@
     {
       "id": "mv-med-006",
       "catalogNumber": 6,
-      "title": "Alchemist Spire & Potion Apothecary",
+      "title": "Medieval Alchemist Manor & Botanical Estate",
       "category": "Medieval & Fantasy",
       "description": "Twisting turret with glass greenhouses, bubbling brewing stands, and drying herb racks",
-      "status": "queued",
-      "buildNumber": null
+      "status": "completed",
+      "buildNumber": null,
+      "schematicId": "medieval-alchemist-manor",
+      "dimensions": "23x32x27",
+      "blockCount": 5505
     },
     {
       "id": "mv-med-007",

@@ -1,61 +1,65 @@
-# MineVault Specification: Build #7 — Rustic Windmill & High Granary
-> **Classification:** Tier 1 — Master Medieval Milling Complex & Baker's Granary  
-> **Original Architecture & Engineering:** MineVault Studio  
+# MineVault Specification: Build #7 — Medieval Alchemist Manor & Botanical Estate
+> **Classification:** Tier 1 — Remixed Master Medieval Fantasy Manor & Alchemical Botanical Retreat  
+> **Original Blueprint Source:** Survival Cottage 2 | **Remix & Engineering:** MineVault Studio  
 > **Target Edition:** Minecraft Java Edition 1.20 - 1.21+ (Format: `.schem` Sponge V2 & `.litematic`)  
-> **Philosophy:** Authentic medieval engineering featuring a tapered octagonal stone-and-timber milling tower, rotating deepslate tile cap roof, an imposing 4-blade canvas sail assembly spanning 22 blocks across, and an attached bread bakery and wheat granary cottage with smoking brick chimney.
+> **Philosophy:** Programmatic remix (Option 2) transforming an authentic master survival cottage blueprint into an opulent Medieval Alchemist Manor & Botanical Estate. Features an imposing octagonal stone garden gazebo, steep multi-tier Tudor timber gables, a 32-block smoking stone chimney, enchanting alcoves, chiseled book libraries, brewing workshops, and 100% vanilla 1.20-1.21+ compatibility with gravity-safe calcite plaster infill.
 
 ---
 
 ## 1. Dimensional Footprint & Structural Elevation
 
 ### Core Dimensions
-- **Width ($X$):** $27$ blocks
-- **Height ($Y$):** $34$ blocks
+- **Width ($X$):** $23$ blocks
+- **Height ($Y$):** $32$ blocks
 - **Length ($Z$):** $27$ blocks
-- **Total Non-Air Blocks:** $1,862$ blocks across $58$ palette states
-- **Primary Footprint Geometry:** Octagonal Milling Tower with Gabled Cottage Annex
-  - 5-story tapered octagonal windmill tower ($R=4.6 \to 3.4$)
-  - Attached eastern granary cottage & bakery ($8 \times 9$ blocks)
-  - Active smoking brick chimney stack ($10$ blocks tall)
-  - Perimeter farmland with wheat plots, hay bale stacks, water trough, and composters
+- **Total Non-Air Blocks:** $5,505$ blocks across $291$ palette states
+- **Tile Entities:** $60$ functional workstations, double-chests, barrels, chiseled bookshelves, beehives, brewing stations, and hearth campfires
+- **Primary Footprint Geometry:** Multi-tier Medieval Estate with Octagonal Courtyard Pavilion
+  - Ground floor alchemical laboratory and living hearth quarters
+  - Symmetrical front octagonal gazebo with conical deepslate roof
+  - Second-floor enchanting study, botanical specimen storage, and sleeping loft
+  - 32-block tall masonry flue with active campfire smoke plume
+  - Integrated hillside retaining terraces with wheat, carrots, potatoes, and 12 beehives
 
 ```
-Y=27..34 [ Rotating Cap Roof, Iron Lightning Rod, Weather Vane, Upper Blade Tips ]
-Y=22..26 [ Horizontal Drive Axle Hub & 22-Block Diameter 4-Blade Canvas Sail Cross ]
-Y=15..21 [ Observation Balcony, Dark Oak Rafters, Upper Braking Levers & Drive Shaft ]
-Y=8..14  [ Second Floor Grain Silo Storage, Hop-Backs & Flour Sack Barrels ]
-Y=2..7   [ Ground Floor Millstone Grinding Wheel, Attached Bakery & Smoker Hearth ]
-Y=0..1   [ Octagonal Weathered Stone Masonry Base, Dirt Paths & Farmland Apron ]
+Y=25..32 [ Stone Chimney Spire, Iron Bars Cap & Rising Smoke Plume ]
+Y=20..24 [ High Ridge Deepslate Tile Gables & Attic Dormers ]
+Y=14..19 [ Upper Floor Enchanting Quarters, Bedroom Loft & Timber Framing ]
+Y=9..13  [ Second Floor Overhangs, Calcite Plaster Infill & Window Sills ]
+Y=4..8   [ Ground Floor Alchemical Lab, Hearth Fireplace & Gazebo Conical Roof ]
+Y=1..3   [ Ground Terrace Gardens, Farmland, Water Channels & Stone Masonry ]
+Y=0      [ Solid Heavy Stone & Deepslate Retaining Substrate ]
 ```
 
 ---
 
 ## 2. Authentic Architectural Features & Interior Zoning
 
-### Zone 1: The 4-Blade Sail Mechanism & Cap Roof
-- **22-Block Sail Cross:** 4 diagonal sail arms built from dark oak fencing, spruce trapdoors, and white wool canvas angled to simulate wind catch.
-- **Rotating Cap Structure:** Heavy deepslate tile roof with observation balcony and iron weather vane rod.
-- **Vertical Drive Shaft:** Centered stripped dark oak axle running through all 4 interior floors.
+### Zone 1: The Octagonal Garden Pavilion & Botanical Grounds
+- **Octagonal Stone Gazebo:** Prominently situated at the front entrance, featuring a cobblestone/andesite balustrade, spruce fence colonnade, and an 8-sided conical deepslate tile roof illuminated with warm hanging lanterns.
+- **Terraced Agronomy:** Surrounding the estate are terraced crop fields irrigated by clean water channels, planted with wheat, carrots, and potatoes, bordered by composter stations and 12 active beehives.
+- **Botanical Landscaping:** Decorated with flowering azalea bushes, blue orchids, allium, rose bushes, and climbing vines.
 
-### Zone 2: Ground Floor Milling Chamber
-- **Millstone Grinder:** Grindstone unit linked to a hopper collection chute and flour barrel.
-- **Crafting & Workshop:** Crafting table, storage chests, and tool repair stations.
+### Zone 2: Tudor Timber-Framing & Calcite Plaster
+- **Stripped Dark Oak Timber Skeleton:** $608$ stripped dark oak beams forming authentic vertical, horizontal, and diagonal braces.
+- **Gravity-Safe Calcite Walls:** Replaced fragile falling sand with solid calcite and smooth sandstone, delivering high-contrast, authentic medieval wattle-and-daub plaster that will never collapse.
+- **Gothic Steep-Pitch Roof:** Over $600$ combined deepslate tiles, cobbled deepslate, and dark oak stairs engineered into multi-gabled, steep-pitched rooflines with dormer window alcoves.
 
-### Zone 3: Granary Cottage & Bread Bakery
-- **Active Smoking Hearth:** Brick chimney with lit campfire generating authentic smoke rising over the gables.
-- **Baking Facilities:** Smoker and blast furnace for processing grain into bread and provisions.
-- **Wheat Storage:** Hay bale stacks and labeled food barrels.
+### Zone 3: Alchemical Workshop & Living Quarters
+- **Alchemical Laboratory:** Fully equipped with potion brewing apparatus, water cauldrons, ingredient barrels, cartography tables, and smithing amenities.
+- **Enchanting Alcove:** Complete with enchanting table surrounded by chiseled bookshelves stocked with arcane knowledge.
+- **Master Hearth:** Authentic stone fireplace housing a lit campfire whose smoke vents up through the internal stone chimney flue and billows out above the roofline.
 
 ---
 
 ## 3. Verified File Deployments
 
 - **Sponge V2 (`.schem`):**
-  - `C:\Users\ip762\AppData\Roaming\.minecraft\schematics\rustic_windmill_granary.schem` ($27.6$ KB)
-  - `downloads/rustic_windmill_granary.schem` ($27.6$ KB)
+  - `C:\Users\ip762\AppData\Roaming\.minecraft\schematics\medieval_alchemist_manor.schem` ($8.3$ KB)
+  - `downloads/medieval_alchemist_manor.schem` ($8.3$ KB)
 - **Litematica (`.litematic`):**
-  - `C:\Users\ip762\AppData\Roaming\.minecraft\schematics\rustic_windmill_granary.litematic` ($22.6$ KB)
-  - `downloads/rustic_windmill_granary.litematic` ($22.6$ KB)
+  - `C:\Users\ip762\AppData\Roaming\.minecraft\schematics\medieval_alchemist_manor.litematic` ($9.8$ KB, GZIP compressed, Version 7)
+  - `downloads/medieval_alchemist_manor.litematic` ($9.8$ KB, GZIP compressed, Version 7)
 
 ---
 
@@ -63,18 +67,18 @@ Y=0..1   [ Octagonal Weathered Stone Masonry Base, Dirt Paths & Farmland Apron ]
 
 ### Option A: WorldEdit (Forge / Fabric / Paper / Sponge)
 1. The schematic is already placed in your active Minecraft folder.
-2. Find an open area ($30 \times 30$ space recommended).
+2. Select an open ground plot ($30 \times 35$ blocks recommended).
 3. Run command:
    ```mcfunction
-   //schem load rustic_windmill_granary
+   //schem load medieval_alchemist_manor
    //paste
    ```
-4. If you wish to preview the paste position before committing:
+4. If checking alignment before committing:
    ```mcfunction
    //paste -s
    ```
 
 ### Option B: Litematica (Fabric)
 1. In-game, press `M` &rarr; **Load Schematics**.
-2. Select `rustic_windmill_granary.litematic` and click **Load Schematic**.
-3. Align the holographic projection with your tool item and paste into your world.
+2. Select `medieval_alchemist_manor.litematic` and click **Load Schematic**.
+3. Align the holographic projection on ground level and paste into your world.

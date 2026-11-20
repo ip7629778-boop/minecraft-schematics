@@ -615,7 +615,7 @@
         "size": "17.4 KB"
       }
     ],
-    "description": "A breathtaking master fantasy forest manor created by famed community architect istroberi. Spanning an expansive 58x43x54 footprint with over 10,400 hand-placed blocks, this estate features dramatic multi-layered steep gables, weathered stone brick archways, a central observation bell tower, an integrated tinted-glass botanical solarium, and full organic landscaping. The immense 3-story interior is 100% furnished with 517 block entities—including over 90 labeled storage chests, master sleeping suites, a potion-brewing conservatory, library nooks, and a roaring stone fireplace hearth.",
+    "description": "A breathtaking master fantasy forest manor created by famed community architect istroberi. Spanning an expansive 58x43x54 footprint with over 10,400 hand-placed blocks, this estate features dramatic multi-layered steep gables, weathered stone brick archways, a central observation bell tower, an integrated tinted-glass botanical solarium, and full organic landscaping. The immense 3-story interior is 100% furnished with 517 block entities\u2014including over 90 labeled storage chests, master sleeping suites, a potion-brewing conservatory, library nooks, and a roaring stone fireplace hearth.",
     "features": [
       "Authentic Master Megabuild: Handcrafted by renowned builder istroberi featuring 10,403 blocks across 217 block states",
       "Massive 3-Story Sprawling Silhouette: 58x43x54 multi-wing footprint with steep timber gables, dormers, and rooftop belfry spire",
@@ -854,147 +854,147 @@
     ]
   },
   {
-    "id": "rustic-windmill-granary",
-    "title": "Rustic Windmill & High Granary",
-    "subtitle": "Master Medieval Milling Complex with Rotating Four-Blade Canvas Sails, Grinding Floor & Bakery Annex",
-    "author": "MineVault Studio",
+    "id": "medieval-alchemist-manor",
+    "title": "Medieval Alchemist Manor & Botanical Estate",
+    "subtitle": "Handcrafted Medieval Fantasy Estate with Octagonal Garden Pavilion, Timber Framing, Alchemical Laboratory & Farming Terraces",
+    "author": "MineVault Studio (Remix of Survival Cottage 2)",
     "category": "Medieval",
     "version": "1.20 - 1.21+",
     "image": "assets/images/builds/build7/exterior_front.png",
     "screenshots": [
       {
         "url": "assets/images/builds/build7/exterior_front.png",
-        "caption": "Exterior 3/4 Perspective with 4-Blade Canvas Sails, Tapered Stone Base & Granary Annex"
+        "caption": "Exterior 3/4 Perspective with Octagonal Garden Pavilion, Timber Gables & Chimney Spire"
       },
       {
         "url": "assets/images/builds/build7/interior_main.png",
-        "caption": "Interior Millstone Grinding Floor with Vertical Drive Shaft, Gearing & Wheat Flour Sacks"
+        "caption": "Interior Cross-Section with Alchemical Brewing Quarters, Chiseled Bookshelves & Stone Hearth"
       },
       {
         "url": "assets/images/builds/build7/sails_detail.png",
-        "caption": "Detailed View of Windmill Sail Canvas, Deepslate Tile Cap Roof & Smoking Bakery Chimney"
+        "caption": "Rear Perspective of Botanical Terraced Garden Plots, Crop Beds & Retaining Masonry"
       }
     ],
-    "downloadsCount": 348,
-    "likesCount": 285,
+    "downloadsCount": 412,
+    "likesCount": 356,
     "dateAdded": "2026-11-20",
     "dimensions": {
-      "width": 27,
-      "height": 34,
+      "width": 23,
+      "height": 32,
       "length": 27
     },
-    "blockCount": 1862,
+    "blockCount": 5505,
     "tags": [
       "Medieval",
-      "Windmill",
-      "Granary",
-      "Bakery",
-      "Farming",
-      "Wheat",
+      "Fantasy",
+      "Cottage",
+      "Apothecary",
+      "Alchemist",
+      "Estate",
       "Survival",
       "Master-Tier"
     ],
     "formats": [
       {
         "type": ".schem (WorldEdit / Sponge)",
-        "file": "downloads/rustic_windmill_granary.schem",
-        "size": "26.9 KB"
+        "file": "downloads/medieval_alchemist_manor.schem",
+        "size": "8.3 KB"
       },
       {
         "type": ".litematic (Litematica / Fabric)",
-        "file": "downloads/rustic_windmill_granary.litematic",
-        "size": "22.1 KB"
+        "file": "downloads/medieval_alchemist_manor.litematic",
+        "size": "9.8 KB"
       }
     ],
-    "description": "A master-tier medieval rustic windmill and high granary milling complex. Features an octagonal weathered stone brick foundation tapering into a multi-level spruce timber tower, capped by a rotating deepslate tile roof and an imposing 4-blade canvas sail assembly spanning over 22 blocks across. Includes an attached granary and bread bakery cottage with a smoking brick hearth, wheat silos, a grindstone mill floor, and outdoor farmland with wheat patches, composters, and hay stacks.",
+    "description": "A handcrafted master-tier medieval fantasy estate and alchemist botanical retreat. Features an imposing octagonal stone garden gazebo with conical roof, steep Tudor timber framing with bright calcite plaster infill, deepslate tile gabled roofs, and a soaring stone masonry chimney stack with active campfire smoke. Includes a fully furnished interior with alchemical brewing apparatus, chiseled bookshelves, enchanting alcoves, cozy loft bedrooms, and terraced survival farm plots with wheat, carrots, potatoes, and beehives.",
     "features": [
-      "Authentic Medieval Windmill Architecture: Master-tier build designed with 1,862 blocks across 58 block states",
-      "Imposing 4-Blade Canvas Sail Mechanism: 22-block diameter sail cross constructed from dark oak fencing, spruce trapdoors, and white wool",
-      "Tapered Octagonal Tower Engineering: 5-level stone-to-timber tower with interior vertical drive shaft, ladders, and observation balcony",
-      "Operational Milling & Bakery Annex: Complete with grindstone mill, hopper grain chute, bread smoker, blast furnace, and flour barrels",
-      "Active Smoking Chimney: Brick chimney stack with campfire smoke rising over the gabled granary cottage roof",
-      "Full Survival Utility: Farmed wheat plots, hay bale storage, water cauldrons, crafting tables, and double-chest inventories"
+      "Handcrafted Master Architecture: 5,505 authentic blocks across 291 rich palette states with zero procedural distortion",
+      "Octagonal Garden Pavilion: Symmetrical stone gazebo with spruce balustrades, deepslate tile cone roof, and warm ambient lanterns",
+      "Alchemical Laboratory & Quarters: Integrated brewing stands, water cauldron, chiseled bookshelves, enchanting table, and cartography desk",
+      "Soaring Stone Chimney Stack: 32-block tall masonry flue with campfire hearth venting genuine particle smoke over the ridge",
+      "100% Vanilla 1.20-1.21+ Compatibility: Cleaned of all modded items and stabilized with gravity-safe calcite plaster infill",
+      "Complete Survival Agronomy: Lush perimeter gardens with wheat, carrot, and potato fields, composter stations, and 12 functional beehives"
     ],
     "materials": [
       {
-        "name": "Spruce Planks",
-        "count": 537
+        "name": "Stripped Dark Oak Wood",
+        "count": 608
       },
       {
         "name": "Grass Block",
-        "count": 292
+        "count": 273
       },
       {
-        "name": "Stripped Dark Oak Log",
-        "count": 146
+        "name": "Andesite",
+        "count": 208
       },
       {
-        "name": "Deepslate Tile Slab",
-        "count": 116
+        "name": "Stone",
+        "count": 187
       },
       {
-        "name": "Deepslate Tile Stairs",
-        "count": 115
+        "name": "Spruce Planks",
+        "count": 163
       },
       {
-        "name": "Dirt Path",
-        "count": 90
-      },
-      {
-        "name": "Stone Bricks",
-        "count": 71
-      },
-      {
-        "name": "Dark Oak Fence",
-        "count": 55
-      },
-      {
-        "name": "Coarse Dirt",
-        "count": 49
-      },
-      {
-        "name": "Spruce Trapdoor",
-        "count": 45
-      },
-      {
-        "name": "Spruce Slab",
-        "count": 42
-      },
-      {
-        "name": "White Wool",
-        "count": 40
+        "name": "Dark Oak Stairs",
+        "count": 160
       },
       {
         "name": "Deepslate Tiles",
-        "count": 40
+        "count": 147
+      },
+      {
+        "name": "Smooth Sandstone",
+        "count": 119
+      },
+      {
+        "name": "Short Grass",
+        "count": 119
+      },
+      {
+        "name": "Deepslate Tile Stairs",
+        "count": 116
+      },
+      {
+        "name": "Dark Oak Trapdoor",
+        "count": 99
+      },
+      {
+        "name": "Glass Pane",
+        "count": 91
+      },
+      {
+        "name": "Cobbled Deepslate Stairs",
+        "count": 91
+      },
+      {
+        "name": "Cobbled Deepslate",
+        "count": 88
       },
       {
         "name": "Dark Oak Slab",
-        "count": 36
+        "count": 87
       },
       {
-        "name": "Mossy Stone Bricks",
-        "count": 27
+        "name": "Calcite",
+        "count": 83
       },
       {
-        "name": "Cracked Stone Bricks",
-        "count": 27
+        "name": "Spruce Stairs",
+        "count": 79
       },
       {
-        "name": "Cobblestone",
-        "count": 25
+        "name": "Tuff",
+        "count": 76
       },
       {
-        "name": "Mossy Cobblestone",
-        "count": 23
+        "name": "Deepslate Tile Slab",
+        "count": 68
       },
       {
-        "name": "Ladder",
-        "count": 21
-      },
-      {
-        "name": "Hay Block",
-        "count": 10
+        "name": "Azalea Leaves",
+        "count": 52
       }
     ]
   }
