@@ -714,19 +714,19 @@
     "author": "Sbopurch & MineVault Studio (Remix)",
     "category": "Redstone",
     "version": "1.20 - 1.21+",
-    "image": "assets/images/builds/build6/exterior_front.png",
+    "image": "assets/images/builds/build6/exterior_master_front.png",
     "screenshots": [
       {
-        "url": "assets/images/builds/build6/exterior_front.png",
-        "caption": "Cathedral Nave Elevation with Waxed Cut Copper Trusses, Deepslate Vaulting & Orange Stained Glass"
+        "url": "assets/images/builds/build6/exterior_master_front.png",
+        "caption": "Exterior Isometric Elevation with Steampunk Cut Copper Ribs, Deepslate Vaulting & Amber Glass"
       },
       {
-        "url": "assets/images/builds/build6/interior_main.png",
+        "url": "assets/images/builds/build6/interior_master_main.png",
         "caption": "Central Grand Aisle of Commerce with Stripped Dark Oak Colonnades & Vaulted Gaslight Luminaires"
       },
       {
-        "url": "assets/images/builds/build6/trading_bays.png",
-        "caption": "Secure Villager Workstation Bays with Copper Transaction Grates & Redstone Automation Channels"
+        "url": "assets/images/builds/build6/trading_master_bays.png",
+        "caption": "Automated Villager Workstation Bays with Copper Transaction Grates & Redstone Mechanics"
       }
     ],
     "downloadsCount": 524,
