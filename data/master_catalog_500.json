@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0",
   "totalBuildsGoal": 505,
-  "completedCount": 6,
-  "remainingCount": 499,
+  "completedCount": 7,
+  "remainingCount": 498,
   "categories": [
     "Medieval & Fantasy",
     "Survival Bases",
@@ -30,8 +30,8 @@
       "title": "Rustic Windmill & High Granary",
       "category": "Medieval & Fantasy",
       "description": "Turning four-blade sails, wheat storage silos, and millstone grinding floor",
-      "status": "queued",
-      "buildNumber": null
+      "status": "completed",
+      "buildNumber": 7
     },
     {
       "id": "mv-med-003",

@@ -859,6 +859,151 @@ const DEFAULT_SCHEMATICS = [
         "count": 34
       }
     ]
+  },
+  {
+    "id": "rustic-windmill-granary",
+    "title": "Rustic Windmill & High Granary",
+    "subtitle": "Master Medieval Milling Complex with Rotating Four-Blade Canvas Sails, Grinding Floor & Bakery Annex",
+    "author": "MineVault Studio",
+    "category": "Medieval",
+    "version": "1.20 - 1.21+",
+    "image": "assets/images/builds/build7/exterior_front.png",
+    "screenshots": [
+      {
+        "url": "assets/images/builds/build7/exterior_front.png",
+        "caption": "Exterior 3/4 Perspective with 4-Blade Canvas Sails, Tapered Stone Base & Granary Annex"
+      },
+      {
+        "url": "assets/images/builds/build7/interior_main.png",
+        "caption": "Interior Millstone Grinding Floor with Vertical Drive Shaft, Gearing & Wheat Flour Sacks"
+      },
+      {
+        "url": "assets/images/builds/build7/sails_detail.png",
+        "caption": "Detailed View of Windmill Sail Canvas, Deepslate Tile Cap Roof & Smoking Bakery Chimney"
+      }
+    ],
+    "downloadsCount": 348,
+    "likesCount": 285,
+    "dateAdded": "2026-11-20",
+    "dimensions": {
+      "width": 27,
+      "height": 34,
+      "length": 27
+    },
+    "blockCount": 1862,
+    "tags": [
+      "Medieval",
+      "Windmill",
+      "Granary",
+      "Bakery",
+      "Farming",
+      "Wheat",
+      "Survival",
+      "Master-Tier"
+    ],
+    "formats": [
+      {
+        "type": ".schem (WorldEdit / Sponge)",
+        "file": "downloads/rustic_windmill_granary.schem",
+        "size": "26.9 KB"
+      },
+      {
+        "type": ".litematic (Litematica / Fabric)",
+        "file": "downloads/rustic_windmill_granary.litematic",
+        "size": "22.1 KB"
+      }
+    ],
+    "description": "A master-tier medieval rustic windmill and high granary milling complex. Features an octagonal weathered stone brick foundation tapering into a multi-level spruce timber tower, capped by a rotating deepslate tile roof and an imposing 4-blade canvas sail assembly spanning over 22 blocks across. Includes an attached granary and bread bakery cottage with a smoking brick hearth, wheat silos, a grindstone mill floor, and outdoor farmland with wheat patches, composters, and hay stacks.",
+    "features": [
+      "Authentic Medieval Windmill Architecture: Master-tier build designed with 1,862 blocks across 58 block states",
+      "Imposing 4-Blade Canvas Sail Mechanism: 22-block diameter sail cross constructed from dark oak fencing, spruce trapdoors, and white wool",
+      "Tapered Octagonal Tower Engineering: 5-level stone-to-timber tower with interior vertical drive shaft, ladders, and observation balcony",
+      "Operational Milling & Bakery Annex: Complete with grindstone mill, hopper grain chute, bread smoker, blast furnace, and flour barrels",
+      "Active Smoking Chimney: Brick chimney stack with campfire smoke rising over the gabled granary cottage roof",
+      "Full Survival Utility: Farmed wheat plots, hay bale storage, water cauldrons, crafting tables, and double-chest inventories"
+    ],
+    "materials": [
+      {
+        "name": "Spruce Planks",
+        "count": 537
+      },
+      {
+        "name": "Grass Block",
+        "count": 292
+      },
+      {
+        "name": "Stripped Dark Oak Log",
+        "count": 146
+      },
+      {
+        "name": "Deepslate Tile Slab",
+        "count": 116
+      },
+      {
+        "name": "Deepslate Tile Stairs",
+        "count": 115
+      },
+      {
+        "name": "Dirt Path",
+        "count": 90
+      },
+      {
+        "name": "Stone Bricks",
+        "count": 71
+      },
+      {
+        "name": "Dark Oak Fence",
+        "count": 55
+      },
+      {
+        "name": "Coarse Dirt",
+        "count": 49
+      },
+      {
+        "name": "Spruce Trapdoor",
+        "count": 45
+      },
+      {
+        "name": "Spruce Slab",
+        "count": 42
+      },
+      {
+        "name": "White Wool",
+        "count": 40
+      },
+      {
+        "name": "Deepslate Tiles",
+        "count": 40
+      },
+      {
+        "name": "Dark Oak Slab",
+        "count": 36
+      },
+      {
+        "name": "Mossy Stone Bricks",
+        "count": 27
+      },
+      {
+        "name": "Cracked Stone Bricks",
+        "count": 27
+      },
+      {
+        "name": "Cobblestone",
+        "count": 25
+      },
+      {
+        "name": "Mossy Cobblestone",
+        "count": 23
+      },
+      {
+        "name": "Ladder",
+        "count": 21
+      },
+      {
+        "name": "Hay Block",
+        "count": 10
+      }
+    ]
   }
 ];
 
