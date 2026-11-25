@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "smartstash",
+	"version": "${version}",
+	"name": "Smart Stash",
+	"description": "Terraria-style Quick-Deposit & Auto-Stacking into nearby storage chests for Minecraft 1.21.4.",
+	"authors": [
+		"MineVault",
+		"ip762"
+	],
+	"contact": {
+		"homepage": "https://ip7629778-boop.github.io/minecraft-schematics/"
+	},
+	"license": "MIT",
+	"icon": "assets/smartstash/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.minevault.smartstash.SmartStashMod"
+		],
+		"client": [
+			"com.minevault.smartstash.client.SmartStashClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

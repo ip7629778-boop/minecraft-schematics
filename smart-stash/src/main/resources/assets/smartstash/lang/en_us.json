@@ -1,0 +1,7 @@
+{
+  "key.categories.smartstash": "Smart Stash",
+  "key.smartstash.quick_stack": "Quick-Stack to Nearby Chests",
+  "message.smartstash.stacked": "§aSmart Stash: Stored %s item(s) across %s container(s)!",
+  "message.smartstash.none": "§7Smart Stash: No matching items in nearby chests.",
+  "message.smartstash.no_chests": "§6Smart Stash: No nearby storage containers found."
+}
