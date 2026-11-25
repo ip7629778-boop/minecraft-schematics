@@ -180,7 +180,8 @@
       </a>
 
       <nav class="nav-links" aria-label="Main Navigation">
-        <a href="#schematics" class="nav-link active"><i data-lucide="layers"></i> All Builds</a>
+        <a href="#schematics" class="nav-link active"><i data-lucide="layers"></i> Schematics</a>
+        <a href="#mods" class="nav-link"><i data-lucide="cpu"></i> Mods &amp; Tools</a>
         <a href="#import-guide" class="nav-link"><i data-lucide="book-open"></i> How to Import</a>
       </nav>
 
@@ -197,7 +198,8 @@
 
   <!-- Mobile Drawer -->
   <div class="mobile-drawer" id="mobile-drawer">
-    <a href="#schematics" class="mobile-link"><i data-lucide="layers"></i> Browse Builds</a>
+    <a href="#schematics" class="mobile-link"><i data-lucide="layers"></i> Browse Schematics</a>
+    <a href="#mods" class="mobile-link"><i data-lucide="cpu"></i> Official Mods (.jar)</a>
     <a href="#import-guide" class="mobile-link"><i data-lucide="book-open"></i> How to Import (.schem / .litematic)</a>
   </div>
 
@@ -369,6 +371,117 @@
       </div>
     </section>
 
+    <!-- Official Mods & Quality-of-Life Tools Section -->
+    <section class="mods-section scroll-reveal" id="mods" aria-labelledby="mods-heading">
+      <div class="container">
+        <div class="catalog-header-bar">
+          <div>
+            <div class="section-tag"><i data-lucide="cpu"></i> OFFICIAL MINECRAFT MODS</div>
+            <h2 class="section-title" id="mods-heading">QUALITY-OF-LIFE UTILITIES</h2>
+          </div>
+          <div class="filter-controls">
+            <span class="badge badge-emerald" style="padding: 0.5rem 0.9rem; font-weight: 600;">
+              <i data-lucide="check-circle" style="width: 14px; height: 14px; display: inline-block; vertical-align: -2px; margin-right: 4px;"></i> Fabric 1.21.4 Ready
+            </span>
+          </div>
+        </div>
+
+        <p class="section-subtitle" style="margin-top: -0.5rem; margin-bottom: 2rem; color: var(--text-dim); max-width: 680px;">
+          Lightweight, crash-proof mods engineered to solve Minecraft's most frustrating mechanics without tech bloat or world corruption risks.
+        </p>
+
+        <div class="mods-grid">
+          <!-- Mod 1: Smart Stash -->
+          <div class="mod-card interactive-hover">
+            <div class="mod-card-header">
+              <div class="mod-icon-badge">
+                <i data-lucide="archive"></i>
+              </div>
+              <div class="mod-meta">
+                <div class="mod-tag-row">
+                  <span class="badge badge-emerald">Fabric 1.21.4</span>
+                  <span class="badge badge-diamond">v1.0.0</span>
+                  <span class="badge" style="background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3);">Hotkey [X]</span>
+                </div>
+                <h3 class="mod-card-title">Smart Stash (Quick-Deposit)</h3>
+                <p class="mod-card-author">By MineVault &amp; ip762 &bull; 100% Vanilla Safe</p>
+              </div>
+            </div>
+
+            <p class="mod-card-desc">
+              Terraria-style instant inventory sorting. Stand near your storage chests, press <strong><kbd>X</kbd></strong>, and watch matching items instantly fly from your bags into the right chests in 0.05 seconds!
+            </p>
+
+            <div class="mod-feature-list">
+              <div class="mod-feature-item">
+                <i data-lucide="shield-check" class="text-accent"></i>
+                <span><strong>Zero Clutter:</strong> Never dumps items into empty chests; preserves your chest organization.</span>
+              </div>
+              <div class="mod-feature-item">
+                <i data-lucide="hand" class="text-accent"></i>
+                <span><strong>Hotbar Protection:</strong> Weapons, tools, food, and torches in your hand/hotbar are never deposited.</span>
+              </div>
+              <div class="mod-feature-item">
+                <i data-lucide="sparkles" class="text-accent"></i>
+                <span><strong>Enchantment-Safe:</strong> Uses 1.21.4 Data Components to prevent mixing enchanted gear.</span>
+              </div>
+              <div class="mod-feature-item">
+                <i data-lucide="box" class="text-accent"></i>
+                <span><strong>Multi-Container:</strong> Works seamlessly on Chests, Barrels, Shulkers, and Double Chests.</span>
+              </div>
+            </div>
+
+            <div class="mod-card-footer">
+              <a href="downloads/smartstash-fabric-1.21.4-1.0.0.jar" download class="btn btn-primary" style="gap: 0.5rem; text-decoration: none;">
+                <i data-lucide="download"></i> Download .JAR (13.8 KB)
+              </a>
+              <a href="SMART_STASH_MOD_GUIDE.md" target="_blank" class="btn btn-ghost" style="text-decoration: none;">
+                <i data-lucide="file-text"></i> Guide &amp; Controls
+              </a>
+            </div>
+          </div>
+
+          <!-- Mod 2: Upcoming Caravan Bell -->
+          <div class="mod-card in-dev-card interactive-hover">
+            <div class="mod-card-header">
+              <div class="mod-icon-badge gold">
+                <i data-lucide="bell"></i>
+              </div>
+              <div class="mod-meta">
+                <div class="mod-tag-row">
+                  <span class="badge gold">Coming Next</span>
+                  <span class="badge" style="background: rgba(148, 163, 184, 0.15); color: #cbd5e1;">In Development</span>
+                </div>
+                <h3 class="mod-card-title">The Caravan Bell &amp; Contract</h3>
+                <p class="mod-card-author">By MineVault &bull; Solving Villager Agony</p>
+              </div>
+            </div>
+
+            <p class="mod-card-desc">
+              Tether villagers to walk smoothly behind you like a caravan without boats, minecarts, or pathfinding rage. Lock workstations with 1 right-click contract.
+            </p>
+
+            <div class="mod-feature-list">
+              <div class="mod-feature-item">
+                <i data-lucide="check" class="text-accent"></i>
+                <span>Boat-free, minecart-free villager transport.</span>
+              </div>
+              <div class="mod-feature-item">
+                <i data-lucide="check" class="text-accent"></i>
+                <span>Parchment contracts to permanently lock villager professions.</span>
+              </div>
+            </div>
+
+            <div class="mod-card-footer">
+              <button class="btn btn-ghost" disabled style="opacity: 0.6; cursor: not-allowed;">
+                <i data-lucide="clock"></i> Release Coming Soon
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- How to Import Guide Section -->
     <section class="guide-section" id="import-guide" aria-labelledby="guide-heading">
       <div class="container">
@@ -508,14 +621,14 @@
         <div class="footer-col">
           <h4>Navigation</h4>
           <a href="#schematics">All Schematics</a>
+          <a href="#mods">Official Mods (.jar)</a>
           <a href="#import-guide">Import Tutorial</a>
-          <a href="#schematics">Verified Builds</a>
         </div>
         <div class="footer-col">
           <h4>File Formats</h4>
           <a href="#import-guide">WorldEdit (.schem)</a>
           <a href="#import-guide">Litematica (.litematic)</a>
-          <a href="#import-guide">World Save (.zip)</a>
+          <a href="#mods">Fabric Mod (.jar)</a>
         </div>
         <div class="footer-col">
           <h4>Host Online</h4>
@@ -534,6 +647,6 @@
   </footer>
 
   <!-- Application Logic -->
-  <script src="app.js?v=20261125_build7_shaders"></script>
+  <script src="app.js?v=20261125_mods_section"></script>
 </body>
 </html>
