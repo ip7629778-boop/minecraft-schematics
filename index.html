@@ -390,94 +390,91 @@
           Lightweight, crash-proof mods engineered to solve Minecraft's most frustrating mechanics without tech bloat or world corruption risks.
         </p>
 
-        <div class="mods-grid">
-          <!-- Mod 1: Smart Stash -->
-          <div class="mod-card interactive-hover">
-            <div class="mod-card-header">
-              <div class="mod-icon-badge">
-                <i data-lucide="archive"></i>
-              </div>
-              <div class="mod-meta">
-                <div class="mod-tag-row">
+        <div class="project-list" role="list">
+          <!-- Mod 1: Smart Stash (Modrinth-Style Row) -->
+          <article class="project-row interactive-hover" role="listitem">
+            <div class="project-icon-wrapper">
+              <img src="assets/icons/smartstash.png" alt="Smart Stash Mod Icon" class="project-icon" width="58" height="58" loading="lazy" />
+            </div>
+
+            <div class="project-main">
+              <div class="project-header">
+                <h3 class="project-title">
+                  <a href="SMART_STASH_MOD_GUIDE.md" target="_blank">Smart Stash (Quick-Deposit)</a>
+                </h3>
+                <div class="project-badges">
                   <span class="badge badge-emerald">Fabric 1.21.4</span>
                   <span class="badge badge-diamond">v1.0.0</span>
-                  <span class="badge" style="background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3);">Hotkey [X]</span>
+                  <span class="badge badge-amber"><kbd>X</kbd> Quick-Deposit</span>
                 </div>
-                <h3 class="mod-card-title">Smart Stash (Quick-Deposit)</h3>
-                <p class="mod-card-author">By MineVault &amp; ip762 &bull; 100% Vanilla Safe</p>
+              </div>
+
+              <p class="project-summary">
+                Terraria-style instant inventory sorting. Stand near your storage chests, press <kbd>X</kbd>, and watch matching items instantly fly from your bags into existing stacks in 0.05 seconds.
+              </p>
+
+              <div class="project-meta-chips">
+                <span class="meta-chip"><i data-lucide="shield-check"></i> 100% Vanilla Safe</span>
+                <span class="meta-chip"><i data-lucide="hand"></i> Hotbar Protected</span>
+                <span class="meta-chip"><i data-lucide="box"></i> Chests &bull; Barrels &bull; Shulkers</span>
+                <span class="meta-chip"><i data-lucide="user"></i> MineVault &bull; ip762</span>
               </div>
             </div>
 
-            <p class="mod-card-desc">
-              Terraria-style instant inventory sorting. Stand near your storage chests, press <strong><kbd>X</kbd></strong>, and watch matching items instantly fly from your bags into the right chests in 0.05 seconds!
-            </p>
-
-            <div class="mod-feature-list">
-              <div class="mod-feature-item">
-                <i data-lucide="shield-check" class="text-accent"></i>
-                <span><strong>Zero Clutter:</strong> Never dumps items into empty chests; preserves your chest organization.</span>
-              </div>
-              <div class="mod-feature-item">
-                <i data-lucide="hand" class="text-accent"></i>
-                <span><strong>Hotbar Protection:</strong> Weapons, tools, food, and torches in your hand/hotbar are never deposited.</span>
-              </div>
-              <div class="mod-feature-item">
-                <i data-lucide="sparkles" class="text-accent"></i>
-                <span><strong>Enchantment-Safe:</strong> Uses 1.21.4 Data Components to prevent mixing enchanted gear.</span>
-              </div>
-              <div class="mod-feature-item">
-                <i data-lucide="box" class="text-accent"></i>
-                <span><strong>Multi-Container:</strong> Works seamlessly on Chests, Barrels, Shulkers, and Double Chests.</span>
-              </div>
-            </div>
-
-            <div class="mod-card-footer">
-              <a href="downloads/smartstash-fabric-1.21.4-1.0.0.jar" download class="btn btn-primary" style="gap: 0.5rem; text-decoration: none;">
-                <i data-lucide="download"></i> Download .JAR (13.8 KB)
+            <div class="project-actions">
+              <a href="downloads/smartstash-fabric-1.21.4-1.0.0.jar" download class="btn-mod-download" title="Download Fabric .JAR for Minecraft 1.21.4">
+                <i data-lucide="download"></i>
+                <div class="btn-text-group">
+                  <span class="btn-main-label">Download .JAR</span>
+                  <span class="btn-sub-label">13.8 KB &bull; Fabric 1.21.4</span>
+                </div>
               </a>
-              <a href="SMART_STASH_MOD_GUIDE.md" target="_blank" class="btn btn-ghost" style="text-decoration: none;">
-                <i data-lucide="file-text"></i> Guide &amp; Controls
+              <a href="SMART_STASH_MOD_GUIDE.md" target="_blank" class="btn-mod-guide" title="View Guide, Hotkeys & Config">
+                <i data-lucide="file-text"></i>
+                <span>Guide</span>
               </a>
             </div>
-          </div>
+          </article>
 
           <!-- Mod 2: Upcoming Caravan Bell -->
-          <div class="mod-card in-dev-card interactive-hover">
-            <div class="mod-card-header">
-              <div class="mod-icon-badge gold">
-                <i data-lucide="bell"></i>
-              </div>
-              <div class="mod-meta">
-                <div class="mod-tag-row">
-                  <span class="badge gold">Coming Next</span>
-                  <span class="badge" style="background: rgba(148, 163, 184, 0.15); color: #cbd5e1;">In Development</span>
+          <article class="project-row project-row-indev interactive-hover" role="listitem">
+            <div class="project-icon-wrapper indev-icon">
+              <i data-lucide="bell" class="indev-lucide-icon"></i>
+            </div>
+
+            <div class="project-main">
+              <div class="project-header">
+                <h3 class="project-title">
+                  <span>The Caravan Bell &amp; Contract</span>
+                </h3>
+                <div class="project-badges">
+                  <span class="badge badge-amber">Coming Next</span>
+                  <span class="badge badge-secondary">In Development</span>
+                  <span class="badge badge-purple">Villager QoL</span>
                 </div>
-                <h3 class="mod-card-title">The Caravan Bell &amp; Contract</h3>
-                <p class="mod-card-author">By MineVault &bull; Solving Villager Agony</p>
+              </div>
+
+              <p class="project-summary">
+                Tether villagers to walk smoothly behind you like a caravan without boats, minecarts, or pathfinding rage. Lock workstations with 1 right-click contract parchment.
+              </p>
+
+              <div class="project-meta-chips">
+                <span class="meta-chip"><i data-lucide="check"></i> Boat &amp; Cart Free Transport</span>
+                <span class="meta-chip"><i data-lucide="scroll"></i> Profession Lock Parchments</span>
+                <span class="meta-chip"><i data-lucide="clock"></i> Release Coming Soon</span>
               </div>
             </div>
 
-            <p class="mod-card-desc">
-              Tether villagers to walk smoothly behind you like a caravan without boats, minecarts, or pathfinding rage. Lock workstations with 1 right-click contract.
-            </p>
-
-            <div class="mod-feature-list">
-              <div class="mod-feature-item">
-                <i data-lucide="check" class="text-accent"></i>
-                <span>Boat-free, minecart-free villager transport.</span>
-              </div>
-              <div class="mod-feature-item">
-                <i data-lucide="check" class="text-accent"></i>
-                <span>Parchment contracts to permanently lock villager professions.</span>
-              </div>
-            </div>
-
-            <div class="mod-card-footer">
-              <button class="btn btn-ghost" disabled style="opacity: 0.6; cursor: not-allowed;">
-                <i data-lucide="clock"></i> Release Coming Soon
+            <div class="project-actions">
+              <button class="btn-mod-download btn-disabled" disabled aria-disabled="true">
+                <i data-lucide="clock"></i>
+                <div class="btn-text-group">
+                  <span class="btn-main-label">In Development</span>
+                  <span class="btn-sub-label">Fabric 1.21.4</span>
+                </div>
               </button>
             </div>
-          </div>
+          </article>
         </div>
       </div>
     </section>
@@ -647,6 +644,6 @@
   </footer>
 
   <!-- Application Logic -->
-  <script src="app.js?v=20261125_mods_section"></script>
+  <script src="app.js?v=20261125_compact_mods"></script>
 </body>
 </html>
