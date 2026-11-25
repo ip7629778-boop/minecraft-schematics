@@ -61,6 +61,12 @@ Y=0      [ Solid Heavy Stone & Deepslate Retaining Substrate ]
   - `C:\Users\ip762\AppData\Roaming\.minecraft\schematics\medieval_alchemist_manor.litematic` ($9.8$ KB, GZIP compressed, Version 7)
   - `downloads/medieval_alchemist_manor.litematic` ($9.8$ KB, GZIP compressed, Version 7)
 
+### Verified In-Game Shader Screenshots (1080p)
+1. **Exterior Front Elevation:** `assets/images/builds/build7/exterior_master_front.png` — Steep multi-tier timber gables, porch entrance bell, flower beds, terraced wheat farm, and smoking chimney.
+2. **Alchemical Enchanting Study:** `assets/images/builds/build7/interior_enchanting_study.png` — Enchanting table with open spellbooks, floor-to-ceiling garden windows, arcane bookshelves, and hanging lanterns.
+3. **Master Bedroom Loft:** `assets/images/builds/build7/interior_bedroom_loft.png` — Wooden double bed, side tables with potted flowers, storage shelves, and glass walkout balcony door.
+4. **Living Quarters & Cartography Desk:** `assets/images/builds/build7/interior_library_hearth.png` — Chiseled bookshelves, cartography desk with map and candle, stairwell, and hall to living hearth.
+
 ---
 
 ## 4. Minecraft In-Game Loading Guide

@@ -867,19 +867,23 @@ const DEFAULT_SCHEMATICS = [
     "author": "MineVault Studio (Remix of Survival Cottage 2)",
     "category": "Medieval",
     "version": "1.20 - 1.21+",
-    "image": "assets/images/builds/build7/exterior_front.png",
+    "image": "assets/images/builds/build7/exterior_master_front.png",
     "screenshots": [
       {
-        "url": "assets/images/builds/build7/exterior_front.png",
-        "caption": "Exterior 3/4 Perspective with Octagonal Garden Pavilion, Timber Gables & Chimney Spire"
+        "url": "assets/images/builds/build7/exterior_master_front.png",
+        "caption": "Exterior Front Elevation with Steep Gables, Front Porch Bell, Terraced Farmland & Smoking Chimney"
       },
       {
-        "url": "assets/images/builds/build7/interior_main.png",
-        "caption": "Interior Cross-Section with Alchemical Brewing Quarters, Chiseled Bookshelves & Stone Hearth"
+        "url": "assets/images/builds/build7/interior_enchanting_study.png",
+        "caption": "Alchemical Enchanting Study with Floor-to-Ceiling Garden Windows, Arcane Bookshelves & Warm Lanterns"
       },
       {
-        "url": "assets/images/builds/build7/sails_detail.png",
-        "caption": "Rear Perspective of Botanical Terraced Garden Plots, Crop Beds & Retaining Masonry"
+        "url": "assets/images/builds/build7/interior_bedroom_loft.png",
+        "caption": "Master Bedroom Loft with Timber Bedframe, Built-in Wardrobes & Glass Walkout Balcony"
+      },
+      {
+        "url": "assets/images/builds/build7/interior_library_hearth.png",
+        "caption": "Ground Floor Living Quarters with Chiseled Bookshelves, Cartography Desk & Stairway to Lofts"
       }
     ],
     "downloadsCount": 412,
