@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "caravanbell",
+	"version": "${version}",
+	"name": "The Caravan Bell & Contract",
+	"description": "Tether, lead, and guide villagers without boats or minecarts. Includes direct leashing, handheld caravan follow, and profession lock contracts.",
+	"authors": [
+		"MineVault",
+		"ip762"
+	],
+	"contact": {
+		"homepage": "https://ip7629778-boop.github.io/minecraft-schematics/"
+	},
+	"license": "MIT",
+	"icon": "assets/caravanbell/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.minevault.caravanbell.CaravanBellMod"
+		]
+	},
+	"mixins": [
+		"caravanbell.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

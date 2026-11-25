@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.minevault.caravanbell.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"AbstractVillagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

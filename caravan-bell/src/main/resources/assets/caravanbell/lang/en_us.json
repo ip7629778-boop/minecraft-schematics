@@ -1,0 +1,9 @@
+{
+	"modmenu.nameTranslation.caravanbell": "The Caravan Bell",
+	"modmenu.descriptionTranslation.caravanbell": "Tether, lead, and guide villagers with leads and handheld bells. Lock professions with paper contracts.",
+	"message.caravanbell.leashed": "Villager leashed! Lead them anywhere safely.",
+	"message.caravanbell.rally": "Caravan rallied! %s villager(s) following your lead. [Shift+Right-Click to dismiss]",
+	"message.caravanbell.dismissed": "Caravan dismissed. Villagers settled!",
+	"message.caravanbell.no_villagers": "Bell echoed... no villagers nearby (16 block range).",
+	"message.caravanbell.contract_sealed": "Trade Contract sealed! Profession permanently locked."
+}
